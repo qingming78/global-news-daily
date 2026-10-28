@@ -1,75 +1,228 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T08:00:00+08:00",
-  "note": "示例数据：仅第 1 条为真实核实内容（黄仁勋 2026-10-21 采访），第 2、3 条为示例占位数据，不是真实新闻。每日自动生成的版本由 scripts/fetch_daily.py 写入，不含示例条目。",
-  "sample": true,
+  "generated_at": "2026-10-28T19:59:23+08:00",
+  "note": "由 GitHub Actions 每日自动抓取公开 RSS 生成。人物思考字段待补充（见 README），请勿把标题推断当作人物原话。",
+  "sample": false,
   "stories": [
     {
-      "background": "2026-10-21，GTC 柏林期间，Deirdre Bosa 在 Yahoo Finance 采访黄仁勋，主题是 AI 债务担忧、中国与就业。相关报道见 TechSpot 与 TradingView / Benzinga（2026-10-22）。",
-      "category": "AI科技",
-      "core_judgment": "需求不是问题，钱才是。一座 1 GW 的 AI 工厂大约要 500 亿美元，资本稀缺会拖慢部署。办法是让英伟达的算力成为银行愿意承保的资产：它能用 8 年以上而不是 4 年，残值“really, really high”，是市面上风险最低的抵押品之一。",
-      "images": [],
-      "key_quote": "The risk involved in underwriting Nvidia's assets, in our Nvidia computing, is the lowest of any asset out there",
-      "person_name": "黄仁勋",
-      "person_role": "英伟达创始人兼 CEO",
       "rank": 1,
-      "reasoning": [
-        "资本稀缺：需求“off the charts”，但建 AI 工厂要天文数字的钱，融资跟不上，部署就会变慢。",
-        "把芯片变成抵押品：如果银行相信英伟达芯片是耐用、可转手、有残值的资产，就愿意放贷，基础设施才能继续扩建。",
-        "8 年寿命是关键：外界按 4 年折旧算芯片，但黄仁勋说实际能用 8 年以上，残值很高，折旧逻辑变了，抵押逻辑也跟着变。",
-        "他对就业的判断正好相反，原话：“The narrative about jobs is almost precisely backwards. It's precisely wrong.”",
-        "对中国他提醒美国要认真对待竞争，原话：“If there's one country that could manufacture things at scale,” it is China。"
-      ],
+      "category": "AI科技",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors bef…",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
       "sources": [
         {
-          "title": "TechSpot：Jensen Huang says Nvidia AI chips carry lowest risk",
-          "url": "https://www.techspot.com/news/114302-jensen-huang-nvidia-ai-chips-carry-lowest-risk.html"
-        },
-        {
-          "title": "TradingView / Benzinga：Nvidia GPUs could last over 8 years",
-          "url": "https://www.tradingview.com/news/benzinga:be46863ef094b:0-jensen-huang-says-nvidia-gpus-could-last-over-8-years-not-4-carry-really-high-residual-value-lowest-risk-assets-for-lenders/"
+          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
         }
       ],
-      "summary": "需求“off the charts”，缺的是资本：一座 1 吉瓦 AI 工厂约 500 亿美元，英伟达芯片必须成为银行敢放贷的抵押品。",
-      "thinking_question": "AI 基础设施的钱从哪来？芯片能不能成为银行愿意抵押的资产？",
-      "title": "黄仁勋：AI 的问题不是需求，是钱",
-      "watch_next": "银行、租赁公司是否真的接受英伟达芯片作抵押品，出现首批以芯片为抵押的大额融资案例；美国对华芯片政策的下一步走向。"
+      "images": []
     },
     {
-      "background": "示例背景：本条由项目模板生成，不是新闻。",
-      "category": "AI科技",
-      "core_judgment": "示例判断：这不是任何真实人物的观点，请勿引用。",
-      "images": [],
-      "key_quote": "示例引言：占位文本，不是真实引用。",
-      "person_name": "示例人物",
-      "person_role": "示例身份（占位）",
       "rank": 2,
-      "reasoning": [
-        "这是一条示例占位数据，用于演示列表与详情页的排版。"
+      "category": "AI科技",
+      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup El…",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
+      "sources": [
+        {
+          "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+          "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/"
+        }
       ],
-      "sources": [],
-      "summary": "这是示例占位数据，不是真实新闻：展示一条“人物思考”格式的条目在页面上长什么样。",
-      "thinking_question": "示例问题：这条只是用来展示版式。",
-      "title": "示例：一位研究者谈大模型下一步",
-      "watch_next": "示例：部署后由每日自动抓取的真实条目替换。"
+      "images": []
     },
     {
-      "background": "示例背景：本条由项目模板生成，不是新闻。",
-      "category": "科学气候",
-      "core_judgment": "示例判断：这不是任何真实人物的观点，请勿引用。",
-      "images": [],
-      "key_quote": "示例引言：占位文本，不是真实引用。",
-      "person_name": "示例人物",
-      "person_role": "示例身份（占位）",
       "rank": 3,
-      "reasoning": [
-        "这是一条示例占位数据，用于演示分类与详情页的排版。"
+      "category": "AI科技",
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
+      "sources": [
+        {
+          "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+        }
       ],
-      "sources": [],
-      "summary": "这是示例占位数据，不是真实新闻：展示非 AI 类别条目的样子。",
-      "thinking_question": "示例问题：这条只是用来展示版式。",
-      "title": "示例：一位科学家谈气候研究的新方向",
-      "watch_next": "示例：部署后由每日自动抓取的真实条目替换。"
+      "images": []
+    },
+    {
+      "rank": 4,
+      "category": "AI科技",
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. Hi…",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
+      "sources": [
+        {
+          "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+          "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
+        }
+      ],
+      "images": []
+    },
+    {
+      "rank": 5,
+      "category": "AI科技",
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "summary": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its reven…",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
+      "sources": [
+        {
+          "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+          "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
+        }
+      ],
+      "images": []
+    },
+    {
+      "rank": 6,
+      "category": "AI科技",
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
+      "sources": [
+        {
+          "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+          "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
+        }
+      ],
+      "images": []
+    },
+    {
+      "rank": 7,
+      "category": "科学气候",
+      "title": "'An annoying buzz': The search for stealthier drones",
+      "summary": "As drone deliveries become more commonplace, their makers are looking for ways to make them quieter.",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
+      "sources": [
+        {
+          "title": "'An annoying buzz': The search for stealthier drones",
+          "url": "https://www.bbc.co.uk/news/articles/ck1exgejq3xvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "images": []
+    },
+    {
+      "rank": 8,
+      "category": "政治外交",
+      "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+      "summary": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
+      "sources": [
+        {
+          "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+          "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "images": []
+    },
+    {
+      "rank": 9,
+      "category": "科学气候",
+      "title": "Apple to replace iPhone Duos affected by screen problem",
+      "summary": "Photos shared online showed faults appearing on the screens of Apple's first foldable device.",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
+      "sources": [
+        {
+          "title": "Apple to replace iPhone Duos affected by screen problem",
+          "url": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "images": []
+    },
+    {
+      "rank": 10,
+      "category": "政治外交",
+      "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+      "summary": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
+      "person_name": null,
+      "person_role": null,
+      "thinking_question": null,
+      "core_judgment": null,
+      "reasoning": [],
+      "key_quote": null,
+      "background": null,
+      "watch_next": null,
+      "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
+      "sources": [
+        {
+          "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+          "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "images": []
     }
   ]
 }
