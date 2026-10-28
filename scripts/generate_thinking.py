@@ -5,9 +5,17 @@
 抓正文 → 调 DeepSeek（OpenAI 兼容接口）从原文里提炼人物的核心判断和原话
 → 写回 JSON。前端不用改，person_name 等字段一填上，页面就自动显示。
 
+文风（2026-10-28 改版）：正文主体是目标人物自己的话——用第一人称
+写一段较长的自述（first_person，600–1200 字），尽量展现他本人的原观
+点和思考过程，篇幅长一点也没关系；核心判断和推理链也用第一人称。
+第三人称只出现在开头的概括里（summary 由抓取步骤写，一两句话）。
+背景、接下来看他做什么仍是第三人称的补充信息。
+
 诚实原则（和 v1 一样重要）：
 - 只从原文里提炼，不从标题推断。原文打不开、原文里找不到明确表达
   观点的人物，就留空，绝不编一句“他认为”。
+- 第一人称自述也只能写原文里有的观点和论据，不许替他发明新的主张；
+  自述是原文观点的整理转述，不是逐字引用——逐字引用的只有 key_quote。
 - 原话必须逐字校验：key_quote 要在原文里一字不差地出现，否则删掉这句
   原话（只保留提炼出的判断）；人名也要在原文里出现，否则整条思考作废。
 - 没有 API key 时直接跳过、正常退出（exit 0），不影响日报本身。
@@ -74,9 +82,16 @@ SYSTEM_PROMPT = (
     "- person_name: 人名（按原文里的写法）\n"
     "- person_role: 身份，如“英伟达创始人兼 CEO”\n"
     "- thinking_question: 他面临的核心问题，一句话\n"
-    "- core_judgment: 他的核心判断，一两句话，写成“他认为：……”的口吻，"
-    "但内容必须是原文观点的忠实提炼\n"
-    "- reasoning: 推理链，2–4 条，每条一句话，只写原文里能支撑的推理\n"
+    "- core_judgment: 他的核心判断，一两句话，用第一人称写成“我认为：……”"
+    "的口吻，但内容必须是原文观点的忠实提炼\n"
+    "- first_person: 最重要的字段。用第一人称写一段较长的自述，600–1200 字，"
+    "分 3–5 段（段与段之间用 \\n\\n 隔开），让他自己把这件事的思考讲完整："
+    "他相信什么、为什么这么想、他看到的证据、他担心什么、他预期会发生什么。"
+    "只写原文里有的观点和论据，不许替他发明新的主张；宁可啰嗦一点，也要"
+    "把他的原观点和思考过程展现出来。语气要像他本人在说话，而不是第三人"
+    "称的转述。\n"
+    "- reasoning: 推理链，4–6 条，每条一句话，用第一人称写，只写原文里能"
+    "支撑的推理\n"
     "- key_quote: 原文中的一句话，必须从文章里一字不差地抄下来，不许改写、"
     "不许翻译、英文原文就给英文；如果找不到这样一句完整原话，填 null\n"
     "- background: 背景，一两句话\n"
@@ -251,8 +266,9 @@ def process_story(story: dict, api_key: str, base_url: str) -> str:
     story["person_role"] = str(result.get("person_role") or "").strip() or None
     story["thinking_question"] = str(result.get("thinking_question") or "").strip() or None
     story["core_judgment"] = str(result.get("core_judgment") or "").strip() or None
+    story["first_person"] = str(result.get("first_person") or "").strip() or None
     reasoning = result.get("reasoning") or []
-    story["reasoning"] = [str(r).strip() for r in reasoning if str(r).strip()][:4]
+    story["reasoning"] = [str(r).strip() for r in reasoning if str(r).strip()][:6]
     story["key_quote"] = quote
     story["background"] = str(result.get("background") or "").strip() or None
     story["watch_next"] = str(result.get("watch_next") or "").strip() or None
