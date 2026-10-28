@@ -42,9 +42,13 @@ function renderList() {
       ? `<p class="thinker">${esc(s.person_name)}（${esc(s.person_role || "")}）<br><strong>他认为：</strong>${esc(s.core_judgment || "")}</p>`
       : `<p class="thinker"><span class="badge-pending">待补充人物思考</span></p>`;
     const sample = s.title.startsWith("示例") ? ` <span class="badge-sample">示例</span>` : "";
+    const cover = (s.images && s.images.length)
+      ? `<img class="cover" src="${esc(s.images[0].url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`
+      : "";
     return `<li data-idx="${idx}">
       <span class="rank">${s.rank}</span><span class="cat">${esc(s.category)}</span>${sample}
       <h2>${esc(s.title)}</h2>
+      ${cover}
       <p>${esc(s.summary)}</p>
       ${thinker}
     </li>`;
@@ -81,11 +85,18 @@ function openDetail(idx) {
     ? `<h3>来源</h3><ul class="sources">${s.sources.map((x) =>
         `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a></li>`).join("")}</ul>`
     : "";
+  const figures = (s.images && s.images.length)
+    ? `<div class="detail-images">${s.images.map((im) => {
+        const cap = [im.caption, im.credit].filter(Boolean).join(" · ");
+        return `<figure class="detail-img"><img src="${esc(im.url)}" alt="${esc(im.caption || "")}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').style.display='none'">${cap ? `<figcaption>${esc(cap)}</figcaption>` : ""}</figure>`;
+      }).join("")}</div>`
+    : "";
 
   $("detail").innerHTML = `
     <p><span class="rank">${s.rank}</span><span class="cat">${esc(s.category)}</span></p>
     <h2>${esc(s.title)}</h2>
     <p>${esc(s.summary)}</p>
+    ${figures}
     ${s.person_name ? `<p><strong>${esc(s.person_name)}</strong> · ${esc(s.person_role || "")}</p>` : ""}
     ${thinking}${sources}`;
   $("prev-btn").disabled = idx <= 0;
