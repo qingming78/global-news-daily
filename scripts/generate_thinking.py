@@ -35,6 +35,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -92,7 +93,7 @@ def clean_article_html(raw_html: str) -> str:
     return text
 
 
-def fetch_article(url: str, timeout: int = 20) -> str:
+def fetch_article_html(url: str, timeout: int = 20) -> str:
     req = urllib.request.Request(
         url,
         headers={
@@ -106,8 +107,37 @@ def fetch_article(url: str, timeout: int = 20) -> str:
     )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         data = resp.read(300_000)  # 最多读 300KB，够了
-    text = data.decode("utf-8", errors="ignore")
-    return clean_article_html(text)[:MAX_ARTICLE_CHARS]
+    return data.decode("utf-8", errors="ignore")
+
+
+def fetch_article(url: str, timeout: int = 20) -> str:
+    return clean_article_html(fetch_article_html(url, timeout))[:MAX_ARTICLE_CHARS]
+
+
+META_TAG_RE = re.compile(r"<meta\s+[^>]*>", re.I)
+META_ATTR_RE = re.compile(r"(\w+)\s*=\s*[\"']([^\"']*)[\"']")
+
+
+def extract_og_image(raw_html: str, base_url: str) -> dict | None:
+    """从原文 HTML 里取 og:image 封面图（配图兜底）。
+
+    只取原文自己声明的封面图。返回 {"url", "caption", "credit"}，
+    没有就返回 None。相对地址按原文链接补全。
+    """
+    og_url, og_alt = None, None
+    for tag in META_TAG_RE.findall(raw_html):
+        attrs = dict(META_ATTR_RE.findall(tag))
+        prop = (attrs.get("property") or "").lower()
+        if prop == "og:image":
+            og_url = attrs.get("content", "").strip()
+        elif prop == "og:image:alt":
+            og_alt = attrs.get("content", "").strip()
+    if not og_url:
+        return None
+    url = urllib.parse.urljoin(base_url, og_url)
+    if not url.startswith("http"):
+        return None
+    return {"url": url, "caption": og_alt or None, "credit": "图片来源：原文配图"}
 
 
 def norm(s: str) -> str:
@@ -171,13 +201,27 @@ def process_story(story: dict, api_key: str, base_url: str) -> str:
         return "没有来源链接，跳过"
 
     try:
-        article = fetch_article(url)
+        raw_html = fetch_article_html(url)
+        article = clean_article_html(raw_html)[:MAX_ARTICLE_CHARS]
     except Exception as exc:
         story["thinking_status"] = THINKING_FETCH_FAIL
         return f"原文抓取失败：{exc}"
     if len(article) < 200:
         story["thinking_status"] = THINKING_FETCH_FAIL
         return "原文正文太短（可能被反爬挡住），跳过"
+
+    # 配图兜底：RSS 没给图时，用原文的 og:image 封面图补一张；
+    # 已有图时，如果 og:image 是另一张，也补进来（最多 2 张）。
+    # 放在 LLM 调用之前，这样即使思考生成失败，图也已经补上了。
+    try:
+        og = extract_og_image(raw_html, url)
+    except Exception:
+        og = None
+    if og:
+        existing = [im.get("url") for im in (story.get("images") or [])]
+        if og["url"] not in existing:
+            story.setdefault("images", []).append(og)
+        story["images"] = story["images"][:2]
 
     try:
         result = call_llm(api_key, base_url, story.get("title", ""), article)
