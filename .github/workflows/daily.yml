@@ -32,6 +32,11 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python3 scripts/generate_thinking.py
 
+      # 每天一位人物：从补好思考的 10 条里，按评分选出一位，
+      # 把当期改写为只含这一条的特写，并更新 data/archive.json（往期档案）。
+      - name: 选出今天的一位人物
+        run: python3 scripts/pick_feature.py
+
       - name: 有新内容就提交回仓库
         run: |
           git config user.name "github-actions[bot]"
