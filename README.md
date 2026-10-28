@@ -1,13 +1,17 @@
-# 全球大事日报 · 免费版
+# 每天一位权威人物 · 免费版
 
-一个每天自动更新的新闻日报，**不用买服务器，不花一分钱**。
+一个每天自动更新的“人物思考”页面，**不用买服务器，不花一分钱**。
 
 思路就是之前说的那句：**内容不在 App 里，在服务器上**——这里的“服务器”
 是 GitHub 免费提供的两样东西：GitHub Pages（放网页）和 GitHub Actions
 （每天定时跑脚本、写新内容）。手机打开网页就能看，每天 8 点自动出新的一期。
 
-> 注意：这个版本现在还**没有真正上线**。文件都在你电脑上，
-> 按下面“10 分钟上线”做完，它才会在网上每天自动更新。
+每天只推一个人：从当天新闻里选出一位权威人物，读他对一件事的深度思考——
+他面临的问题、核心判断、推理链、原话、背景，以及接下来看他做什么。
+往期人物会留在页面下方的“往期人物”里，可以点开回看。
+
+> 这个版本已经上线，每天 08:00 自动更新，网址是
+> https://qingming78.github.io/global-news-daily/
 
 ---
 
@@ -18,7 +22,14 @@
       │
       ▼
 GitHub Actions 定时运行 scripts/fetch_daily.py
-      │  抓公开 RSS（TechCrunch、MIT Tech Review、BBC 等）
+      │  抓公开 RSS（TechCrunch、MIT Tech Review、BBC 等），取 10 条候选
+      ▼
+scripts/generate_thinking.py（需要 DEEPSEEK_API_KEY）
+      │  对每条打开原文，用 DeepSeek 提炼人物思考，原话逐字校验
+      ▼
+scripts/pick_feature.py
+      │  按评分选出当天一位人物，把当期改写为 1 条特写，
+      │  并把他追加到 data/archive.json（往期档案）
       ▼
 写出 data/editions/2026-10-29.json，并更新 data/latest.json
       │  提交回仓库
@@ -26,7 +37,7 @@ GitHub Actions 定时运行 scripts/fetch_daily.py
 GitHub Pages 重新发布
       │
       ▼
-你打开网页 → 前端读 data/latest.json → 显示今天的 10 条
+你打开网页 → 前端读 data/latest.json → 显示今天的一位人物
 ```
 
 关键点：前端（`index.html`）里**没有任何新闻内容**，它每次打开都去读
@@ -38,13 +49,15 @@ GitHub Pages 重新发布
 
 | 文件 / 文件夹 | 作用 |
 |---|---|
-| `index.html` | 页面骨架：标题、分类筛选、列表、详情页 |
+| `index.html` | 页面骨架：今日人物特写 + 往期人物档案 |
 | `style.css` | 排版样式（手机优先） |
-| `app.js` | 读 `data/latest.json`，渲染列表和详情，上一条 / 下一条 / 返回 |
-| `data/latest.json` | **今天那期**，前端只读这一个文件 |
-| `data/editions/2026-10-28.json` | 每一期的存档，按日期命名，示例版只有 3 条 |
+| `app.js` | 读 `data/latest.json`，渲染今日人物；读 `data/archive.json`，点开往期 |
+| `data/latest.json` | **今天那期**（只有 1 条特写），前端只读这一个文件 |
+| `data/editions/2026-10-28.json` | 每一期的存档，按日期命名；首期是马斯克专访特写 |
+| `data/archive.json` | 往期档案：日期、人物、标题、核心判断，按新到旧排列 |
 | `scripts/fetch_daily.py` | 每天跑的脚本：抓 RSS → 去重 → AI 优先排前 10 → 写 JSON。只用 Python 标准库，不用装任何包。同时从 RSS 里取配图（media:content / enclosure / 正文里的第一张图） |
 | `scripts/generate_thinking.py` | 抓取后跑：对每条打开原文链接，用 DeepSeek 从原文里提炼人物思考（核心判断、推理链、原话），原话逐字校验，找不到就留空。需要 `DEEPSEEK_API_KEY`，没有时自动跳过。RSS 没给图时，用原文的 og:image 封面图兜底 |
+| `scripts/pick_feature.py` | 选人脚本：从补好思考的 10 条里选出当天一位（评分规则见下），把当期改写为 1 条特写，并更新 `data/archive.json`。当天没有任何一条有人物思考时，取 rank 1 的那条兜底（页面显示“待补充人物思考”，日报不断更） |
 | `.github/workflows/daily.yml` | 定时任务配置：每天 00:00 UTC（= 北京时间 08:00）运行一次，也可手动触发 |
 | `.nojekyll` | 告诉 GitHub Pages 不要用 Jekyll 处理，直接原样发布 |
 | `README.md` | 就是这份说明 |
@@ -105,7 +118,7 @@ GitHub Pages 重新发布
    `Branch` 选 `main`，文件夹选 `/ (root)`，点 `Save`。
 3. 等 1–2 分钟，页面顶部会出现你的网址，形如
    `https://你的用户名.github.io/global-news-daily/`。
-   手机浏览器打开这个网址，就能看到今天这期（现在是 3 条示例数据）。
+   手机浏览器打开这个网址，就能看到今天的一位人物。
 
 ### 第 4 步：确认定时任务开了
 
@@ -113,7 +126,7 @@ GitHub Pages 重新发布
 2. 左边应该能看到 `每日生成日报` 这个 workflow。
 3. 点它 → 点 `Run workflow` → `Run workflow`，手动跑一次。
    跑完（约 1 分钟），`data/editions/` 里会多出今天那期，
-   网页刷新后就变成真实抓取的 10 条。
+   网页刷新后就变成今天选出的那位人物。
 4. 以后每天北京时间 08:00 它会自动跑，不用你管。
    想检查有没有跑成，就来看 `Actions` 里的运行记录：绿色 ✅ 就是成功。
 
@@ -126,6 +139,9 @@ GitHub Pages 重新发布
 
 ## 四、v1 做不到的事（先说清楚）
 
+- **每天只有一位人物**：10 条候选里按评分选出一位（有原话 +3、AI科技 +2、
+  推理链每条 +1、背景 +1，同分取 rank 更靠前的）。当天没有任何一条有
+  人物思考时，取 rank 1 的那条兜底，页面显示“待补充人物思考”，日报不断更。
 - **人物思考需要一个 DeepSeek key 才能开**：自动抓到的 10 条默认只有标题、
   摘要、来源链接，人物思考字段是空的，页面上会显示“待补充人物思考”。
   不是技术上做不到，是 v1 没有接任何 AI 接口，**绝不从标题推断某个人说了什么**，
@@ -143,10 +159,11 @@ GitHub Pages 重新发布
 
 ## 五、人物思考怎么加上（脚本已写好，只差你的 key）
 
-原理很简单，`daily.yml` 现在是两步：先跑 `fetch_daily.py` 抓 10 条，
+原理很简单，`daily.yml` 现在是三步：先跑 `fetch_daily.py` 抓 10 条候选，
 再跑 `generate_thinking.py`，对每条打开原文链接、读正文，
 调 DeepSeek 从**原文**里提炼那个人物的核心判断、推理链和原话，
-写回 JSON。前端不用改，字段一填上，页面就自动显示“他认为：……”。
+最后跑 `pick_feature.py`，按评分选出当天一位，写回 JSON。
+前端不用改，字段一填上，页面就自动显示今天的那个人。
 
 防编造有三道关，都是写在脚本里的：
 
@@ -176,16 +193,20 @@ GitHub Pages 重新发布
 
 ### 第 3 步：把更新过的文件传上去
 
-这次改了 3 个文件（我重新打的包里都有）：
+这次改版改了 9 个文件（我重新打的包里都有）：
 
 | 文件 | 变化 |
 |---|---|
-| `scripts/generate_thinking.py` | 新增，上面说的提炼脚本 |
-| `.github/workflows/daily.yml` | 改了，加了“补人物思考”这一步 |
+| `scripts/pick_feature.py` | 新增，每天选出一位人物的脚本 |
+| `scripts/generate_thinking.py` | 没变，提炼脚本本身不用改 |
+| `.github/workflows/daily.yml` | 改了，加了“选出今天的一位人物”这一步 |
+| `index.html` / `app.js` / `style.css` | 改了，改成单人特写 + 往期档案 |
+| `data/latest.json` / `data/editions/2026-10-28.json` | 改了，今天这期改成马斯克专访特写 |
+| `data/archive.json` | 新增，往期人物档案 |
 | `README.md` | 改了，就是这份说明 |
 
-传上去后，去 `Actions` → `每日生成日报` → `Run workflow` 手动跑一次，
-今天这期就会带上人物思考；以后每天 08:00 自动跑，自动带。
+传上去后，不用手动跑 workflow——今天这期已经是马斯克特写；
+从明天 08:00 起，每天自动选出新的一位。
 
 没加 key 之前也不用担心：脚本会自己跳过（日志里写 `[skip]`），
 日报照常出 10 条，只是不带人物思考。
