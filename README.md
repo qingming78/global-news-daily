@@ -43,8 +43,8 @@ GitHub Pages 重新发布
 | `app.js` | 读 `data/latest.json`，渲染列表和详情，上一条 / 下一条 / 返回 |
 | `data/latest.json` | **今天那期**，前端只读这一个文件 |
 | `data/editions/2026-10-28.json` | 每一期的存档，按日期命名，示例版只有 3 条 |
-| `scripts/fetch_daily.py` | 每天跑的脚本：抓 RSS → 去重 → AI 优先排前 10 → 写 JSON。只用 Python 标准库，不用装任何包 |
-| `scripts/generate_thinking.py` | 抓取后跑：对每条打开原文链接，用 DeepSeek 从原文里提炼人物思考（核心判断、推理链、原话），原话逐字校验，找不到就留空。需要 `DEEPSEEK_API_KEY`，没有时自动跳过 |
+| `scripts/fetch_daily.py` | 每天跑的脚本：抓 RSS → 去重 → AI 优先排前 10 → 写 JSON。只用 Python 标准库，不用装任何包。同时从 RSS 里取配图（media:content / enclosure / 正文里的第一张图） |
+| `scripts/generate_thinking.py` | 抓取后跑：对每条打开原文链接，用 DeepSeek 从原文里提炼人物思考（核心判断、推理链、原话），原话逐字校验，找不到就留空。需要 `DEEPSEEK_API_KEY`，没有时自动跳过。RSS 没给图时，用原文的 og:image 封面图兜底 |
 | `.github/workflows/daily.yml` | 定时任务配置：每天 00:00 UTC（= 北京时间 08:00）运行一次，也可手动触发 |
 | `.nojekyll` | 告诉 GitHub Pages 不要用 Jekyll 处理，直接原样发布 |
 | `README.md` | 就是这份说明 |
@@ -134,8 +134,10 @@ GitHub Pages 重新发布
   每天 8 点你自己打开看，或者以后再加。
 - **没有登录 / 收藏 / 评论**：静态网页 + JSON 存数据，做不了账号系统。
   要这些功能，得再接一个免费数据库（比如 Supabase），那是下一步。
-- **图片是空的**：RSS 里一般不带可用图片，v1 的 `images` 是空数组，
-  页面只显示文字。
+- **图片来自原文，不是现找的**：每条优先用 RSS 自带的配图，没有时用原文页的
+  og:image 封面图兜底；两个都没有就留空不显示。图片只做展示、标明来源
+  （如“图片来源：TechCrunch”），不下载到仓库里。极少数来源防盗链打不开的
+  图片，页面会自动隐藏，不会留一个裂开的图。
 
 ---
 
