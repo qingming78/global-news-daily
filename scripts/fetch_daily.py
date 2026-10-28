@@ -8,8 +8,8 @@
 - 只写标题、摘要、来源链接这些 RSS 里本来就有的东西。
 - 人物思考字段（person_name / core_judgment / key_quote 等）留空，
   并标上 thinking_status = "待补充人物思考"，绝不从标题推断
-  某个人说了什么、想了什么。想补人物思考，等有了 LLM API key
-  再按 README 里的“以后怎么加 AI 生成”那一节做。
+  某个人说了什么、想了什么。人物思考由 scripts/generate_thinking.py
+  在抓取后自动补（见 README 第五节），需要 DEEPSEEK_API_KEY。
 
 用法：
     python3 scripts/fetch_daily.py                 # 生成今天（北京时间）那期
@@ -64,6 +64,48 @@ def clean_text(raw: str, limit: int = 140) -> str:
 
 WORD_KEYWORDS = ["ai", "llm", "gpu", "chip", "meta", "robot"]
 
+MEDIA_NS = "{http://search.yahoo.com/mrss/}"
+IMG_SRC_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
+
+
+def first_img_in_html(raw_xml: str) -> str | None:
+    """从一段 HTML/XML 里找第一张非统计像素的 <img>。
+
+    用在 RSS 没给 media:content 的源上（比如 Verge 把图放在正文 HTML 里）。
+    """
+    for m in IMG_SRC_RE.finditer(raw_xml or ""):
+        u = m.group(1).strip()
+        if u.startswith("http") and "1x1" not in u and "pixel" not in u.lower():
+            return u
+    return None
+
+
+def item_image(el: ET.Element) -> str | None:
+    """从 RSS item 里取一张配图：media:content / media:thumbnail / enclosure。
+
+    只取来源自己给的图片（真实配图，不编造）。有多个时优先取 width
+    最大的那张；明显是统计像素的（1x1 / pixel）跳过。
+    """
+    cands: list[tuple[int, str]] = []
+    for tag in (MEDIA_NS + "content", MEDIA_NS + "thumbnail"):
+        for m in el.findall(tag):
+            u = (m.get("url") or "").strip()
+            if not u.startswith("http"):
+                continue
+            w = m.get("width") or ""
+            cands.append((int(w) if w.isdigit() else 0, u))
+    for enc in el.findall("enclosure"):
+        if (enc.get("type") or "").startswith("image"):
+            u = (enc.get("url") or "").strip()
+            if u.startswith("http"):
+                cands.append((0, u))
+    cands = [(w, u) for w, u in cands
+             if "1x1" not in u and "pixel" not in u.lower()]
+    if not cands:
+        return None
+    cands.sort(key=lambda t: -t[0])
+    return cands[0][1]
+
 
 def ai_score(text: str) -> int:
     low = text.lower()
@@ -93,6 +135,12 @@ def fetch_feed(url: str, timeout: int = 20) -> list[dict]:
             "link": (el.findtext("link") or "").strip(),
             "summary": clean_text(el.findtext("description") or ""),
             "pub": (el.findtext("pubDate") or "").strip(),
+            # 配图优先级：media:content / enclosure → 摘要或全文 HTML 里的第一张图
+            # （findtext 会把转义的 HTML 解码回来，正好能找到 <img>）
+            "image": item_image(el)
+                or first_img_in_html(el.findtext("description") or "")
+                or first_img_in_html(el.findtext(
+                    "{http://purl.org/rss/1.0/modules/content/}encoded") or ""),
         })
     if not items:
         for el in root.iter("{http://www.w3.org/2005/Atom}entry"):
@@ -106,6 +154,9 @@ def fetch_feed(url: str, timeout: int = 20) -> list[dict]:
                 "link": link.strip(),
                 "summary": clean_text(el.findtext("{http://www.w3.org/2005/Atom}summary") or ""),
                 "pub": (el.findtext("{http://www.w3.org/2005/Atom}updated") or "").strip(),
+                "image": item_image(el)
+                    or first_img_in_html(el.findtext("{http://www.w3.org/2005/Atom}content") or "")
+                    or first_img_in_html(el.findtext("{http://www.w3.org/2005/Atom}summary") or ""),
             })
     return items
 
@@ -148,6 +199,8 @@ def main() -> int:
                 "category": "AI科技" if score >= 2 else category,
                 "score": score,
                 "pub": it["pub"],
+                "image": it.get("image"),
+                "feed": name,
             })
 
     if not candidates:
@@ -191,7 +244,11 @@ def main() -> int:
             "watch_next": None,
             "thinking_status": "待补充人物思考：v1 只抓取标题与摘要，未生成人物思考，请勿把标题推断当作人物原话。",
             "sources": [{"title": c["title"], "url": c["link"]}],
-            "images": [],
+            # 配图：RSS 自带的真实图片；没有时由 generate_thinking.py
+            # 用原文 og:image 兜底。都没有就留空，前端不显示。
+            "images": ([{"url": c["image"], "caption": None,
+                         "credit": f"图片来源：{c['feed']}"}]
+                       if c.get("image") else []),
         })
 
     edition = {
