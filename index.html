@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全球大事日报</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <h1>全球大事日报</h1>
+  <p class="tagline">每天 8 点更新 · AI 优先 · 每条新闻背后，先看那个人的思考</p>
+  <p class="meta" id="edition-meta">正在加载今日内容…</p>
+</header>
+
+<main id="app">
+  <div id="list-view">
+    <div class="toolbar">
+      <label>分类
+        <select id="filter">
+          <option value="">全部</option>
+          <option>AI科技</option>
+          <option>政治外交</option>
+          <option>经济市场</option>
+          <option>社会民生</option>
+          <option>科学气候</option>
+        </select>
+      </label>
+      <span class="count" id="count"></span>
+    </div>
+    <ol class="story-list" id="story-list"></ol>
+    <p class="note" id="edition-note"></p>
+  </div>
+
+  <article id="detail-view" hidden>
+    <button class="back" id="back-btn">← 返回列表</button>
+    <div id="detail"></div>
+    <nav class="pager">
+      <button id="prev-btn">← 上一条</button>
+      <button id="next-btn">下一条 →</button>
+    </nav>
+  </article>
+</main>
+
+<footer>
+  <p>内容来自公开 RSS 来源，原文链接见每条详情。人物思考只引用可核实的采访、演讲与原文，v1 自动生成的条目不编造人物原话。</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

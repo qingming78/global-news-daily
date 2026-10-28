@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T08:00:00+08:00",
+  "note": "示例数据：仅第 1 条为真实核实内容（黄仁勋 2026-10-21 采访），第 2、3 条为示例占位数据，不是真实新闻。每日自动生成的版本由 scripts/fetch_daily.py 写入，不含示例条目。",
+  "sample": true,
+  "stories": [
+    {
+      "background": "2026-10-21，GTC 柏林期间，Deirdre Bosa 在 Yahoo Finance 采访黄仁勋，主题是 AI 债务担忧、中国与就业。相关报道见 TechSpot 与 TradingView / Benzinga（2026-10-22）。",
+      "category": "AI科技",
+      "core_judgment": "需求不是问题，钱才是。一座 1 GW 的 AI 工厂大约要 500 亿美元，资本稀缺会拖慢部署。办法是让英伟达的算力成为银行愿意承保的资产：它能用 8 年以上而不是 4 年，残值“really, really high”，是市面上风险最低的抵押品之一。",
+      "images": [],
+      "key_quote": "The risk involved in underwriting Nvidia's assets, in our Nvidia computing, is the lowest of any asset out there",
+      "person_name": "黄仁勋",
+      "person_role": "英伟达创始人兼 CEO",
+      "rank": 1,
+      "reasoning": [
+        "资本稀缺：需求“off the charts”，但建 AI 工厂要天文数字的钱，融资跟不上，部署就会变慢。",
+        "把芯片变成抵押品：如果银行相信英伟达芯片是耐用、可转手、有残值的资产，就愿意放贷，基础设施才能继续扩建。",
+        "8 年寿命是关键：外界按 4 年折旧算芯片，但黄仁勋说实际能用 8 年以上，残值很高，折旧逻辑变了，抵押逻辑也跟着变。",
+        "他对就业的判断正好相反，原话：“The narrative about jobs is almost precisely backwards. It's precisely wrong.”",
+        "对中国他提醒美国要认真对待竞争，原话：“If there's one country that could manufacture things at scale,” it is China。"
+      ],
+      "sources": [
+        {
+          "title": "TechSpot：Jensen Huang says Nvidia AI chips carry lowest risk",
+          "url": "https://www.techspot.com/news/114302-jensen-huang-nvidia-ai-chips-carry-lowest-risk.html"
+        },
+        {
+          "title": "TradingView / Benzinga：Nvidia GPUs could last over 8 years",
+          "url": "https://www.tradingview.com/news/benzinga:be46863ef094b:0-jensen-huang-says-nvidia-gpus-could-last-over-8-years-not-4-carry-really-high-residual-value-lowest-risk-assets-for-lenders/"
+        }
+      ],
+      "summary": "需求“off the charts”，缺的是资本：一座 1 吉瓦 AI 工厂约 500 亿美元，英伟达芯片必须成为银行敢放贷的抵押品。",
+      "thinking_question": "AI 基础设施的钱从哪来？芯片能不能成为银行愿意抵押的资产？",
+      "title": "黄仁勋：AI 的问题不是需求，是钱",
+      "watch_next": "银行、租赁公司是否真的接受英伟达芯片作抵押品，出现首批以芯片为抵押的大额融资案例；美国对华芯片政策的下一步走向。"
+    },
+    {
+      "background": "示例背景：本条由项目模板生成，不是新闻。",
+      "category": "AI科技",
+      "core_judgment": "示例判断：这不是任何真实人物的观点，请勿引用。",
+      "images": [],
+      "key_quote": "示例引言：占位文本，不是真实引用。",
+      "person_name": "示例人物",
+      "person_role": "示例身份（占位）",
+      "rank": 2,
+      "reasoning": [
+        "这是一条示例占位数据，用于演示列表与详情页的排版。"
+      ],
+      "sources": [],
+      "summary": "这是示例占位数据，不是真实新闻：展示一条“人物思考”格式的条目在页面上长什么样。",
+      "thinking_question": "示例问题：这条只是用来展示版式。",
+      "title": "示例：一位研究者谈大模型下一步",
+      "watch_next": "示例：部署后由每日自动抓取的真实条目替换。"
+    },
+    {
+      "background": "示例背景：本条由项目模板生成，不是新闻。",
+      "category": "科学气候",
+      "core_judgment": "示例判断：这不是任何真实人物的观点，请勿引用。",
+      "images": [],
+      "key_quote": "示例引言：占位文本，不是真实引用。",
+      "person_name": "示例人物",
+      "person_role": "示例身份（占位）",
+      "rank": 3,
+      "reasoning": [
+        "这是一条示例占位数据，用于演示分类与详情页的排版。"
+      ],
+      "sources": [],
+      "summary": "这是示例占位数据，不是真实新闻：展示非 AI 类别条目的样子。",
+      "thinking_question": "示例问题：这条只是用来展示版式。",
+      "title": "示例：一位科学家谈气候研究的新方向",
+      "watch_next": "示例：部署后由每日自动抓取的真实条目替换。"
+    }
+  ]
+}
