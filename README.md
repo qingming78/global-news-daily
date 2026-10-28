@@ -25,7 +25,8 @@ GitHub Actions 定时运行 scripts/fetch_daily.py
       │  抓公开 RSS（TechCrunch、MIT Tech Review、BBC 等），取 10 条候选
       ▼
 scripts/generate_thinking.py（需要 DEEPSEEK_API_KEY）
-      │  对每条打开原文，用 DeepSeek 提炼人物思考，原话逐字校验
+      │  对每条打开原文，用 DeepSeek 提炼人物思考，原话逐字校验；
+      │  正文主体用第一人称写一段较长的自述，尽量展现他本人的原观点
       ▼
 scripts/pick_feature.py
       │  按评分选出当天一位人物，把当期改写为 1 条特写，
@@ -56,7 +57,7 @@ GitHub Pages 重新发布
 | `data/editions/2026-10-28.json` | 每一期的存档，按日期命名；首期是马斯克专访特写 |
 | `data/archive.json` | 往期档案：日期、人物、标题、核心判断，按新到旧排列 |
 | `scripts/fetch_daily.py` | 每天跑的脚本：抓 RSS → 去重 → AI 优先排前 10 → 写 JSON。只用 Python 标准库，不用装任何包。同时从 RSS 里取配图（media:content / enclosure / 正文里的第一张图） |
-| `scripts/generate_thinking.py` | 抓取后跑：对每条打开原文链接，用 DeepSeek 从原文里提炼人物思考（核心判断、推理链、原话），原话逐字校验，找不到就留空。需要 `DEEPSEEK_API_KEY`，没有时自动跳过。RSS 没给图时，用原文的 og:image 封面图兜底 |
+| `scripts/generate_thinking.py` | 抓取后跑：对每条打开原文链接，用 DeepSeek 从原文里提炼人物思考。文风：正文主体是第一人称长文（`first_person`，600–1200 字，3–5 段），尽量展现他本人的原观点和思考过程，篇幅长一点也没关系；核心判断和推理链也用第一人称；第三人称只出现在开头的概括（`summary`）里。原话逐字校验，找不到就留空。需要 `DEEPSEEK_API_KEY`，没有时自动跳过。RSS 没给图时，用原文的 og:image 封面图兜底 |
 | `scripts/pick_feature.py` | 选人脚本：从补好思考的 10 条里选出当天一位（评分规则见下），把当期改写为 1 条特写，并更新 `data/archive.json`。当天没有任何一条有人物思考时，取 rank 1 的那条兜底（页面显示“待补充人物思考”，日报不断更） |
 | `.github/workflows/daily.yml` | 定时任务配置：每天 00:00 UTC（= 北京时间 08:00）运行一次，也可手动触发 |
 | `.nojekyll` | 告诉 GitHub Pages 不要用 Jekyll 处理，直接原样发布 |
@@ -75,7 +76,8 @@ GitHub Pages 重新发布
   "person_name": "黄仁勋",
   "person_role": "英伟达创始人兼 CEO",
   "thinking_question": "他面临的问题",
-  "core_judgment": "他认为：……",
+  "core_judgment": "我认为：……",
+  "first_person": "用第一人称写的一段较长自述，600–1200 字，分段……",
   "reasoning": ["推理链第 1 步", "推理链第 2 步"],
   "key_quote": "可核实的原话",
   "background": "背景",
@@ -165,6 +167,12 @@ GitHub Pages 重新发布
 最后跑 `pick_feature.py`，按评分选出当天一位，写回 JSON。
 前端不用改，字段一填上，页面就自动显示今天的那个人。
 
+文风是这样定的：正文主体是目标人物**自己的话**——用第一人称写一段
+较长的自述（600–1200 字），尽量展现他本人的原观点和思考过程，篇幅
+长一点也没关系；核心判断和推理链也用第一人称。第三人称只出现在开头
+的一句话概括（`summary`）里，概括整件事就行。背景和“接下来看他做
+什么”仍是第三人称的补充信息。
+
 防编造有三道关，都是写在脚本里的：
 
 1. **只从原文提炼**：原文打不开、原文里找不到明确表达观点的人物，
@@ -198,7 +206,7 @@ GitHub Pages 重新发布
 | 文件 | 变化 |
 |---|---|
 | `scripts/pick_feature.py` | 新增，每天选出一位人物的脚本 |
-| `scripts/generate_thinking.py` | 没变，提炼脚本本身不用改 |
+| `scripts/generate_thinking.py` | 改了，提炼改成第一人称长文（新增 `first_person` 字段，推理链上限提到 6 条） |
 | `.github/workflows/daily.yml` | 改了，加了“选出今天的一位人物”这一步 |
 | `index.html` / `app.js` / `style.css` | 改了，改成单人特写 + 往期档案 |
 | `data/latest.json` / `data/editions/2026-10-28.json` | 改了，今天这期改成马斯克专访特写 |

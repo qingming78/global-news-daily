@@ -45,9 +45,13 @@ function renderFeature(edition) {
     ? `<h3>来源</h3><ul class="sources">${s.sources.map((x) =>
         `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a></li>`).join("")}</ul>`
     : "";
+  const firstPerson = (s.first_person || "").trim()
+    ? `<h3>以他自己的话说</h3>${s.first_person.split(/\n\s*\n/).map((p) => `<p>${esc(p.trim())}</p>`).join("")}`
+    : "";
   const thinking = s.person_name ? `
     <h3>他面临的问题</h3><p>${esc(s.thinking_question || "")}</p>
     <h3>他的核心判断</h3><p>${esc(s.core_judgment || "")}</p>
+    ${firstPerson}
     ${reasoning}${quote}
     <h3>背景</h3><p>${esc(s.background || "")}</p>
     <h3>接下来看他做什么</h3><p>${esc(s.watch_next || "")}</p>
