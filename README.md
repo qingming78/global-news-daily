@@ -59,7 +59,7 @@ GitHub Pages 重新发布
 | `scripts/fetch_daily.py` | 每天跑的脚本：抓 RSS → 去重 → AI 优先排前 10 → 写 JSON。只用 Python 标准库，不用装任何包。同时从 RSS 里取配图（media:content / enclosure / 正文里的第一张图） |
 | `scripts/generate_thinking.py` | 抓取后跑：对每条打开原文链接，用 DeepSeek 从原文里提炼人物思考。文风：正文主体是第一人称长文（`first_person`，600–1200 字，3–5 段），尽量展现他本人的原观点和思考过程，篇幅长一点也没关系；核心判断和推理链也用第一人称；第三人称只出现在开头的概括（`summary`）里。原话逐字校验，找不到就留空。需要 `DEEPSEEK_API_KEY`，没有时自动跳过。RSS 没给图时，用原文的 og:image 封面图兜底 |
 | `scripts/pick_feature.py` | 选人脚本：从补好思考的 10 条里选出当天一位（评分规则见下），把当期改写为 1 条特写，并更新 `data/archive.json`。当天没有任何一条有人物思考时，取 rank 1 的那条兜底（页面显示“待补充人物思考”，日报不断更） |
-| `.github/workflows/daily.yml` | 定时任务配置：每天 00:00 UTC（= 北京时间 08:00）运行一次，也可手动触发 |
+| `.github/workflows/daily.yml` | 定时任务配置：每天 00:00 UTC（= 北京时间 08:00）运行一次，也可手动触发；00:15、00:30 UTC 各有一次兜底运行（GitHub 定时任务偶尔会晚到或跳过，兜底时如果今天的特写已生成会自动跳过，不重复出两期） |
 | `.nojekyll` | 告诉 GitHub Pages 不要用 Jekyll 处理，直接原样发布 |
 | `README.md` | 就是这份说明 |
 
