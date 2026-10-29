@@ -2,9 +2,14 @@ name: 每日生成日报
 
 # 每天 00:00 UTC 运行 = 北京时间 08:00；也可以在 Actions 页面点
 # “Run workflow” 手动触发一次。
+# 注意：GitHub 的定时任务是“尽力而为”的，高峰期会晚到、偶尔还会跳过
+# 某一次。所以 00:15、00:30 UTC 各加了一次兜底运行；下面的 guard 步骤
+# 会检查今天的特写是否已经生成，生成了就直接跳过，不会重复出两期。
 on:
   schedule:
     - cron: "0 0 * * *"
+    - cron: "15 0 * * *"
+    - cron: "30 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,18 +21,46 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 兜底保护：今天的特写已经生成（1 条且有人物）就跳过后面所有步骤。
+      # 日期按北京时间算，和 fetch_daily.py / pick_feature.py 保持一致。
+      - name: 检查今天是否已出
+        id: guard
+        run: |
+          TODAY=$(TZ=Asia/Shanghai date +%F)
+          if python3 - "$TODAY" <<'EOF'
+          import json, sys
+          from pathlib import Path
+          today = sys.argv[1]
+          p = Path(f"data/editions/{today}.json")
+          if not p.exists():
+              sys.exit(1)
+          d = json.loads(p.read_text(encoding="utf-8"))
+          stories = d.get("stories") or []
+          ok = d.get("date") == today and len(stories) == 1 and bool(stories[0].get("person_name"))
+          sys.exit(0 if ok else 1)
+          EOF
+          then
+            echo "done=true" >> "$GITHUB_OUTPUT"
+            echo "今天已出，跳过。"
+          else
+            echo "done=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: 安装 Python
+        if: steps.guard.outputs.done != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: 抓取 RSS，生成今天那期
+        if: steps.guard.outputs.done != 'true'
         run: python3 scripts/fetch_daily.py
 
       # 补人物思考：需要先在仓库 Settings → Secrets and variables → Actions
       # 里加一个叫 DEEPSEEK_API_KEY 的 Secret。没加时脚本会自动跳过，
       # 日报本身不受影响（只是思考字段留空）。
       - name: 补人物思考（有 key 才跑）
+        if: steps.guard.outputs.done != 'true'
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python3 scripts/generate_thinking.py
@@ -35,9 +68,11 @@ jobs:
       # 每天一位人物：从补好思考的 10 条里，按评分选出一位，
       # 把当期改写为只含这一条的特写，并更新 data/archive.json（往期档案）。
       - name: 选出今天的一位人物
+        if: steps.guard.outputs.done != 'true'
         run: python3 scripts/pick_feature.py
 
       - name: 有新内容就提交回仓库
+        if: steps.guard.outputs.done != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
