@@ -1,43 +1,42 @@
 {
-  "date": "2026-10-29",
-  "generated_at": "2026-10-29T08:13:28+08:00",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T09:23:34+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 1,
+      "rank": 2,
       "category": "AI科技",
-      "title": "Google expands AI Search ads globally as core ad growth slows",
-      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6…",
-      "person_name": "Philipp Schindler",
-      "person_role": "Google 首席商务官（chief business officer）",
-      "thinking_question": "在核心搜索广告增速持续放缓的情况下，如何把 AI 搜索体验变成有意义的广告收入来源？",
-      "core_judgment": "我认为：我们正在把 AI 概览和 AI 模式中的高质量广告扩展到更多用户和查询，并首次把变现布局推向全球；早期结果显示这些广告形式是有效的，AI 模式中赞助商品列表的点击率已经与自然列表相当，用户研究也表明人们认为这些广告是相关的。",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a phot…",
+      "person_name": "Mark Zuckerberg",
+      "person_role": "Meta CEO",
+      "thinking_question": "在 AI 让开发效率大幅提升之后，Meta 应该以什么样的节奏推出新应用？",
+      "core_judgment": "我认为：AI 驱动的效率提升让发布新应用变得更快更容易，因此 Meta 计划推出比过去多得多的应用。",
       "reasoning": [
-        "我认为核心搜索广告增长在减速：第三季度搜索收入同比增长 12%，低于第二季度的 17% 和第一季度的 19%。",
-        "我认为这给公司带来了压力，必须把扩展中的 AI 功能转化为有意义的广告收入来源。",
-        "我看到早期结果支持这些广告形式：AI 模式中赞助商品列表的点击率已经与自然列表相当。",
-        "我们的用户研究显示人们认为这些广告是相关的，这让我相信广告不会损害体验。",
-        "因此我判断应该把 AI 概览和 AI 模式中的高质量广告扩展到更多用户和查询，并首次把变现布局推向全球。"
+        "我认为 AI 驱动的效率让开发新应用变得更快更容易。",
+        "因此我告诉员工，公司计划推出比历史上多得多的应用。",
+        "最近接连推出 Waddle World、Pocket、Vibes 和 Style Sketch，正是这一策略的体现。",
+        "这些应用形态各异，说明重点在于多发布、快速试，而不是押注单一产品。"
       ],
-      "key_quote": "We are now scaling high-quality ads within AI overviews in AI mode to more users and queries",
-      "background": "Alphabet 第三季度收入 1276 亿美元、同比增长 25%，但搜索广告增速从一季度的 19%、二季度的 17% 降至三季度的 12%，财报后股价下跌 8%。Google 在财报电话会上宣布把 AI 模式中的广告扩展到国际市场。",
-      "watch_next": "看他接下来如何把 AI 模式广告和多轮广告推向更多国际市场，以及这些形式的点击率和相关性数据能否支撑搜索广告收入重新加速。",
+      "key_quote": "CEO Mark Zuckerberg told employees the company plans to release far more apps than it has historically, as AI-driven efficiencies have made it faster and easier to ship new apps.",
+      "background": "Meta 近期接连推出多款 AI 应用，包括 Style Sketch、Waddle World、Pocket 和 Vibes，《华尔街日报》此前报道了扎克伯格关于加快应用发布节奏的表态。",
+      "watch_next": "看他推动 Meta 以多快的节奏继续发布新的 AI 应用，以及 Style Sketch 是否会扩展到更多市场。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Google expands AI Search ads globally as core ad growth slows",
-          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+          "title": "Meta quietly launches an AI fashion app called Style Sketch",
+          "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/10/meta-style-sketch.png?resize=1200,625",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我们这次财报电话会上要讲的核心，是广告在 AI 搜索体验里的扩张。我们正在把 AI 概览和 AI 模式中的高质量广告扩展到更多用户和更多查询上，而且这是第一次把我们的变现布局推向全球。今天宣布的，就是把 AI 模式中的广告扩展到国际市场，同时在美国推出多轮广告和 AI 模式。\n\n为什么现在做这件事？因为公司整体收入在增长，本季度达到 1276 亿美元、同比增长 25%，但搜索广告的增长在持续减速：第三季度搜索收入同比增长 12%，低于第二季度的 17% 和第一季度的 19%。业绩公布后股价下跌 8%。这意味着我们必须把不断扩展的 AI 功能变成实实在在的广告收入来源，压力是明确的。\n\n我相信这些新形式是行得通的，这不是凭感觉。早期结果显示，AI 模式中赞助商品列表的点击率已经与自然列表相当；我们的用户研究也表明，人们觉得这些广告是相关的。点击率和相关性这两点，是我判断广告能否在 AI 体验里站住脚的依据。\n\n所以我的判断是：把广告嵌进 AI 概览和 AI 模式，并把它推向全球市场，是当前最合理的变现路径。我们已经在做，而且会继续扩大范围。"
+      "first_person": "我一直在想，公司过去推出应用的节奏是不是太慢了。现在情况变了：AI 驱动的效率让开发变得更快、更容易，我们完全有能力把新应用更快地做出来、发出去。\n\n所以我对员工讲得很直接：我们计划推出比历史上多得多的应用。这不是一时兴起，而是基于一个很现实的判断——当工具和流程被 AI 加速之后，限制我们的不再是能不能做出来，而是我们愿不愿意多做、快做。\n\n你从最近的动作里也能看到这个方向：Waddle World 像一个带 AI 的电子宠物，Pocket 用来做 vibe-coding 游戏，Vibes 让人快速生成 AI 视频，还有这次的 Style Sketch，用 AI 帮用户拿自己已有的衣服搭配造型。这些应用形态各不相同，但背后的逻辑是一致的——多试、多发、快速铺开。\n\n我不担心某个具体应用一开始不够完美，我更在意的是我们能不能形成持续发布的能力和习惯。AI 已经把门槛降下来了，接下来就看我们能不能真的把“发更多应用”这件事执行下去。"
     }
   ],
   "format": "daily-thinker"

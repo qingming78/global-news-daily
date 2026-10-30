@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T09:23:34+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 2,
+      "category": "AI科技",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a phot…",
+      "person_name": "Mark Zuckerberg",
+      "person_role": "Meta CEO",
+      "thinking_question": "在 AI 让开发效率大幅提升之后，Meta 应该以什么样的节奏推出新应用？",
+      "core_judgment": "我认为：AI 驱动的效率提升让发布新应用变得更快更容易，因此 Meta 计划推出比过去多得多的应用。",
+      "reasoning": [
+        "我认为 AI 驱动的效率让开发新应用变得更快更容易。",
+        "因此我告诉员工，公司计划推出比历史上多得多的应用。",
+        "最近接连推出 Waddle World、Pocket、Vibes 和 Style Sketch，正是这一策略的体现。",
+        "这些应用形态各异，说明重点在于多发布、快速试，而不是押注单一产品。"
+      ],
+      "key_quote": "CEO Mark Zuckerberg told employees the company plans to release far more apps than it has historically, as AI-driven efficiencies have made it faster and easier to ship new apps.",
+      "background": "Meta 近期接连推出多款 AI 应用，包括 Style Sketch、Waddle World、Pocket 和 Vibes，《华尔街日报》此前报道了扎克伯格关于加快应用发布节奏的表态。",
+      "watch_next": "看他推动 Meta 以多快的节奏继续发布新的 AI 应用，以及 Style Sketch 是否会扩展到更多市场。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "Meta quietly launches an AI fashion app called Style Sketch",
+          "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/10/meta-style-sketch.png?resize=1200,625",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我一直在想，公司过去推出应用的节奏是不是太慢了。现在情况变了：AI 驱动的效率让开发变得更快、更容易，我们完全有能力把新应用更快地做出来、发出去。\n\n所以我对员工讲得很直接：我们计划推出比历史上多得多的应用。这不是一时兴起，而是基于一个很现实的判断——当工具和流程被 AI 加速之后，限制我们的不再是能不能做出来，而是我们愿不愿意多做、快做。\n\n你从最近的动作里也能看到这个方向：Waddle World 像一个带 AI 的电子宠物，Pocket 用来做 vibe-coding 游戏，Vibes 让人快速生成 AI 视频，还有这次的 Style Sketch，用 AI 帮用户拿自己已有的衣服搭配造型。这些应用形态各不相同，但背后的逻辑是一致的——多试、多发、快速铺开。\n\n我不担心某个具体应用一开始不够完美，我更在意的是我们能不能形成持续发布的能力和习惯。AI 已经把门槛降下来了，接下来就看我们能不能真的把“发更多应用”这件事执行下去。"
+    }
+  ],
+  "format": "daily-thinker"
+}
