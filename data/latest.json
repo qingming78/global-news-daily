@@ -1,49 +1,43 @@
 {
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T08:15:31+08:00",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T07:45:48+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 7,
-      "category": "科学气候",
-      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-      "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
-      "person_name": "Kathleen Brookes",
-      "person_role": "交易公司 XTB 的研究总监",
-      "thinking_question": "在科技巨头大举投入 AI、投资者开始要求回报的当下，AI 行情是否已经见顶？",
-      "core_judgment": "我认为：投资者已经变得无情，会惩罚第三季度财报中任何令人失望的迹象；AI 交易过去几年表现不错，但现在投资者想要回报，Alphabet 和 Intel 这样的公司正处在靶心。如果未来几天 AI 股票继续挣扎，可能说明 AI 交易已经过了顶峰，投资者将寻找新的主题来驱动市场。",
+      "rank": 1,
+      "category": "AI科技",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "person_name": "John Ternus",
+      "person_role": "苹果公司 CEO",
+      "thinking_question": "在苹果被普遍认为在 AI 上落后的情况下，苹果应当以什么样的方式把 AI 做进产品里？",
+      "core_judgment": "我认为：苹果绝对会利用 AI，但我们不想为了 AI 而 AI；做对了的时候，用户不必去想这是 AI 还是传统软件带来的，重要的是我们是否做出了他们真正喜爱的东西。",
       "reasoning": [
-        "我认为近几个月 AI 交易经历了很多起起伏伏。",
-        "我认为投资者已经变得无情，会惩罚第三季度财报中任何令人失望的迹象。",
-        "我认为 AI 交易过去几年表现不错，但现在投资者想要回报，Alphabet 和 Intel 正处在靶心。",
-        "我注意到许多这类公司的市值仍远高于一年前，纳斯达克过去一年仍上涨。",
-        "我认为十一月通常是股市表现强劲的月份，值得观察。",
-        "我认为如果 AI 股票未来几天继续挣扎，可能说明 AI 交易已过顶峰，投资者将寻找新主题。"
+        "我认为外界说苹果在 AI 上落后，但每个人都有自己的看法，我真的很喜欢我们现在的处境。",
+        "我认为苹果绝对会在新产品中利用 AI，这一点没有疑问。",
+        "我认为我们不想为了 AI 而 AI，做对了的时候用户不必分辨这是 AI 还是传统软件。",
+        "我认为衡量标准是是否做出了用户真正喜爱的东西，而不是技术标签。",
+        "我认为智能体或许会让生活很轻松，但产品创造是深度属于人、属于个人的事，是我们热爱去做的。"
       ],
-      "key_quote": "Investors have turned ruthless, punishing any signs of disappointment in [third quarter] earnings",
-      "background": "美国科技股连续两日大跌，Meta、Alphabet、Oracle、Amazon、Microsoft 等巨头 2026 年合计承诺投入 8000 亿美元用于 AI，市场对 AI 泡沫的担忧升温。",
-      "watch_next": "观察十一月 AI 相关股票能否止跌，以判断这轮 AI 交易是否已经见顶。",
+      "key_quote": "We don’t want to ship AI for AI’s sake.",
+      "background": "苹果近两年常被描述为在 AI 上落后，更强版本 Siri 推迟到今年夏天才发布；John Ternus 于今年 9 月初正式出任 CEO，此前是苹果长期高管。",
+      "watch_next": "看他接下来如何把 AI 融入苹果新产品，以及更强版本 Siri 之后的实际体验能否兑现“用户不必感知 AI”的标准。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
+          "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
         }
       ],
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
           "caption": null,
-          "credit": "图片来源：BBC 科技"
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
-          "caption": "Two men walk in front of the Nasdaq building, which has a large curved lit up sign that reads Nasdaq on the front.",
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "近几个月来，AI 交易经历了很多起起伏伏。我看到的这一轮下跌，核心不是 AI 本身出了问题，而是投资者的心态变了。过去几年 AI 交易一直有很好的表现，大家愿意为增长故事买单；但现在，投资者想要回报了。他们不再满足于听公司讲要投多少钱、建多少数据中心，他们要看到这些投入能换回什么。\n\n所以当 Alphabet 和 Intel 这样的公司交出第三季度财报、露出一点让人失望的迹象时，市场的反应非常直接。投资者已经变得无情，惩罚任何令人失望的迹象。Alphabet 和 Intel 现在就处在靶心位置。这不是针对某一家公司的审判，而是整个板块的定价逻辑在收紧。\n\n我也不认为这就等于 AI 的故事结束了。要注意，很多这类公司的市值仍然远高于一年前的水平。纳斯达克虽然收低，但过去一年仍是上涨的；亚马逊过去 12 个月也涨了近 8%。也就是说，这更像是一次对过高预期的修正，而不是对 AI 长期价值的否定。\n\n接下来我会看十一月。十一月通常是股市表现强劲的月份，这是一个可以观察的窗口。如果未来几天我们看到 AI 股票继续挣扎，那可能说明 AI 交易已经过了顶峰，投资者会开始寻找新的主题来驱动市场。反过来，如果这个传统强势月份能稳住，那说明这只是一次痛苦的消化，而不是趋势的反转。"
+      "first_person": "过去几年，外界一直说苹果在 AI 上落后，尤其是我们推迟了更强版本 Siri 的发布，直到今年夏天它才终于上线。这些说法我都听到了。在接受 Wired 的 Steven Levy 采访时，我承认“每个人都有自己的看法”，但我要说的是：我真的很喜欢我们现在的处境。\n\n我并不是要否认 AI 的重要性。我们绝对会在新产品中利用 AI。问题不在于要不要用，而在于怎么用。我们不想为了 AI 而 AI。这句话听起来简单，但它决定了我们做产品的顺序：不是先有一个 AI 能力，再去找地方把它塞进去，而是先想清楚用户需要什么、什么体验值得做。\n\n那怎么判断我们做对了？我的标准是：当事情做对了，人们不必去想这件事到底是 AI 促成的，还是更传统的软件促成的。用户不该被迫感知技术的标签。真正重要的是，我们是否做出了他们真正喜爱的东西。这也是我面对“苹果在 AI 上落后”这类评价时的基本立场：外界的看法是一回事，产品本身是否让人喜欢是另一回事。\n\nLevy 还追问过我，AI 会不会更剧烈地影响苹果和它的生态，比如智能体可能让应用这种东西变得不再必要。我的回应是：那也许确实会让生活变得非常轻松，我猜是这样。但产品的创造是一件深度属于人、属于个人的事情，是我们热爱去做的事。所以即便工具和能力在变，我对我们正在做的事、以及我们做这件事的方式，仍然是有信心的。"
     }
   ],
   "format": "daily-thinker"
