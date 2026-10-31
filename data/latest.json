@@ -1,42 +1,49 @@
 {
-  "date": "2026-10-30",
-  "generated_at": "2026-10-30T09:23:34+08:00",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T08:15:31+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 2,
-      "category": "AI科技",
-      "title": "Meta quietly launches an AI fashion app called Style Sketch",
-      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a phot…",
-      "person_name": "Mark Zuckerberg",
-      "person_role": "Meta CEO",
-      "thinking_question": "在 AI 让开发效率大幅提升之后，Meta 应该以什么样的节奏推出新应用？",
-      "core_judgment": "我认为：AI 驱动的效率提升让发布新应用变得更快更容易，因此 Meta 计划推出比过去多得多的应用。",
+      "rank": 7,
+      "category": "科学气候",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+      "person_name": "Kathleen Brookes",
+      "person_role": "交易公司 XTB 的研究总监",
+      "thinking_question": "在科技巨头大举投入 AI、投资者开始要求回报的当下，AI 行情是否已经见顶？",
+      "core_judgment": "我认为：投资者已经变得无情，会惩罚第三季度财报中任何令人失望的迹象；AI 交易过去几年表现不错，但现在投资者想要回报，Alphabet 和 Intel 这样的公司正处在靶心。如果未来几天 AI 股票继续挣扎，可能说明 AI 交易已经过了顶峰，投资者将寻找新的主题来驱动市场。",
       "reasoning": [
-        "我认为 AI 驱动的效率让开发新应用变得更快更容易。",
-        "因此我告诉员工，公司计划推出比历史上多得多的应用。",
-        "最近接连推出 Waddle World、Pocket、Vibes 和 Style Sketch，正是这一策略的体现。",
-        "这些应用形态各异，说明重点在于多发布、快速试，而不是押注单一产品。"
+        "我认为近几个月 AI 交易经历了很多起起伏伏。",
+        "我认为投资者已经变得无情，会惩罚第三季度财报中任何令人失望的迹象。",
+        "我认为 AI 交易过去几年表现不错，但现在投资者想要回报，Alphabet 和 Intel 正处在靶心。",
+        "我注意到许多这类公司的市值仍远高于一年前，纳斯达克过去一年仍上涨。",
+        "我认为十一月通常是股市表现强劲的月份，值得观察。",
+        "我认为如果 AI 股票未来几天继续挣扎，可能说明 AI 交易已过顶峰，投资者将寻找新主题。"
       ],
-      "key_quote": "CEO Mark Zuckerberg told employees the company plans to release far more apps than it has historically, as AI-driven efficiencies have made it faster and easier to ship new apps.",
-      "background": "Meta 近期接连推出多款 AI 应用，包括 Style Sketch、Waddle World、Pocket 和 Vibes，《华尔街日报》此前报道了扎克伯格关于加快应用发布节奏的表态。",
-      "watch_next": "看他推动 Meta 以多快的节奏继续发布新的 AI 应用，以及 Style Sketch 是否会扩展到更多市场。",
+      "key_quote": "Investors have turned ruthless, punishing any signs of disappointment in [third quarter] earnings",
+      "background": "美国科技股连续两日大跌，Meta、Alphabet、Oracle、Amazon、Microsoft 等巨头 2026 年合计承诺投入 8000 亿美元用于 AI，市场对 AI 泡沫的担忧升温。",
+      "watch_next": "观察十一月 AI 相关股票能否止跌，以判断这轮 AI 交易是否已经见顶。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Meta quietly launches an AI fashion app called Style Sketch",
-          "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/"
+          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/10/meta-style-sketch.png?resize=1200,625",
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
           "caption": null,
+          "credit": "图片来源：BBC 科技"
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
+          "caption": "Two men walk in front of the Nasdaq building, which has a large curved lit up sign that reads Nasdaq on the front.",
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我一直在想，公司过去推出应用的节奏是不是太慢了。现在情况变了：AI 驱动的效率让开发变得更快、更容易，我们完全有能力把新应用更快地做出来、发出去。\n\n所以我对员工讲得很直接：我们计划推出比历史上多得多的应用。这不是一时兴起，而是基于一个很现实的判断——当工具和流程被 AI 加速之后，限制我们的不再是能不能做出来，而是我们愿不愿意多做、快做。\n\n你从最近的动作里也能看到这个方向：Waddle World 像一个带 AI 的电子宠物，Pocket 用来做 vibe-coding 游戏，Vibes 让人快速生成 AI 视频，还有这次的 Style Sketch，用 AI 帮用户拿自己已有的衣服搭配造型。这些应用形态各不相同，但背后的逻辑是一致的——多试、多发、快速铺开。\n\n我不担心某个具体应用一开始不够完美，我更在意的是我们能不能形成持续发布的能力和习惯。AI 已经把门槛降下来了，接下来就看我们能不能真的把“发更多应用”这件事执行下去。"
+      "first_person": "近几个月来，AI 交易经历了很多起起伏伏。我看到的这一轮下跌，核心不是 AI 本身出了问题，而是投资者的心态变了。过去几年 AI 交易一直有很好的表现，大家愿意为增长故事买单；但现在，投资者想要回报了。他们不再满足于听公司讲要投多少钱、建多少数据中心，他们要看到这些投入能换回什么。\n\n所以当 Alphabet 和 Intel 这样的公司交出第三季度财报、露出一点让人失望的迹象时，市场的反应非常直接。投资者已经变得无情，惩罚任何令人失望的迹象。Alphabet 和 Intel 现在就处在靶心位置。这不是针对某一家公司的审判，而是整个板块的定价逻辑在收紧。\n\n我也不认为这就等于 AI 的故事结束了。要注意，很多这类公司的市值仍然远高于一年前的水平。纳斯达克虽然收低，但过去一年仍是上涨的；亚马逊过去 12 个月也涨了近 8%。也就是说，这更像是一次对过高预期的修正，而不是对 AI 长期价值的否定。\n\n接下来我会看十一月。十一月通常是股市表现强劲的月份，这是一个可以观察的窗口。如果未来几天我们看到 AI 股票继续挣扎，那可能说明 AI 交易已经过了顶峰，投资者会开始寻找新的主题来驱动市场。反过来，如果这个传统强势月份能稳住，那说明这只是一次痛苦的消化，而不是趋势的反转。"
     }
   ],
   "format": "daily-thinker"
