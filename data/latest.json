@@ -1,43 +1,43 @@
 {
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T07:45:48+08:00",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:45:45+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
       "rank": 1,
       "category": "AI科技",
-      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
-      "person_name": "John Ternus",
-      "person_role": "苹果公司 CEO",
-      "thinking_question": "在苹果被普遍认为在 AI 上落后的情况下，苹果应当以什么样的方式把 AI 做进产品里？",
-      "core_judgment": "我认为：苹果绝对会利用 AI，但我们不想为了 AI 而 AI；做对了的时候，用户不必去想这是 AI 还是传统软件带来的，重要的是我们是否做出了他们真正喜爱的东西。",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "person_name": "Chris Lehane",
+      "person_role": "OpenAI 首席全球事务官",
+      "thinking_question": "中期选举后民主党可能拿下众议院甚至参议院，AI 即将成为 2028 年总统大选的核心议题，OpenAI 该如何主动塑造这场 AI 辩论？",
+      "core_judgment": "我认为：中期选举只是 2028 年大选的前导预告片，AI 届时会成为大选的核心议题；因此我们要主动介入这场辩论，包括设定 AI 的“限速”、让人们看到 AI 对日常生活的赋能、推动美国参与制定全球标准，以及把数据中心重新包装为“AI 计算园区”。",
       "reasoning": [
-        "我认为外界说苹果在 AI 上落后，但每个人都有自己的看法，我真的很喜欢我们现在的处境。",
-        "我认为苹果绝对会在新产品中利用 AI，这一点没有疑问。",
-        "我认为我们不想为了 AI 而 AI，做对了的时候用户不必分辨这是 AI 还是传统软件。",
-        "我认为衡量标准是是否做出了用户真正喜爱的东西，而不是技术标签。",
-        "我认为智能体或许会让生活很轻松，但产品创造是深度属于人、属于个人的事，是我们热爱去做的。"
+        "我认为中期选举只是 2028 年大选的预告片，AI 届时会成为总统选举的核心议题。",
+        "既然 AI 会成为核心议题，OpenAI 就必须主动介入并塑造这场辩论。",
+        "我提出的方案包括设定 AI“限速”、让人们看到 AI 对日常生活的赋能、推动美国参与全球标准制定。",
+        "把数据中心重新包装为“AI 计算园区”，是改变公众观感的具体手段。",
+        "我认为围绕数据中心的讨论是良好且健康的，社区应当让企业承担责任、获得真正的变革性好处。"
       ],
-      "key_quote": "We don’t want to ship AI for AI’s sake.",
-      "background": "苹果近两年常被描述为在 AI 上落后，更强版本 Siri 推迟到今年夏天才发布；John Ternus 于今年 9 月初正式出任 CEO，此前是苹果长期高管。",
-      "watch_next": "看他接下来如何把 AI 融入苹果新产品，以及更强版本 Siri 之后的实际体验能否兑现“用户不必感知 AI”的标准。",
+      "key_quote": "the midterms will be “a bit of a movie trailer for what you’re going to see in 2028,”",
+      "background": "中期选举后民主党可能赢回众议院甚至参议院，OpenAI 计划在选举后展开公关攻势，以影响 AI 议题的走向。",
+      "watch_next": "看 OpenAI 在中期选举后如何落地这轮公关攻势，尤其是“AI 计算园区”这一新提法是否正式启用。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "过去几年，外界一直说苹果在 AI 上落后，尤其是我们推迟了更强版本 Siri 的发布，直到今年夏天它才终于上线。这些说法我都听到了。在接受 Wired 的 Steven Levy 采访时，我承认“每个人都有自己的看法”，但我要说的是：我真的很喜欢我们现在的处境。\n\n我并不是要否认 AI 的重要性。我们绝对会在新产品中利用 AI。问题不在于要不要用，而在于怎么用。我们不想为了 AI 而 AI。这句话听起来简单，但它决定了我们做产品的顺序：不是先有一个 AI 能力，再去找地方把它塞进去，而是先想清楚用户需要什么、什么体验值得做。\n\n那怎么判断我们做对了？我的标准是：当事情做对了，人们不必去想这件事到底是 AI 促成的，还是更传统的软件促成的。用户不该被迫感知技术的标签。真正重要的是，我们是否做出了他们真正喜爱的东西。这也是我面对“苹果在 AI 上落后”这类评价时的基本立场：外界的看法是一回事，产品本身是否让人喜欢是另一回事。\n\nLevy 还追问过我，AI 会不会更剧烈地影响苹果和它的生态，比如智能体可能让应用这种东西变得不再必要。我的回应是：那也许确实会让生活变得非常轻松，我猜是这样。但产品的创造是一件深度属于人、属于个人的事情，是我们热爱去做的事。所以即便工具和能力在变，我对我们正在做的事、以及我们做这件事的方式，仍然是有信心的。"
+      "first_person": "我判断，这次中期选举对 AI 来说只是“一部电影的预告片”，真正的大片在 2028 年。到那时，AI 会成为总统选举中的那个议题。既然这样，我们就不能等别人来定义这场辩论，而要主动介入、主动塑造它。\n\n我提出了一整套方案。第一，为 AI 设定某种“限速”，让发展有边界、有节奏。第二，想办法让人们看到 AI 是在赋能他们的日常生活，而不是在取代或威胁他们。第三，推动美国在制定全球标准上发挥作用，而不是把标准制定权让给别人。还有一件很具体的事：把数据中心重新包装为“AI 计算园区”。数据中心如今极不受欢迎，但换个名字，公众的感受可能就不一样。\n\n关于数据中心引发的争议，我并不认为它是坏事。我说过，这场讨论是“良好且健康的”。社区本来就应当让企业承担责任、接受问责，这样这些项目才能真正给当地带来变革性的好处。亚马逊和微软已经表示，不再在与地方政府的谈判中使用保密协议，这说明压力正在起作用，也说明这场讨论有其价值。\n\n所以，中期选举之后，我们要展开一轮公关攻势。这不是被动应对，而是主动设定议程：从“限速”到全球标准，从公众认知到数据中心的命名，每一环都是这场长期辩论的一部分。我相信，谁先定义问题，谁就掌握主动。"
     }
   ],
   "format": "daily-thinker"

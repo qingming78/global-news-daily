@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:45:45+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 1,
+      "category": "AI科技",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "person_name": "Chris Lehane",
+      "person_role": "OpenAI 首席全球事务官",
+      "thinking_question": "中期选举后民主党可能拿下众议院甚至参议院，AI 即将成为 2028 年总统大选的核心议题，OpenAI 该如何主动塑造这场 AI 辩论？",
+      "core_judgment": "我认为：中期选举只是 2028 年大选的前导预告片，AI 届时会成为大选的核心议题；因此我们要主动介入这场辩论，包括设定 AI 的“限速”、让人们看到 AI 对日常生活的赋能、推动美国参与制定全球标准，以及把数据中心重新包装为“AI 计算园区”。",
+      "reasoning": [
+        "我认为中期选举只是 2028 年大选的预告片，AI 届时会成为总统选举的核心议题。",
+        "既然 AI 会成为核心议题，OpenAI 就必须主动介入并塑造这场辩论。",
+        "我提出的方案包括设定 AI“限速”、让人们看到 AI 对日常生活的赋能、推动美国参与全球标准制定。",
+        "把数据中心重新包装为“AI 计算园区”，是改变公众观感的具体手段。",
+        "我认为围绕数据中心的讨论是良好且健康的，社区应当让企业承担责任、获得真正的变革性好处。"
+      ],
+      "key_quote": "the midterms will be “a bit of a movie trailer for what you’re going to see in 2028,”",
+      "background": "中期选举后民主党可能赢回众议院甚至参议院，OpenAI 计划在选举后展开公关攻势，以影响 AI 议题的走向。",
+      "watch_next": "看 OpenAI 在中期选举后如何落地这轮公关攻势，尤其是“AI 计算园区”这一新提法是否正式启用。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我判断，这次中期选举对 AI 来说只是“一部电影的预告片”，真正的大片在 2028 年。到那时，AI 会成为总统选举中的那个议题。既然这样，我们就不能等别人来定义这场辩论，而要主动介入、主动塑造它。\n\n我提出了一整套方案。第一，为 AI 设定某种“限速”，让发展有边界、有节奏。第二，想办法让人们看到 AI 是在赋能他们的日常生活，而不是在取代或威胁他们。第三，推动美国在制定全球标准上发挥作用，而不是把标准制定权让给别人。还有一件很具体的事：把数据中心重新包装为“AI 计算园区”。数据中心如今极不受欢迎，但换个名字，公众的感受可能就不一样。\n\n关于数据中心引发的争议，我并不认为它是坏事。我说过，这场讨论是“良好且健康的”。社区本来就应当让企业承担责任、接受问责，这样这些项目才能真正给当地带来变革性的好处。亚马逊和微软已经表示，不再在与地方政府的谈判中使用保密协议，这说明压力正在起作用，也说明这场讨论有其价值。\n\n所以，中期选举之后，我们要展开一轮公关攻势。这不是被动应对，而是主动设定议程：从“限速”到全球标准，从公众认知到数据中心的命名，每一环都是这场长期辩论的一部分。我相信，谁先定义问题，谁就掌握主动。"
+    }
+  ],
+  "format": "daily-thinker"
+}
