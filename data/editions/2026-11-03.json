@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T07:51:16+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 3,
+      "category": "AI科技",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "person_name": "Chris Lehane",
+      "person_role": "OpenAI 首席全球事务官",
+      "thinking_question": "中期选举后民主党可能拿下众议院甚至参议院，OpenAI 该如何主动塑造围绕 AI 与数据中心的公共辩论？",
+      "core_judgment": "我认为：中期选举只是 2028 年总统大选的预告片，届时 AI 会成为大选的核心议题，因此我们必须提前介入这场辩论；同时，围绕数据中心的争论是良好且健康的，社区理应让企业承担责任，从而真正从这些项目中获得变革性收益。",
+      "reasoning": [
+        "我认为中期选举只是 2028 年总统选举的“预告片”，届时 AI 会成为大选的核心议题。",
+        "因为民主党可能赢回众议院甚至参议院，所以我们准备在选举后展开一轮公关攻势。",
+        "我要推动的具体方向包括 AI “限速”、让人们看到 AI 对日常生活的赋权、推动美国参与全球标准制定，以及把数据中心改名为“AI 计算园区”。",
+        "我认为围绕数据中心的争论是“良好且健康的”，社区应当让企业承担责任和问责。",
+        "只有让社区真正从这些项目中获得变革性收益，这些项目才站得住脚。"
+      ],
+      "key_quote": "a bit of a movie trailer for what you’re going to see in 2028",
+      "background": "数据中心在美国极不受欢迎，甚至成为中期选举议题；Axios 报道称 OpenAI 正准备在中期选举后展开公关攻势，Chris Lehane 向 Axios 介绍了包括改名在内的多项提议。",
+      "watch_next": "看 OpenAI 在中期选举后是否真的启动这轮公关攻势，以及“AI 计算园区”这一叫法是否被正式采用。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我先把时间点说清楚：周二的中期选举，在我看来只是“一部预告片”，它预告的是 2028 年你们将会看到的东西。到那时，我预期 AI 会成为总统选举中的“那个议题”。正因为这样，我们不能等到 2028 年才开口，选举一结束，我们就要展开一轮公关攻势，主动去影响 AI 辩论接下来的走向。\n\n这场辩论里我想推动的事情有几件。第一，是给 AI 设定“限速”，也就是 AI “speed limits” 这样的安排。第二，是找到办法，让人们看到 AI 是在日常生活中赋权于他们，而不是相反。第三，是推动美国在制定全球标准方面发挥作用。还有一件听起来更表面、但我认为同样重要的事：把数据中心重新命名为“AI 计算园区”。数据中心如今极不受欢迎，可如果换个叫法呢？名字会影响人们怎么理解这件事。\n\n关于数据中心本身的争论，我的态度很明确：我认为这场对话是“良好且健康的”。社区就应该让企业承担责任、接受问责，这样这些项目才能真正给他们带来变革性的收益。这不是我要压下去的声音，而是我认为应当继续下去、并且应当有结果的声音。\n\n所以我的思路是：与其被动挨打，不如把议题摆到台面上，用我们自己的框架去谈限速、谈赋权、谈全球标准、谈命名。中期选举的结果会改变华盛顿的格局，但改变不了我的判断——AI 会成为政治中心议题，而我们要在那之前就把话说出去。"
+    }
+  ],
+  "format": "daily-thinker"
+}
