@@ -1,43 +1,44 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T07:51:16+08:00",
+  "generated_at": "2026-11-03T23:14:12+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 3,
+      "rank": 2,
       "category": "AI科技",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
-      "person_name": "Chris Lehane",
-      "person_role": "OpenAI 首席全球事务官",
-      "thinking_question": "中期选举后民主党可能拿下众议院甚至参议院，OpenAI 该如何主动塑造围绕 AI 与数据中心的公共辩论？",
-      "core_judgment": "我认为：中期选举只是 2028 年总统大选的预告片，届时 AI 会成为大选的核心议题，因此我们必须提前介入这场辩论；同时，围绕数据中心的争论是良好且健康的，社区理应让企业承担责任，从而真正从这些项目中获得变革性收益。",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "person_name": "Gozde Oznur",
+      "person_role": "Google 产品经理",
+      "thinking_question": "Dreambeans 为什么选择印度作为第一个海外市场，又该如何处理多语言混用、隐私和敏感记忆这些落地难题？",
+      "core_judgment": "我认为：印度用户对 Dreambeans 有强烈兴趣，且 Gemini、Gmail、Google Photos 的重叠使用率高，因此印度是首个海外市场；同时我们通过让用户选择连接哪些服务、随时断开、删除数据、屏蔽特定主题等方式来回应隐私与敏感内容问题。",
       "reasoning": [
-        "我认为中期选举只是 2028 年总统选举的“预告片”，届时 AI 会成为大选的核心议题。",
-        "因为民主党可能赢回众议院甚至参议院，所以我们准备在选举后展开一轮公关攻势。",
-        "我要推动的具体方向包括 AI “限速”、让人们看到 AI 对日常生活的赋权、推动美国参与全球标准制定，以及把数据中心改名为“AI 计算园区”。",
-        "我认为围绕数据中心的争论是“良好且健康的”，社区应当让企业承担责任和问责。",
-        "只有让社区真正从这些项目中获得变革性收益，这些项目才站得住脚。"
+        "我判断印度用户对 Dreambeans 有强烈兴趣，所以把它作为第一个海外市场。",
+        "我看到印度用户在 Gemini、Gmail 和 Google Photos 上的重叠度高，这支撑了选择印度的判断。",
+        "我承认应用目前一次只能选一种语言、不能生成混合语言故事，这可能限制它在印度的吸引力。",
+        "我认为用户可以选择连接哪些服务、随时断开并删除数据，从而回应隐私担忧。",
+        "我承认主动生成可能触及已故之人等敏感回忆，因此提供让用户屏蔽特定主题的控制项。",
+        "我们正在探索让 Dreambeans 更具可操作性，帮助用户按建议行动。"
       ],
-      "key_quote": "a bit of a movie trailer for what you’re going to see in 2028",
-      "background": "数据中心在美国极不受欢迎，甚至成为中期选举议题；Axios 报道称 OpenAI 正准备在中期选举后展开公关攻势，Chris Lehane 向 Axios 介绍了包括改名在内的多项提议。",
-      "watch_next": "看 OpenAI 在中期选举后是否真的启动这轮公关攻势，以及“AI 计算园区”这一叫法是否被正式采用。",
+      "key_quote": "India stood out for its high overlap of users across Gemini, Gmail, and Google Photos, Google product manager Gozde Oznur said during a press briefing.",
+      "background": "Google 于 2026 年 6 月推出实验性 AI 应用 Dreambeans，利用 Calendar、Gemini、Gmail、Photos、Search 和 YouTube 等 Google 服务的信息，主动生成个性化图文故事；在美国向所有符合条件的 18 岁以上用户开放后不到两个月，又把印度作为首个海外市场。",
+      "watch_next": "看 Google 是否会为 Dreambeans 增加混合语言生成能力，以及如何把故事和建议推进到可操作层面。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+          "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+          "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/google-dreambeans.jpg?resize=1200,800",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我先把时间点说清楚：周二的中期选举，在我看来只是“一部预告片”，它预告的是 2028 年你们将会看到的东西。到那时，我预期 AI 会成为总统选举中的“那个议题”。正因为这样，我们不能等到 2028 年才开口，选举一结束，我们就要展开一轮公关攻势，主动去影响 AI 辩论接下来的走向。\n\n这场辩论里我想推动的事情有几件。第一，是给 AI 设定“限速”，也就是 AI “speed limits” 这样的安排。第二，是找到办法，让人们看到 AI 是在日常生活中赋权于他们，而不是相反。第三，是推动美国在制定全球标准方面发挥作用。还有一件听起来更表面、但我认为同样重要的事：把数据中心重新命名为“AI 计算园区”。数据中心如今极不受欢迎，可如果换个叫法呢？名字会影响人们怎么理解这件事。\n\n关于数据中心本身的争论，我的态度很明确：我认为这场对话是“良好且健康的”。社区就应该让企业承担责任、接受问责，这样这些项目才能真正给他们带来变革性的收益。这不是我要压下去的声音，而是我认为应当继续下去、并且应当有结果的声音。\n\n所以我的思路是：与其被动挨打，不如把议题摆到台面上，用我们自己的框架去谈限速、谈赋权、谈全球标准、谈命名。中期选举的结果会改变华盛顿的格局，但改变不了我的判断——AI 会成为政治中心议题，而我们要在那之前就把话说出去。"
+      "first_person": "我们选择印度作为 Dreambeans 的第一个国际市场，是因为印度用户对这款应用有强烈的兴趣，而且 Google 的服务在印度使用非常广泛。我特别注意到，印度用户在 Gemini、Gmail 和 Google Photos 之间的重叠度很高，这让我们相信把 Dreambeans 带到这里是有基础的。这次上线支持包括印地语、旁遮普语、泰米尔语、泰卢固语和孟加拉语在内的 13 种本地语言，加上英语。\n\n不过我也要坦率说明一个限制：虽然 Dreambeans 支持很多印度常用语言，但用户一次只能为生成的故事选择一种语言。应用可以跨多个语言从 Google 服务中获取信息，但目前还不能生成混合语言的故事。我知道这在印度可能是个问题，因为很多人经常在语言之间切换，比如印地语和英语混着说，也就是常说的 Hinglish。\n\n关于隐私和数据访问，Dreambeans 依赖用户的 Google 账户信息，这确实会引发疑问。我们的做法是：用户可以选择把哪些 Google 服务连接到 Dreambeans，也可以随时断开；用户可以在应用内删除自己的 Dreambeans 数据。我还明确表示，从底层连接服务中删除的信息，也会从 Dreambeans 的个性化系统中移除。用户还可以告诉 Dreambeans 避开某些主题，包括与业务相关的信息，应用会尝试据此调整生成的故事。另外，Dreambeans 只对个人 Gmail 账户持有者开放，不对企业用户开放，生成的故事也只有账户持有人本人可见。\n\n我也承认，这种主动生成的方式存在风险，可能会呈现让用户难过的回忆。比如 Dreambeans 可能生成涉及已故之人的故事。我对此的回应是，用户可以告诉应用停止展示某些主题，我把这个功能比作 Google Photos 中让用户限制哪些回忆出现的控制项。我们还在探索让 Dreambeans 变得更具可操作性，不只是个性化故事和建议，而是帮助用户根据应用的建议采取行动。"
     }
   ],
   "format": "daily-thinker"
