@@ -5,6 +5,10 @@
 只用 Python 标准库。
 
 选人规则（公开、可解释）：
+- 跨天去重：先读 data/archive.json 往期档案，前几天当选过的文章
+  （按标题比对，忽略空白与大小写）今天不再当选，避免同一篇文章
+  连续被选上（2026-11-02/03 同一篇 TechCrunch 文章重复当选的教训）；
+  若当天候选全部是往期当选文章，则不去重、照常评分（日报不断更优先）。
 - 必须有真实人物（person_name 非空），否则不参与评选；
 - 有逐字校验过的原话（key_quote 非空）+3 分；
 - AI科技类别 +2 分；
@@ -69,9 +73,29 @@ def main() -> int:
         print("[error] 这期没有内容，无法选人。", file=sys.stderr)
         return 1
 
+    # 跨天去重：先读往期档案（后面追加今日当选者时复用同一份数据）
+    archive_path = Path(args.archive) if args.archive else REPO_ROOT / "data" / "archive.json"
+    archive = []
+    if archive_path.exists():
+        try:
+            archive = json.loads(archive_path.read_text(encoding="utf-8"))
+        except Exception:
+            archive = []
+
+    def title_key(t) -> str:
+        return " ".join((t or "").split()).casefold()
+
+    past_titles = {title_key(e.get("title")) for e in archive if e.get("date") != date_str}
+
     with_person = [s for s in stories if s.get("person_name")]
-    if with_person:
-        picked = max(with_person, key=score)
+    fresh = [s for s in with_person if title_key(s.get("title")) not in past_titles]
+    if with_person and len(fresh) < len(with_person):
+        print(f"[info] 跨天去重：跳过 {len(with_person) - len(fresh)} 条往期已当选文章")
+    if with_person and not fresh:
+        print("[warn] 今天候选全部是往期已当选文章，不去重、照常评分（日报不断更优先）")
+    pool = fresh if fresh else with_person
+    if pool:
+        picked = max(pool, key=score)
         reason = f"评分 {score(picked)[0]} 分（有原话/类别/推理链加权）"
     else:
         picked = sorted(stories, key=lambda s: int(s.get("rank") or 99))[0]
@@ -91,14 +115,7 @@ def main() -> int:
         latest.write_text(json.dumps(edition, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[ok] 更新 {latest}")
 
-    # 往期档案：同一天只保留一条（重复跑会覆盖，不会重复记）
-    archive_path = Path(args.archive) if args.archive else REPO_ROOT / "data" / "archive.json"
-    archive = []
-    if archive_path.exists():
-        try:
-            archive = json.loads(archive_path.read_text(encoding="utf-8"))
-        except Exception:
-            archive = []
+    # 往期档案：同一天只保留一条（重复跑会覆盖，不会重复记）；档案已在选人前读入
     entry = {
         "date": edition.get("date", date_str),
         "person_name": picked.get("person_name"),
