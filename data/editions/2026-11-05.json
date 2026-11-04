@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T06:32:14+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 1,
+      "category": "AI科技",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancin…",
+      "person_name": "Chris Lehane",
+      "person_role": "OpenAI 首席全球事务官",
+      "thinking_question": "2028 年总统选举临近，AI 公司该如何推动政界拿出真正回应美国人对 AI 焦虑的政策，而不是只做反 AI 情绪的口头表态？",
+      "core_judgment": "我认为：2028 年大选可能成为 AI 的决定性时刻，政客应当拿出兼顾劳动者保护、教育、AI 安全与数据中心发展的“第三条道路”，让普通人分享 AI 的好处，而不是停留在反 AI 情绪和反对数据中心的口号上。",
+      "reasoning": [
+        "我认为 2028 年总统选举可能成为 AI 的决定性时刻，所以政客现在就该制定政策。",
+        "我把 AI 重塑经济的潜力比作罗斯福新政，因为今天的美国人和当年一样担心失去对经济未来的控制。",
+        "我主张走一条“有说服力的第三条道路”，让普通人分享 AI 的好处，而不是只做反 AI 情绪的口头表态。",
+        "我承认人们对数据中心的担忧，但强调其建筑岗位和地方税收，并警告暂停建设会危及美国对中国的领先。",
+        "我呼吁可执行的 AI 安全标准、独立评估、公共监督和终止开关，同时坚持人对重大决定保持控制。",
+        "我把 AI 进入课堂视为缩小富裕学生与农村孩子差距的手段，并把中产阶级的成功与参与 AI 经济联系起来。"
+      ],
+      "key_quote": "OpenAI’s chief global affairs officer Chris Lehane thinks the 2028 presidential election could be a defining moment for AI.",
+      "background": "中期选举中民主党大胜，选民对生活成本的愤怒是主要推动力；反对数据中心在多个选区成为两党共同关切，而可负担性正成为 2028 年选举的关键议题。",
+      "watch_next": "看他这篇 essay 里的五项政策主张能否转化为 OpenAI 的具体立法游说行动，以及公司如何回应外界对其立场前后不一的质疑。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "OpenAI is already trying to shape the 2028 election",
+          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2263890424.jpg?w=1024",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我把今天的 AI 比作罗斯福新政之前的那个时刻。上世纪三十年代，工业化和大萧条打碎了旧的经济秩序，美国人觉得自己失去了对经济未来的掌控，于是联邦政府拿出了一整套项目与改革。今天美国人的焦虑是相似的——他们同样担心自己正在失去对经济未来的控制权。所以我认为，政客们不能只是对反 AI 情绪和反对数据中心的声浪做口头回应，他们需要找到一条有说服力的“第三条道路”，让普通人也能分享 AI 带来的好处。\n\n我在这篇文章里提出了五项政策优先事项，覆盖劳动者保护、教育、AI 安全和数据中心建设。在税收方面，我主张给学习 AI 技能的劳动者激励，让创业者更容易获得资本，并在员工持股和利润分享上探索新办法。在数据中心问题上，我承认人们的担忧，但同时强调数据中心能带来建筑岗位和地方税收。我还警告说，支持暂停数据中心建设的政客，可能会危及美国对中国的领先地位——我甚至把这种立场比作 2002 年授权伊拉克战争的那次投票。\n\n儿童安全和教育是我议程的中心。我强调要围绕面向未成年人的 AI 陪伴产品设置适龄保护和防护措施。我也警告不要把 AI 挡在教室之外，因为那样会造成富裕学生和“农村社区的孩子”之间的不平等。\n\n在安全上，我呼吁可执行的 AI 安全标准、独立评估、公共监督，以及限制 AI 系统乃至用“终止开关”将其关闭的能力。同时我坚持，人们应当对借助 AI 做出的重大决定保持控制，而不是把判断完全交给机器。贯穿全文，我把 AI 描绘成一种能把主动性和经济机会还给美国人的技术，而普通美国人的“中产阶级”式成功，与参与一个日益由 OpenAI 这类公司塑造的经济联系在一起。"
+    }
+  ],
+  "format": "daily-thinker"
+}
