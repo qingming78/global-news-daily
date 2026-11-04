@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-04",
+    "person_name": "Anthropic researchers",
+    "person_role": "Anthropic 研究团队（FlashProve 项目研究者）",
+    "title": "Anthropic is working on a system to prove AI models’ identity",
+    "category": "AI科技",
+    "core_judgment": "我认为：可以通过发布不泄露模型权重的模型“指纹”，配合密码学证明，让用户验证某段输出确实由特定模型生成，从而防止模型被冒充或偷换。"
+  },
+  {
     "date": "2026-11-03",
     "person_name": "Gozde Oznur",
     "person_role": "Google 产品经理",

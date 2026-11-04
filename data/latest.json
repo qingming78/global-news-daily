@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T23:14:12+08:00",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T10:45:44+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 2,
+      "rank": 1,
       "category": "AI科技",
-      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
-      "person_name": "Gozde Oznur",
-      "person_role": "Google 产品经理",
-      "thinking_question": "Dreambeans 为什么选择印度作为第一个海外市场，又该如何处理多语言混用、隐私和敏感记忆这些落地难题？",
-      "core_judgment": "我认为：印度用户对 Dreambeans 有强烈兴趣，且 Gemini、Gmail、Google Photos 的重叠使用率高，因此印度是首个海外市场；同时我们通过让用户选择连接哪些服务、随时断开、删除数据、屏蔽特定主题等方式来回应隐私与敏感内容问题。",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "person_name": "Anthropic researchers",
+      "person_role": "Anthropic 研究团队（FlashProve 项目研究者）",
+      "thinking_question": "用户如何验证一段 AI 输出确实来自其所声称的那个模型？",
+      "core_judgment": "我认为：可以通过发布不泄露模型权重的模型“指纹”，配合密码学证明，让用户验证某段输出确实由特定模型生成，从而防止模型被冒充或偷换。",
       "reasoning": [
-        "我判断印度用户对 Dreambeans 有强烈兴趣，所以把它作为第一个海外市场。",
-        "我看到印度用户在 Gemini、Gmail 和 Google Photos 上的重叠度高，这支撑了选择印度的判断。",
-        "我承认应用目前一次只能选一种语言、不能生成混合语言故事，这可能限制它在印度的吸引力。",
-        "我认为用户可以选择连接哪些服务、随时断开并删除数据，从而回应隐私担忧。",
-        "我承认主动生成可能触及已故之人等敏感回忆，因此提供让用户屏蔽特定主题的控制项。",
-        "我们正在探索让 Dreambeans 更具可操作性，帮助用户按建议行动。"
+        "我认为用户无法确认一段输出是否真的来自其所声称的模型，这是一个需要解决的问题。",
+        "我认为密码学证明可以像邮件签名一样，让接收方确认输出确实来自声称的模型。",
+        "我认为这套系统必须能防住冒充，包括构建和运行模型的实验室本身的冒充。",
+        "我认为公布不泄露权重的模型指纹，是让系统能用于商业闭源模型的关键。",
+        "我认为系统要足够轻量，使验证可以在本地设备上完成。",
+        "我认为当前只是中间进展，公开分享是为了让别人接手并改进它。"
       ],
-      "key_quote": "India stood out for its high overlap of users across Gemini, Gmail, and Google Photos, Google product manager Gozde Oznur said during a press briefing.",
-      "background": "Google 于 2026 年 6 月推出实验性 AI 应用 Dreambeans，利用 Calendar、Gemini、Gmail、Photos、Search 和 YouTube 等 Google 服务的信息，主动生成个性化图文故事；在美国向所有符合条件的 18 岁以上用户开放后不到两个月，又把印度作为首个海外市场。",
-      "watch_next": "看 Google 是否会为 Dreambeans 增加混合语言生成能力，以及如何把故事和建议推进到可操作层面。",
+      "key_quote": "“This research post is meant to share intermediate progress, and not a completed research agenda,”",
+      "background": "Anthropic 发布博客，介绍其正在开发的开源系统 FlashProve，用于以密码学方式证明 AI 输出的模型身份，并公开了技术规范与部分代码。",
+      "watch_next": "看外部研究者是否会基于其公开的规范与代码接手改进，以及 Anthropic 后续是否推进部署。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-          "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
+          "title": "Anthropic is working on a system to prove AI models’ identity",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/11/google-dreambeans.jpg?resize=1200,800",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294192768.jpg?resize=1200,798",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我们选择印度作为 Dreambeans 的第一个国际市场，是因为印度用户对这款应用有强烈的兴趣，而且 Google 的服务在印度使用非常广泛。我特别注意到，印度用户在 Gemini、Gmail 和 Google Photos 之间的重叠度很高，这让我们相信把 Dreambeans 带到这里是有基础的。这次上线支持包括印地语、旁遮普语、泰米尔语、泰卢固语和孟加拉语在内的 13 种本地语言，加上英语。\n\n不过我也要坦率说明一个限制：虽然 Dreambeans 支持很多印度常用语言，但用户一次只能为生成的故事选择一种语言。应用可以跨多个语言从 Google 服务中获取信息，但目前还不能生成混合语言的故事。我知道这在印度可能是个问题，因为很多人经常在语言之间切换，比如印地语和英语混着说，也就是常说的 Hinglish。\n\n关于隐私和数据访问，Dreambeans 依赖用户的 Google 账户信息，这确实会引发疑问。我们的做法是：用户可以选择把哪些 Google 服务连接到 Dreambeans，也可以随时断开；用户可以在应用内删除自己的 Dreambeans 数据。我还明确表示，从底层连接服务中删除的信息，也会从 Dreambeans 的个性化系统中移除。用户还可以告诉 Dreambeans 避开某些主题，包括与业务相关的信息，应用会尝试据此调整生成的故事。另外，Dreambeans 只对个人 Gmail 账户持有者开放，不对企业用户开放，生成的故事也只有账户持有人本人可见。\n\n我也承认，这种主动生成的方式存在风险，可能会呈现让用户难过的回忆。比如 Dreambeans 可能生成涉及已故之人的故事。我对此的回应是，用户可以告诉应用停止展示某些主题，我把这个功能比作 Google Photos 中让用户限制哪些回忆出现的控制项。我们还在探索让 Dreambeans 变得更具可操作性，不只是个性化故事和建议，而是帮助用户根据应用的建议采取行动。"
+      "first_person": "我们做 FlashProve，是因为一个很实际的问题：用户拿到一段 AI 输出，凭什么相信它真的来自自己以为在用的那个模型？现在没有任何可靠办法。我们想要的是“可证明推理”——本质上是一份密码学证明，一份数学上的保证，证明某段输出确实出自某个特定模型。这就像邮件的密码学签名，收件人能确认消息真的来自它声称的发送者。\n\n这套系统对冒充者是稳健的，哪怕冒充者就是构建和运行这个模型的实验室本身。我们特别指出，它可以防止一家 AI 公司偷偷换上一个更便宜的模型来削减成本，或者换上一个更贵的模型来抬高自己的性能成绩。它也能用来核实第三方的说法：比如一个开发者声称自己的软件库被某个前沿网络安全模型扫描过漏洞，或者一家公司声称自己的商业计划得到了某个合适模型的批准——用户怎么验证这些说法？这正是我们要回答的问题。\n\n要让这套系统运转，AI 实验室需要为每个发布的模型公布一份“指纹”，之后这份指纹可以匹配到具体输出，并用密码学方式验证。关键在于，指纹不会暴露模型的权重，也就是那些定义模型行为、被 Anthropic 和 OpenAI 这类闭源厂商视为私有的内部数字。这意味着实验室可以在不交出自己最宝贵资产的前提下公布指纹，让这套系统也能用于商业模型。我们还把它设计得很轻量，验证可以在本地设备上完成。\n\n需要说清楚的是，这只是中间进展，不是一份已完成的研究议程。我们公开分享，明确就是希望别人来看我们做了什么，把它拿走，然后改进它。我们发布了详细的技术规范和系统各部分可运行的代码，以开源许可放在 GitHub 上。这项研究仍在进行中，目前没有在 Anthropic 或任何其他实验室部署它的计划。"
     }
   ],
   "format": "daily-thinker"
