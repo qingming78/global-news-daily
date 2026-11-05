@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T06:38:49+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 1,
+      "category": "AI科技",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Mu…",
+      "person_name": "Alexandr Wang",
+      "person_role": "Meta 首席 AI 官（chief AI officer）",
+      "thinking_question": "如何让用户对 Meta 的 AI 智能体 Muse 产生更强的连接感，并愿意与它进行实时视频对话？",
+      "core_judgment": "我认为：把 Muse 拟人化成一个可爱的动画形象，并让它以实时语音和视频与用户对话，能让消费者对 AI 智能体产生更强的连接感。",
+      "reasoning": [
+        "我认为拟人化能让消费者对 AI 智能体产生更强的连接感。",
+        "我认为实时对话会让这种连接感变得更强。",
+        "我们给 Muse 设计了可爱的动画形象，并允许用户自定义成更像人、动物或其他角色。",
+        "我们让形象在说话时用细微的表情和手势匹配对话语气，虽然它并不“看见”用户，但能听见并做出反应。",
+        "实时对话已支持手机、网页和 Mac，之后还会进入 AI 眼镜和 Muse Charm 硬件设备。"
+      ],
+      "key_quote": "The company believes that anthropomorphizing Muse in this way could make consumers feel more connected to their AI agent — a connection that could grow even stronger as they begin to engage in live conversations with it.",
+      "background": "Meta 在 9 月 Connect 开发者大会上首次介绍 Muse Voice，如今向全美用户开放视频通话功能，并计划年底前推出类似 Tamagotchi 的 Muse 可穿戴设备。",
+      "watch_next": "看他推动 Muse 实时对话登陆 AI 眼镜与“Muse Charm”硬件设备，以及年底前那款可穿戴设备能否如期推出。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "Meta says US users can now video chat with their Muse AI avatar",
+          "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我在 X 上发布了 Muse 的演示，也通过博客文章宣布了这次上线：Muse Voice 现在向全美所有人开放，用户可以打电话、视频聊天，和 Meta 的消费级 AI 智能体 Muse 对话。这个功能最早是在 9 月的 Meta Connect 开发者大会上介绍的，背后是新的 AI 模型——Muse Realtime Avatar 和 Muse Realtime Voice 技术，它们支撑起那个和用户聊天的数字形象。\n\n我之所以愿意亲自演示，是因为我相信这种交互方式本身值得展示。在视频里我拿自己爱在 X 上发梗图开玩笑，跟我的 Muse 说这也许给我老板惹了麻烦；我的 Muse 是一只毛茸茸的白狗，它回应说，可以给那些可能被误解为 Meta 背书任何低俗内容的梗图加上免责声明。这就是我想让大家看到的东西：它不是冷冰冰的问答框，而是一个会接话、会给出具体建议的对话对象。\n\n我们相信，把 Muse 这样拟人化，能让消费者觉得自己和这个 AI 智能体更有连接感；而当他们开始和它进行实时对话，这种连接感还可能变得更强。Muse 是一个可爱的动画形象，昵称叫 Jolly，用户可以按自己的喜好定制它，把它改成更像人、像动物或者别的角色。当这个形象说话时，它会用“细微的表情和手势”去匹配对话的语气。需要说明的是，Muse 实际上并不“看见”用户，但它能听见用户，并根据对话做出反应。\n\n接下来，实时对话已经在手机、网页和 Mac 上支持，之后还会来到我们的 AI 眼镜和即将推出的“Muse Charm”硬件设备上。在年底之前，我们计划推出一款类似 Tamagotchi 的可穿戴设备，数字形象会出现在它的小屏幕上，让用户和智能体说话，智能体则回复或替他们执行任务。我期待的是，当这个形象从屏幕走进随身设备，用户和 Muse 的关系会继续加深。"
+    }
+  ],
+  "format": "daily-thinker"
+}
