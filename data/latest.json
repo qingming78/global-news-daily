@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-06",
-  "generated_at": "2026-11-06T06:38:49+08:00",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T06:00:28+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
       "rank": 1,
       "category": "AI科技",
-      "title": "Meta says US users can now video chat with their Muse AI avatar",
-      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Mu…",
-      "person_name": "Alexandr Wang",
-      "person_role": "Meta 首席 AI 官（chief AI officer）",
-      "thinking_question": "如何让用户对 Meta 的 AI 智能体 Muse 产生更强的连接感，并愿意与它进行实时视频对话？",
-      "core_judgment": "我认为：把 Muse 拟人化成一个可爱的动画形象，并让它以实时语音和视频与用户对话，能让消费者对 AI 智能体产生更强的连接感。",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "person_name": "Mark Zuckerberg",
+      "person_role": "Meta 创始人兼 CEO",
+      "thinking_question": "Muse 智能体已经积累了一批用户，接下来如何让用户真正把它用起来、围绕具体项目持续协作？",
+      "core_judgment": "我认为：Spaces 让用户只需在对话里描述想法，Muse 就会替你把它搭成一个空间——无论是追踪器、规划器还是项目看板；我自己已经用它做了烧烤游戏、活动追踪器和家居控制面板，很期待看到用户会搭出什么。",
       "reasoning": [
-        "我认为拟人化能让消费者对 AI 智能体产生更强的连接感。",
-        "我认为实时对话会让这种连接感变得更强。",
-        "我们给 Muse 设计了可爱的动画形象，并允许用户自定义成更像人、动物或其他角色。",
-        "我们让形象在说话时用细微的表情和手势匹配对话语气，虽然它并不“看见”用户，但能听见并做出反应。",
-        "实时对话已支持手机、网页和 Mac，之后还会进入 AI 眼镜和 Muse Charm 硬件设备。"
+        "我认为用户只需要在聊天里描述想法，Muse 就能替他们构建出空间，这降低了把想法变成工具的门槛。",
+        "我自己用 Spaces 做了烧烤游戏、活动追踪器和家居控制面板，说明这种搭建方式对普通用户是可行的。",
+        "空间可以连接第三方应用并在后台自动更新，所以它不只是对话，而是能持续维护的项目载体。",
+        "Muse 智能体在不到两个月内于美国和加拿大积累了 1000 万用户，这让我相信继续围绕智能体扩展体验是有依据的。",
+        "这个赛道已有 OpenAI 的 dots 和 SpaceXAI 的 Grokbot 等同类产品，所以最终要看用户能用它搭出什么。"
       ],
-      "key_quote": "The company believes that anthropomorphizing Muse in this way could make consumers feel more connected to their AI agent — a connection that could grow even stronger as they begin to engage in live conversations with it.",
-      "background": "Meta 在 9 月 Connect 开发者大会上首次介绍 Muse Voice，如今向全美用户开放视频通话功能，并计划年底前推出类似 Tamagotchi 的 Muse 可穿戴设备。",
-      "watch_next": "看他推动 Muse 实时对话登陆 AI 眼镜与“Muse Charm”硬件设备，以及年底前那款可穿戴设备能否如期推出。",
+      "key_quote": "Playing around with spaces in Muse lately — tell Muse what you need and it builds it. I’ve made a BBQ game, an event tracker, and a home control dashboard. Excited to see what you build.",
+      "background": "Meta 近期推出 Muse 智能体，并在一周内接连发布 Muse Voice 与 Spaces 两项新功能；Spaces 被官方称为“自定义体验”，位于与 Muse 交互界面的侧边栏。",
+      "watch_next": "看他是否会继续公开演示自己用 Spaces 搭出的新东西，以及 Meta 是否披露 Spaces 的使用数据。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Meta says US users can now video chat with their Muse AI avatar",
-          "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
+          "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
         }
       ],
       "images": [
@@ -37,7 +37,7 @@
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我在 X 上发布了 Muse 的演示，也通过博客文章宣布了这次上线：Muse Voice 现在向全美所有人开放，用户可以打电话、视频聊天，和 Meta 的消费级 AI 智能体 Muse 对话。这个功能最早是在 9 月的 Meta Connect 开发者大会上介绍的，背后是新的 AI 模型——Muse Realtime Avatar 和 Muse Realtime Voice 技术，它们支撑起那个和用户聊天的数字形象。\n\n我之所以愿意亲自演示，是因为我相信这种交互方式本身值得展示。在视频里我拿自己爱在 X 上发梗图开玩笑，跟我的 Muse 说这也许给我老板惹了麻烦；我的 Muse 是一只毛茸茸的白狗，它回应说，可以给那些可能被误解为 Meta 背书任何低俗内容的梗图加上免责声明。这就是我想让大家看到的东西：它不是冷冰冰的问答框，而是一个会接话、会给出具体建议的对话对象。\n\n我们相信，把 Muse 这样拟人化，能让消费者觉得自己和这个 AI 智能体更有连接感；而当他们开始和它进行实时对话，这种连接感还可能变得更强。Muse 是一个可爱的动画形象，昵称叫 Jolly，用户可以按自己的喜好定制它，把它改成更像人、像动物或者别的角色。当这个形象说话时，它会用“细微的表情和手势”去匹配对话的语气。需要说明的是，Muse 实际上并不“看见”用户，但它能听见用户，并根据对话做出反应。\n\n接下来，实时对话已经在手机、网页和 Mac 上支持，之后还会来到我们的 AI 眼镜和即将推出的“Muse Charm”硬件设备上。在年底之前，我们计划推出一款类似 Tamagotchi 的可穿戴设备，数字形象会出现在它的小屏幕上，让用户和智能体说话，智能体则回复或替他们执行任务。我期待的是，当这个形象从屏幕走进随身设备，用户和 Muse 的关系会继续加深。"
+      "first_person": "我最近一直在玩 Muse 里的 Spaces，我的体会很简单：你告诉 Muse 你需要什么，它就把这个东西给你搭出来。我自己动手做了几样——一个烧烤游戏、一个活动追踪器，还有一个家居控制面板。这些都不是我事先规划好要开发的功能，而是我一边用一边冒出来的想法，Spaces 让我能直接把想法变成可用的东西。\n\n我看重的是这种“描述即搭建”的方式。按 Meta 的说法，你在聊天里描述一个想法，Muse 就会为你构建一个空间，可以是追踪器、规划器，也可以是项目看板。比如你想规划一次度假，就开一个专门针对这个项目的空间；想为即将到来的家庭聚会收集食谱，也开一个专门的空间。这些空间就放在你与 Muse 交互界面的侧边栏里，点开就能继续推进那个目标。\n\n另一个我认为关键的点是连接。把你在用的应用接进来，你的空间就会在后台自己保持更新，新的演出日期、价格变动、储蓄进度都会自动出现，不需要你再去问。这意味着空间不是一次性的对话记录，而是一个会自己生长的东西。\n\n我之所以对这个方向有信心，是因为用户对 Muse 智能体的接受度相当不错。我们在十月的财报电话会上说过，这些智能体在美国和加拿大已经有 1000 万用户，而那时距离它们首次亮相还不到两个月。这个数字让我相信，围绕智能体把用户体验继续做厚是值得的。Spaces 其实是过去一周里 Meta 推出的第二个 Muse 新功能，此前我们还发布了 Muse Voice，让用户可以和自己的智能体视频通话、用语音下指令。\n\n当然，我也清楚这个领域不止我们一家在做。OpenAI 的 dots、SpaceXAI 的 Grokbot，都是以类似卡通化人格亮相的可爱型 AI 智能体。竞争就在那里，所以我把注意力放在让用户真的能搭出东西上。我很期待看到用户会搭出什么。"
     }
   ],
   "format": "daily-thinker"
