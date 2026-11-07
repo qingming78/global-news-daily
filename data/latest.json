@@ -1,43 +1,44 @@
 {
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07T06:00:28+08:00",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T04:47:51+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 1,
+      "rank": 3,
       "category": "AI科技",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
-      "person_name": "Mark Zuckerberg",
-      "person_role": "Meta 创始人兼 CEO",
-      "thinking_question": "Muse 智能体已经积累了一批用户，接下来如何让用户真正把它用起来、围绕具体项目持续协作？",
-      "core_judgment": "我认为：Spaces 让用户只需在对话里描述想法，Muse 就会替你把它搭成一个空间——无论是追踪器、规划器还是项目看板；我自己已经用它做了烧烤游戏、活动追踪器和家居控制面板，很期待看到用户会搭出什么。",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor…",
+      "person_name": "Ara Kharazian",
+      "person_role": "Ramp 首席经济学家",
+      "thinking_question": "AI 使用量在涨、支出却停滞，这对 OpenAI、Anthropic 等模型公司的收入轨迹和 IPO 估值意味着什么？",
+      "core_judgment": "我认为：AI 支出高速增长的时代可能已经结束，支出放缓不是因为需求不足，而是价格战、买方市场和客户变得更精打细算共同压低了单位成本；仅靠头部 1% 公司撑起的增长一旦减速，整个收入就会同步放缓。",
       "reasoning": [
-        "我认为用户只需要在聊天里描述想法，Muse 就能替他们构建出空间，这降低了把想法变成工具的门槛。",
-        "我自己用 Spaces 做了烧烤游戏、活动追踪器和家居控制面板，说明这种搭建方式对普通用户是可行的。",
-        "空间可以连接第三方应用并在后台自动更新，所以它不只是对话，而是能持续维护的项目载体。",
-        "Muse 智能体在不到两个月内于美国和加拿大积累了 1000 万用户，这让我相信继续围绕智能体扩展体验是有依据的。",
-        "这个赛道已有 OpenAI 的 dots 和 SpaceXAI 的 Grokbot 等同类产品，所以最终要看用户能用它搭出什么。"
+        "我看到 token 支出在 8 月和 9 月只增长 1.5%，而 7 月环比增长 42%，说明支出增长明显失速。",
+        "使用量仍在上升，所以我认为放缓不是需求问题，而是价格竞争和客户更精打细算压低了单位成本。",
+        "OpenAI 和 Anthropic 的降价与企业折扣让使用 AI 更便宜，Anthropic 自己说降价使收入增长减少约 6 亿美元。",
+        "Meta、英伟达、开源模型公司和 Jev 等带来充分竞争，使 AI 市场成为买方市场，补贴换锁定的老套路难以奏效。",
+        "几乎全部 AI 支出都来自风投支持的高增长科技公司，头部 1% 支出略降就足以拖慢整体收入。",
+        "个人代理不像编程代理那样有经济生产力，我不认为它能提供行业所需的持续增长动力。"
       ],
-      "key_quote": "Playing around with spaces in Muse lately — tell Muse what you need and it builds it. I’ve made a BBQ game, an event tracker, and a home control dashboard. Excited to see what you build.",
-      "background": "Meta 近期推出 Muse 智能体，并在一周内接连发布 Muse Voice 与 Spaces 两项新功能；Spaces 被官方称为“自定义体验”，位于与 Muse 交互界面的侧边栏。",
-      "watch_next": "看他是否会继续公开演示自己用 Spaces 搭出的新东西，以及 Meta 是否披露 Spaces 的使用数据。",
+      "key_quote": "The era of hypergrowth may be over, and now that we know there may not be as much juice to squeeze out of the top 1%",
+      "background": "Ramp 的数据显示，2026 年夏末 AI 支出趋于平缓，而 token 使用量仍在上升；此时 Anthropic 正筹备 IPO，其潜在估值据报从 2 万亿美元降至 1.2 至 1.3 万亿美元。",
+      "watch_next": "看他后续发布的“Cracks in the AI Thesis”系列博客和 Ramp 数据，是否继续印证 AI 支出放缓以及个人代理能否成为新的增长引擎。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+          "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/ara-stripe-5.png?resize=1200,779",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我最近一直在玩 Muse 里的 Spaces，我的体会很简单：你告诉 Muse 你需要什么，它就把这个东西给你搭出来。我自己动手做了几样——一个烧烤游戏、一个活动追踪器，还有一个家居控制面板。这些都不是我事先规划好要开发的功能，而是我一边用一边冒出来的想法，Spaces 让我能直接把想法变成可用的东西。\n\n我看重的是这种“描述即搭建”的方式。按 Meta 的说法，你在聊天里描述一个想法，Muse 就会为你构建一个空间，可以是追踪器、规划器，也可以是项目看板。比如你想规划一次度假，就开一个专门针对这个项目的空间；想为即将到来的家庭聚会收集食谱，也开一个专门的空间。这些空间就放在你与 Muse 交互界面的侧边栏里，点开就能继续推进那个目标。\n\n另一个我认为关键的点是连接。把你在用的应用接进来，你的空间就会在后台自己保持更新，新的演出日期、价格变动、储蓄进度都会自动出现，不需要你再去问。这意味着空间不是一次性的对话记录，而是一个会自己生长的东西。\n\n我之所以对这个方向有信心，是因为用户对 Muse 智能体的接受度相当不错。我们在十月的财报电话会上说过，这些智能体在美国和加拿大已经有 1000 万用户，而那时距离它们首次亮相还不到两个月。这个数字让我相信，围绕智能体把用户体验继续做厚是值得的。Spaces 其实是过去一周里 Meta 推出的第二个 Muse 新功能，此前我们还发布了 Muse Voice，让用户可以和自己的智能体视频通话、用语音下指令。\n\n当然，我也清楚这个领域不止我们一家在做。OpenAI 的 dots、SpaceXAI 的 Grokbot，都是以类似卡通化人格亮相的可爱型 AI 智能体。竞争就在那里，所以我把注意力放在让用户真的能搭出东西上。我很期待看到用户会搭出什么。"
+      "first_person": "我看到的第一个事实是，企业对 AI 的使用比以往任何时候都多，但花的钱没有更多。Ramp 的数据显示，token 支出在 8 月和 9 月合计只增长了 1.5%，而 7 月还比上月增长 42%。10 月的数据确实有反弹，9 月 23 日到 10 月 23 日 token 支出增长了 8.9%，但我认为支出增长面临的压力很强。\n\n我要强调的是，这不是需求问题，AI 的使用量仍在上升。问题出在市场竞争上。OpenAI 和 Anthropic 的降价让使用 AI 变得更便宜：9 月 OpenAI 把 GPT-6 Sol 和 GPT-6 Luna 的 API 价格砍半，Anthropic 为回应价格战也大幅下调 Fable 5.1 和 Opus 5.5 的价格，公司在近期文件中说这使收入增长减少了约 6 亿美元。两家公司还提供企业折扣，本意是锁定支出，实际上却压低了收入目标。这已经是一个非常明显的买方市场。\n\n有人会说，补贴昂贵技术以锁定客户是大型科技公司的惯用套路，就像当年 Uber 和 Lyft 便宜、等竞争者少了价格就涨上去。我认为这套逻辑在 AI 世界行不通，因为竞争太多了。Meta 和英伟达也在推出企业产品，有很便宜的模型或开源模型；还有来自中国和美国的众多开放模型公司，以及一家叫 Jev 的新公司——它是个在几个预设输出之间做选择的轻量工具，在 Ramp 上的表现越来越靠前。对很多 AI 用例来说，你只需要一个简单的“是/否”，于是你把本来就很便宜的模型转到 Jev 上，便宜的东西变得更便宜。\n\n还有一个因素是客户自己变得更会省钱。随着你在使用 AI 上越来越熟练，你会更懂得如何控制它：更可能用默认设置阻止长时间任务调用很贵的模型，更可能给员工设预算，更可能通过路由器把标准模型和轻量模型的支出转移到更便宜的轻量模型上。Notion 联合创始人 Akshay Kothari 最近发布的内部数据也印证了这一点，他说得很简洁：“tokens go brrr. costs go ahhh.” 我们过去关于 AI 支出轨迹的很多假设正在开始瓦解：你可以用更多 AI，但花更少的钱。这对客户是好事，对模型公司却不一定，并且给它们的收入轨迹带来了新的问题。\n\n我尤其担心集中度。几乎全部的 AI 支出都来自风投支持的高增长科技公司。只要 AI 支出继续上升，这没问题；但如果因为市场或其他因素开始放缓，它们会同时放缓，并可能引发连锁反应。我已经看到证据：最“AI 上头”的头部 1% 公司在 8 月和 9 月的支出略有停滞，略低于它们夏季峰值时每名员工每月 1 万美元的水平。这一群体的放缓，就足以让整体收入完全慢下来，尽管使用量还在上升。中位数公司每月每名员工花 12 到 15 美元，前 10% 花 600 到 1000 美元，这些增长不足以弥补差额。而且看今天的用例，并不清楚它们能否达到 1% 公司那种每名员工每月 1 万美元的水平——软件和金融等行业对 AI 编程代理有大量需求，但医生的诊所或汽车经销商未必需要在 AI 上花那么多钱。\n\n所以我认为，超高速增长的时代可能已经结束，现在我们知道头部 1% 身上可能也榨不出那么多油水了。有人寄望于个人代理成为下一个编程代理那样的增长引擎，OpenAI、SpaceXAI、Meta 和 Instinct 等初创公司都推出了自己的个人代理。但我对此持怀疑态度，个人代理不像编程那样有经济生产力。预测总是说会有新产品带来进一步增长，但根据我们今天能观察到的、可用的和商业上成熟的产品来看，AI 支出已经开始放缓。"
     }
   ],
   "format": "daily-thinker"
