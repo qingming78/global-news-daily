@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T05:04:02+08:00",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T08:39:13+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 5,
+      "rank": 2,
       "category": "AI科技",
-      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive…",
-      "person_name": "Dina Powell McCormick",
-      "person_role": "Meta 总裁",
-      "thinking_question": "中期选举中民主党获胜、反数据中心情绪高涨，Meta 的 AI 与数据中心扩张还能不能继续推进？",
-      "core_judgment": "我认为：选举结果会让建数据中心变得更难，因为行业没有把这类投资的好处解释清楚；但只要能证明数据中心和 AI 技术本身的价值，并让社区真正受益，我们仍能扭转负面情绪、找到可行的模式。",
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export rest…",
+      "person_name": "Jensen Huang",
+      "person_role": "英伟达 CEO",
+      "thinking_question": "美国是否应该继续向中国出售 AI 芯片，而不是把中国隔绝在这项技术之外？",
+      "core_judgment": "我认为：美国应当继续向中国出售 AI 芯片，出口管制是失败的、不明智的；把英伟达挡在中国算力市场之外，只会促使中国发展自己的 AI 芯片，最终在国际上挑战英伟达。",
       "reasoning": [
-        "我认为民主党在中期选举中获胜，会让企业建数据中心难得多。",
-        "我认为反数据中心的情绪与人们对 AI 整体的感受紧密相关，数据中心是 AI 最可见的形态。",
-        "我认为行业没有把这类投资的好处解释清楚，所以需要展示数据中心和技术的价值。",
-        "我认为社区只有在数据中心能带来实际好处时才会接受它，比如自付电费、税收盈余用于教师和急救人员、雇佣本地劳动力、获得两党支持。",
-        "我认为未来数据中心项目会面临更多审查，并被衡量当地选民是否真的想要。",
-        "我认为即便 Muse 没有达到预期，已建成的算力本身也有价值，因为每天都有人来求租，变现路径是存在的。"
+        "我认为美国应当继续向中国出售 AI 芯片，而不是把中国隔绝在技术之外。",
+        "我公开说出口管制是“失败”，并说美中搞两套独立的 AI 生态“不明智”。",
+        "我警告把英伟达挡在中国算力市场之外，会促使中国开发自己的 AI 芯片并在国际上挑战英伟达。",
+        "中国曾是大市场，截至 7 月 26 日的三个月贡献 79 亿美元、约占总收入 8%，但已因管制和本土替代而缩水。",
+        "我反复游说美国政府，去年多次会见特朗普和官员后，政府撤销了 H20 限制并允许出口 H200。",
+        "我的游说早于 2024 年初据称的那次见面，所以所谓我需要被鼓励的说法站不住脚。"
       ],
-      "key_quote": "“I think it’s going to be harder,” Powell McCormick said, describing what the future of building data centers looks like.",
-      "background": "Meta 总裁 Dina Powell McCormick 在 WSJ Tech 大会上谈到，中期选举中反数据中心情绪成为选票议题，Meta 正押注 AI 投资与数据中心扩张。",
-      "watch_next": "看她与 Meta 如何在更多审查下与各州和社区谈成数据中心项目，并推进 Muse 的扩张与算力出租变现。",
+      "key_quote": "He has also warned that shutting Nvidia out of China’s compute market would enable the country to develop its own AI chips to challenge Nvidia internationally.",
+      "background": "英伟达 CEO 黄仁勋长期主张美国应继续向中国出售 AI 芯片，并多次游说放松出口管制。金融时报披露他与被美方怀疑为中国间谍的 Alice Huang 有婚外情，他承认并道歉，公司独立董事和国会已介入。",
+      "watch_next": "看英伟达独立董事的调查结果，以及黄仁勋能否说服华盛顿继续允许英伟达与中国做生意。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-          "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
+          "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/07/data-center-2.jpg?resize=1200,899",
+          "url": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192223928.jpg?resize=1200,801",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我认为这次中期选举的结果，会让企业建数据中心变得难得多。这不是突然发生的事，过去一直就很难，只是现在更清楚了。反数据中心的情绪这次实实在在地出现在了选票上，而人们反对数据中心，其实和他们怎么看待 AI 这项技术本身是连在一起的。AI 最直观、最看得见摸得着的形态就是一座数据中心，所以人们很容易说“我不想让它建在我的社区里”。但我认为背后还有一个更大的问题，那就是人们对 AI 整体的感受。\n\n我也承认，我们行业在解释这些投资的好处这件事上，做得不够好，没有做到我们该做到的程度。所以现在要做的，是去展示价值——不仅是数据中心给当地社区带来的价值，也包括这项技术本身的价值。这件事的赌注很大：谁来建造能治愈癌症、能让人们获得教育机会的技术，这是一个非常根本的差别。Mark 非常“相信人类”，他押注的是人，而不是机器。我们说未来属于每个人，意思就是人不应该被落下；而要确保这一点，办法就是让这项技术民主化，让人们能以非常公平、透明的方式接触到它。\n\n我们并不是没有经验。Meta 建数据中心已经建了 20 年，因为要在社交网络领域提供我们那些产品，需要大量算力。今天我们在 23 个州有数据中心，其中五个，包括得州的一个，规划为 1 吉瓦以上的项目。但我也担心，政客们打着反数据中心的纲领参加中期选举之后，我们可能会损失一部分投资。\n\n不过我也看到，什么样的模式行得通正在变得清晰，各州想要的就是那些行得通的模式。具体来说，社区只有在能从中受益时才会欢迎数据中心：我们为自身用电付费，把数据中心带来的税收盈余定向用于教师和急救人员，雇佣本地劳动力，并让项目获得两党支持，等等。往后，我预计数据中心项目会受到更多审查，会被拿来衡量当地选民到底想不想要它。我们把希望寄托在 AI 投资上，尤其是消费级 AI 智能体 Muse，希望它能从今天的一千多万用户扩展到有朝一日服务数十亿人。但即便不是这样，我们也相信数据中心的投资不会白费，因为算力本身就有价值——我们每天都接到电话要租用我们建好的算力，所以不管走哪条路，我们都能看到变现的路径。"
+      "first_person": "我一直不掩饰自己的看法：美国应当继续把 AI 芯片卖给中国，而不是把这个国家从这项技术里隔绝出去。去年我在一次会议上公开说出口管制是“失败”，今年五月我又说过，美国和中国搞出两套各自独立的 AI 生态“不明智”。这不是随口一说，而是我一贯的立场，我反复向美国政府游说，希望扩大对中国的准入。\n\n我这么想，是因为我看到的现实是：中国历史上一直是英伟达的大市场。截至 7 月 26 日的三个月里，总部设在中国的客户给我们带来了 79 亿美元收入，约占总收入的 8%。这个比例近年因为美国严格的出口管制和北京大力推动本土替代而缩水，但它依然重要。更重要的是，我警告过，把英伟达挡在中国算力市场之外，只会让中国自己开发出 AI 芯片，最终在国际上挑战英伟达。中国已经在往这个方向走了。\n\n我的游说并非没有效果。去年我多次会见特朗普总统和政府官员，之后政府撤销了对我们 H20 芯片的限制，还允许出口更强的 H200 处理器。这说明只要讲清利害，政策是可以调整的。\n\n但现在我面临一个麻烦：外界披露了我与 Alice Huang 的婚外情，她是英伟达客户 Megaspeed 的前高管。我在周日给公司的备忘录里承认了这件事并道歉。美国情报官员认为她曾被中国情报机构招募，目的是收集关于我的信息、影响公司放松芯片出口限制的努力。英伟达的独立董事正与外部法律顾问一起调查此事，国会已经在要求答案，据说国务卿 Marco Rubio 今年早些时候还就这段关系向特朗普身边的官员发出过警告。\n\n有人说我需要一个漂亮女人来推动对华准入，这实在牵强——我的游说早在 2024 年初据称在那场英伟达活动上见面之前就开始了。说到底，我就是一个想主导世界最大 AI 市场之一的销售员。但我也清楚，这些指控会让外界重新审视公司的商业关系，可能玷污英伟达关于能防止敏感技术流入未授权客户手中的保证。即使调查证明我没有向情人泄露机密，问题也在于：我还能不能说服华盛顿，让英伟达继续负责任地与中国做生意。"
     }
   ],
   "format": "daily-thinker"
