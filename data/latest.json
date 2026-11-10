@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-10",
-  "generated_at": "2026-11-10T08:39:13+08:00",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T06:17:12+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 2,
+      "rank": 1,
       "category": "AI科技",
-      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export rest…",
-      "person_name": "Jensen Huang",
-      "person_role": "英伟达 CEO",
-      "thinking_question": "美国是否应该继续向中国出售 AI 芯片，而不是把中国隔绝在这项技术之外？",
-      "core_judgment": "我认为：美国应当继续向中国出售 AI 芯片，出口管制是失败的、不明智的；把英伟达挡在中国算力市场之外，只会促使中国发展自己的 AI 芯片，最终在国际上挑战英伟达。",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safe…",
+      "person_name": "Kathy Hochul",
+      "person_role": "纽约州州长",
+      "thinking_question": "面对科技巨头宣称AI发展不可阻挡、代价可以承受的说法，州政府应如何监管前沿AI开发者？",
+      "core_judgment": "我认为：科技巨头说他们的AI愿景不可避免、 collateral damage 值得，但我们要建立把社区置于公司之上、把人置于强大技术之上的明智AI监管模式。",
       "reasoning": [
-        "我认为美国应当继续向中国出售 AI 芯片，而不是把中国隔绝在技术之外。",
-        "我公开说出口管制是“失败”，并说美中搞两套独立的 AI 生态“不明智”。",
-        "我警告把英伟达挡在中国算力市场之外，会促使中国开发自己的 AI 芯片并在国际上挑战英伟达。",
-        "中国曾是大市场，截至 7 月 26 日的三个月贡献 79 亿美元、约占总收入 8%，但已因管制和本土替代而缩水。",
-        "我反复游说美国政府，去年多次会见特朗普和官员后，政府撤销了 H20 限制并允许出口 H200。",
-        "我的游说早于 2024 年初据称的那次见面，所以所谓我需要被鼓励的说法站不住脚。"
+        "我认为科技巨头所谓AI愿景不可避免、附带损害值得的说法不能成为不监管的理由。",
+        "因此纽约要通过RAISE Act要求大型前沿开发者公开安全框架、72小时内报告重大安全事件并发布模型透明度报告。",
+        "我设立DIGIT办公室来执行这部法律并监督大型前沿AI实验室，违规可处以最高100万至300万美元罚款。",
+        "我还启动纽约AI责任与研究中心，让它独立评估先进AI系统的安全、安保和运行，并与DIGIT合作审查企业安全框架。",
+        "我此前已推动AI伴侣告知义务和未成年人聊天机器人安全法，说明我倾向于用具体规则保护社区和民众。",
+        "我的目标是建立把社区置于公司之上、把人置于强大技术之上的全国性AI监管样板。"
       ],
-      "key_quote": "He has also warned that shutting Nvidia out of China’s compute market would enable the country to develop its own AI chips to challenge Nvidia internationally.",
-      "background": "英伟达 CEO 黄仁勋长期主张美国应继续向中国出售 AI 芯片，并多次游说放松出口管制。金融时报披露他与被美方怀疑为中国间谍的 Alice Huang 有婚外情，他承认并道歉，公司独立董事和国会已介入。",
-      "watch_next": "看英伟达独立董事的调查结果，以及黄仁勋能否说服华盛顿继续允许英伟达与中国做生意。",
+      "key_quote": "We’re building a national model for smart, sensible AI regulation, a model that puts communities above corporations and people above powerful technology",
+      "background": "纽约州开设注册门户，要求年收入超5亿美元的大型前沿AI开发者在2027年1月1日前注册，RAISE Act将于年初生效，DIGIT办公室负责执行。",
+      "watch_next": "看大型前沿开发者是否按期注册并公开安全框架，以及DIGIT与新研究中心如何开展审查和执法。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
+          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192223928.jpg?resize=1200,801",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我一直不掩饰自己的看法：美国应当继续把 AI 芯片卖给中国，而不是把这个国家从这项技术里隔绝出去。去年我在一次会议上公开说出口管制是“失败”，今年五月我又说过，美国和中国搞出两套各自独立的 AI 生态“不明智”。这不是随口一说，而是我一贯的立场，我反复向美国政府游说，希望扩大对中国的准入。\n\n我这么想，是因为我看到的现实是：中国历史上一直是英伟达的大市场。截至 7 月 26 日的三个月里，总部设在中国的客户给我们带来了 79 亿美元收入，约占总收入的 8%。这个比例近年因为美国严格的出口管制和北京大力推动本土替代而缩水，但它依然重要。更重要的是，我警告过，把英伟达挡在中国算力市场之外，只会让中国自己开发出 AI 芯片，最终在国际上挑战英伟达。中国已经在往这个方向走了。\n\n我的游说并非没有效果。去年我多次会见特朗普总统和政府官员，之后政府撤销了对我们 H20 芯片的限制，还允许出口更强的 H200 处理器。这说明只要讲清利害，政策是可以调整的。\n\n但现在我面临一个麻烦：外界披露了我与 Alice Huang 的婚外情，她是英伟达客户 Megaspeed 的前高管。我在周日给公司的备忘录里承认了这件事并道歉。美国情报官员认为她曾被中国情报机构招募，目的是收集关于我的信息、影响公司放松芯片出口限制的努力。英伟达的独立董事正与外部法律顾问一起调查此事，国会已经在要求答案，据说国务卿 Marco Rubio 今年早些时候还就这段关系向特朗普身边的官员发出过警告。\n\n有人说我需要一个漂亮女人来推动对华准入，这实在牵强——我的游说早在 2024 年初据称在那场英伟达活动上见面之前就开始了。说到底，我就是一个想主导世界最大 AI 市场之一的销售员。但我也清楚，这些指控会让外界重新审视公司的商业关系，可能玷污英伟达关于能防止敏感技术流入未授权客户手中的保证。即使调查证明我没有向情人泄露机密，问题也在于：我还能不能说服华盛顿，让英伟达继续负责任地与中国做生意。"
+      "first_person": "我听到科技巨头们反复讲同一套话：他们对AI的愿景是不可避免的，我们要么上车，要么被甩在后面；他们还说不论附带损害有多大，只要赢得奔向AI悬崖的竞赛就值得。我不接受这种逻辑。正因如此，纽约要拿出自己的办法，而不是等别人来定规则。\n\n我们即将执行《RAISE Act》，这是全国最重要的AI安全法之一。年收入超过5亿美元的的大型前沿开发者，必须把安全框架发布在网站上，在72小时内报告重大安全事件，并发布公开的模型透明度报告。我们新设的DIGIT办公室负责落实这部法律并监督这些大型前沿AI实验室。违规一次最高罚100万美元，再犯最高罚300万美元；不注册的公司，州里也可以采取执法行动。\n\n光有规则还不够，还要有独立的评估能力。我在周二启动了纽约AI责任与研究中心的建设，它设在纽约州立大学宾汉姆顿分校，将独立评估先进AI系统的安全、安保和运行情况，并与DIGIT合作审查企业的安全框架。这个中心我今年1月就宣布了，带着5500万美元的捐款和资本启动。\n\n我们不是在针对某一项技术，而是在建一个全国样板：明智、合理的AI监管，把社区置于公司之上，把人置于强大技术之上。纽约此前已经执行了要求AI伴侣运营方定期告知用户对方是机器人、并合理识别自杀意念和自残的法律；10月我又签署了针对未成年人的聊天机器人安全法，限制欺骗性的人机互动、情感操纵或谄媚式回应，以及鼓励自杀或饮食失调等行为，该法2027年6月1日生效。这些都是一步步把保护落到具体场景里。\n\n我知道有人会说这会拖慢创新。但我的判断是，透明、报告和独立审查不会让谁被甩下，反而让这场竞赛有底线。接下来，就看这些大型开发者是否在2027年1月1日前完成注册、把安全框架真正公开，以及DIGIT和新的研究中心能否把审查做实。"
     }
   ],
   "format": "daily-thinker"
