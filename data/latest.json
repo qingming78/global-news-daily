@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-11",
-  "generated_at": "2026-11-11T06:17:12+08:00",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T07:24:52+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 1,
+      "rank": 2,
       "category": "AI科技",
-      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safe…",
-      "person_name": "Kathy Hochul",
-      "person_role": "纽约州州长",
-      "thinking_question": "面对科技巨头宣称AI发展不可阻挡、代价可以承受的说法，州政府应如何监管前沿AI开发者？",
-      "core_judgment": "我认为：科技巨头说他们的AI愿景不可避免、 collateral damage 值得，但我们要建立把社区置于公司之上、把人置于强大技术之上的明智AI监管模式。",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two…",
+      "person_name": "Matt Pines",
+      "person_role": "PSI 首席执行官",
+      "thinking_question": "如何把 AI 驱动的理论物理突破转化为真实技术和可持续的生意？",
+      "core_judgment": "我认为：有效的科研系统需要大量围绕模型构建的 harness、工具、记忆系统和仿真基础设施，才能对一个问题做广度和深度的攻坚；而物理不同于数学，因为自然会对你的模型投票，所以关键在于以最高效的方式把计算结果用实验验证，再把自然事实变成可被利用、可造出设备的技术。",
       "reasoning": [
-        "我认为科技巨头所谓AI愿景不可避免、附带损害值得的说法不能成为不监管的理由。",
-        "因此纽约要通过RAISE Act要求大型前沿开发者公开安全框架、72小时内报告重大安全事件并发布模型透明度报告。",
-        "我设立DIGIT办公室来执行这部法律并监督大型前沿AI实验室，违规可处以最高100万至300万美元罚款。",
-        "我还启动纽约AI责任与研究中心，让它独立评估先进AI系统的安全、安保和运行，并与DIGIT合作审查企业安全框架。",
-        "我此前已推动AI伴侣告知义务和未成年人聊天机器人安全法，说明我倾向于用具体规则保护社区和民众。",
-        "我的目标是建立把社区置于公司之上、把人置于强大技术之上的全国性AI监管样板。"
+        "我认为有效的科研系统需要 harness、工具、记忆系统和仿真基础设施，才能对问题做广度和深度的攻坚。",
+        "我六个月到九个月前就在跟投资人讲，理论物理很快会主要成为机器的领域，现在还没到，但正在路上。",
+        "我看到 AI 在数学和计算机科学这类可表达为可验证代码的领域已经拿下重要解，但在生命科学和物理这类不那么抽象的学科更难。",
+        "我认为物理不同于数学，因为它是真实世界，自然会对你的模型投票。",
+        "所以我们要搞清楚如何以最高效的方式把计算结果用实验验证，因为如果它是自然的真实事实，那就是一个可以利用的技巧，可以据此造出设备。",
+        "眼下我们的收入来自用工具优化数据中心，但长线是把理论物理突破转化为实际技术。"
       ],
-      "key_quote": "We’re building a national model for smart, sensible AI regulation, a model that puts communities above corporations and people above powerful technology",
-      "background": "纽约州开设注册门户，要求年收入超5亿美元的大型前沿AI开发者在2027年1月1日前注册，RAISE Act将于年初生效，DIGIT办公室负责执行。",
-      "watch_next": "看大型前沿开发者是否按期注册并公开安全框架，以及DIGIT与新研究中心如何开展审查和执法。",
+      "key_quote": "At the end of the day, physics is different than math because it’s the real world … nature gets a vote in your models of reality",
+      "background": "PSI（Physical Superintelligence）是一家以 AI 驱动科学发现的创业公司，其技术成员用 Anthropic 的模型解决了悬置 18 年的量子计算问题 Aaronson-Ambainis 猜想；公司目前靠优化数据中心的仿真工具创收，长期目标是把理论物理突破转化为技术。",
+      "watch_next": "看他如何把数据中心仿真业务的收入转化为对理论物理突破的实验验证能力，并推进“AI 提出想法—实验验证—造出设备”的循环。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+          "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-10.00.33-AM.png?w=683",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我听到科技巨头们反复讲同一套话：他们对AI的愿景是不可避免的，我们要么上车，要么被甩在后面；他们还说不论附带损害有多大，只要赢得奔向AI悬崖的竞赛就值得。我不接受这种逻辑。正因如此，纽约要拿出自己的办法，而不是等别人来定规则。\n\n我们即将执行《RAISE Act》，这是全国最重要的AI安全法之一。年收入超过5亿美元的的大型前沿开发者，必须把安全框架发布在网站上，在72小时内报告重大安全事件，并发布公开的模型透明度报告。我们新设的DIGIT办公室负责落实这部法律并监督这些大型前沿AI实验室。违规一次最高罚100万美元，再犯最高罚300万美元；不注册的公司，州里也可以采取执法行动。\n\n光有规则还不够，还要有独立的评估能力。我在周二启动了纽约AI责任与研究中心的建设，它设在纽约州立大学宾汉姆顿分校，将独立评估先进AI系统的安全、安保和运行情况，并与DIGIT合作审查企业的安全框架。这个中心我今年1月就宣布了，带着5500万美元的捐款和资本启动。\n\n我们不是在针对某一项技术，而是在建一个全国样板：明智、合理的AI监管，把社区置于公司之上，把人置于强大技术之上。纽约此前已经执行了要求AI伴侣运营方定期告知用户对方是机器人、并合理识别自杀意念和自残的法律；10月我又签署了针对未成年人的聊天机器人安全法，限制欺骗性的人机互动、情感操纵或谄媚式回应，以及鼓励自杀或饮食失调等行为，该法2027年6月1日生效。这些都是一步步把保护落到具体场景里。\n\n我知道有人会说这会拖慢创新。但我的判断是，透明、报告和独立审查不会让谁被甩下，反而让这场竞赛有底线。接下来，就看这些大型开发者是否在2027年1月1日前完成注册、把安全框架真正公开，以及DIGIT和新的研究中心能否把审查做实。"
+      "first_person": "我一直在想，一个真正有效的科研系统应该长什么样。我的答案是：它不能只是一个模型，它应该有大量与 harness 相关的东西，大量与工具相关的东西，还要有记忆系统、仿真基础设施。你要能真正对一个问题的广度和深度同时下手，能够考虑一大片潜在的替代方案，而不是沿着一条线走到底。这就是我们 PSI 在做的事——用专门的模型 harness 和 scaffolding 去解决科学问题。\n\n六到九个月前，我跟投资人谈的时候，我得使劲去撑起那个条件句。我得说，不不不，相信我，很快理论物理就会主要成为机器的领域。现在还没到那一步，但它正在路上。我说这话的时候知道自己在做什么：这不是一句空话，而是我们整个公司的长期赌注——把理论物理的突破转化成真正的技术。\n\n但我也很清楚难点在哪。AI 已经在数学和计算机科学里拿下了重要的解，因为那些东西可以被表达成可验证的代码。到了生命科学、物理这种不那么抽象的学科，就难得多。说到底，物理和数学不一样，因为它是真实世界……自然会对你的现实模型投票。这就是为什么我们专注于搞清楚一件事：如何以最高效的方式，把计算结果拿去做实验验证。\n\n而一旦你验证了，如果它是自然的真实事实，那就是一个你可以利用的技巧。你可以用它造出一个设备，对吧？AI 提出一个想法，它让你能在世界里做到以前做不到的事……每一个这样的环节都是一个循环，而 PSI 正在搭建的就是这些循环。眼下我们的收入来自用工具优化数据中心，模拟热、电、水、声音这些变量——一个站点的性能以及它对社区的影响，直接是它物理属性的函数。但长线不在这里，长线在把理论物理的突破变成实际技术。"
     }
   ],
   "format": "daily-thinker"

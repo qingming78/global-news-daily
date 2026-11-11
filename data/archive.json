@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-12",
+    "person_name": "Matt Pines",
+    "person_role": "PSI 首席执行官",
+    "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+    "category": "AI科技",
+    "core_judgment": "我认为：有效的科研系统需要大量围绕模型构建的 harness、工具、记忆系统和仿真基础设施，才能对一个问题做广度和深度的攻坚；而物理不同于数学，因为自然会对你的模型投票，所以关键在于以最高效的方式把计算结果用实验验证，再把自然事实变成可被利用、可造出设备的技术。"
+  },
+  {
     "date": "2026-11-11",
     "person_name": "Kathy Hochul",
     "person_role": "纽约州州长",

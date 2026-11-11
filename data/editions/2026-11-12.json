@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T07:24:52+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 2,
+      "category": "AI科技",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two…",
+      "person_name": "Matt Pines",
+      "person_role": "PSI 首席执行官",
+      "thinking_question": "如何把 AI 驱动的理论物理突破转化为真实技术和可持续的生意？",
+      "core_judgment": "我认为：有效的科研系统需要大量围绕模型构建的 harness、工具、记忆系统和仿真基础设施，才能对一个问题做广度和深度的攻坚；而物理不同于数学，因为自然会对你的模型投票，所以关键在于以最高效的方式把计算结果用实验验证，再把自然事实变成可被利用、可造出设备的技术。",
+      "reasoning": [
+        "我认为有效的科研系统需要 harness、工具、记忆系统和仿真基础设施，才能对问题做广度和深度的攻坚。",
+        "我六个月到九个月前就在跟投资人讲，理论物理很快会主要成为机器的领域，现在还没到，但正在路上。",
+        "我看到 AI 在数学和计算机科学这类可表达为可验证代码的领域已经拿下重要解，但在生命科学和物理这类不那么抽象的学科更难。",
+        "我认为物理不同于数学，因为它是真实世界，自然会对你的模型投票。",
+        "所以我们要搞清楚如何以最高效的方式把计算结果用实验验证，因为如果它是自然的真实事实，那就是一个可以利用的技巧，可以据此造出设备。",
+        "眼下我们的收入来自用工具优化数据中心，但长线是把理论物理突破转化为实际技术。"
+      ],
+      "key_quote": "At the end of the day, physics is different than math because it’s the real world … nature gets a vote in your models of reality",
+      "background": "PSI（Physical Superintelligence）是一家以 AI 驱动科学发现的创业公司，其技术成员用 Anthropic 的模型解决了悬置 18 年的量子计算问题 Aaronson-Ambainis 猜想；公司目前靠优化数据中心的仿真工具创收，长期目标是把理论物理突破转化为技术。",
+      "watch_next": "看他如何把数据中心仿真业务的收入转化为对理论物理突破的实验验证能力，并推进“AI 提出想法—实验验证—造出设备”的循环。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-10.00.33-AM.png?w=683",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我一直在想，一个真正有效的科研系统应该长什么样。我的答案是：它不能只是一个模型，它应该有大量与 harness 相关的东西，大量与工具相关的东西，还要有记忆系统、仿真基础设施。你要能真正对一个问题的广度和深度同时下手，能够考虑一大片潜在的替代方案，而不是沿着一条线走到底。这就是我们 PSI 在做的事——用专门的模型 harness 和 scaffolding 去解决科学问题。\n\n六到九个月前，我跟投资人谈的时候，我得使劲去撑起那个条件句。我得说，不不不，相信我，很快理论物理就会主要成为机器的领域。现在还没到那一步，但它正在路上。我说这话的时候知道自己在做什么：这不是一句空话，而是我们整个公司的长期赌注——把理论物理的突破转化成真正的技术。\n\n但我也很清楚难点在哪。AI 已经在数学和计算机科学里拿下了重要的解，因为那些东西可以被表达成可验证的代码。到了生命科学、物理这种不那么抽象的学科，就难得多。说到底，物理和数学不一样，因为它是真实世界……自然会对你的现实模型投票。这就是为什么我们专注于搞清楚一件事：如何以最高效的方式，把计算结果拿去做实验验证。\n\n而一旦你验证了，如果它是自然的真实事实，那就是一个你可以利用的技巧。你可以用它造出一个设备，对吧？AI 提出一个想法，它让你能在世界里做到以前做不到的事……每一个这样的环节都是一个循环，而 PSI 正在搭建的就是这些循环。眼下我们的收入来自用工具优化数据中心，模拟热、电、水、声音这些变量——一个站点的性能以及它对社区的影响，直接是它物理属性的函数。但长线不在这里，长线在把理论物理的突破变成实际技术。"
+    }
+  ],
+  "format": "daily-thinker"
+}
