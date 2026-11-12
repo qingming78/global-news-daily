@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T07:24:52+08:00",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T06:40:45+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 2,
+      "rank": 1,
       "category": "AI科技",
-      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-      "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two…",
-      "person_name": "Matt Pines",
-      "person_role": "PSI 首席执行官",
-      "thinking_question": "如何把 AI 驱动的理论物理突破转化为真实技术和可持续的生意？",
-      "core_judgment": "我认为：有效的科研系统需要大量围绕模型构建的 harness、工具、记忆系统和仿真基础设施，才能对一个问题做广度和深度的攻坚；而物理不同于数学，因为自然会对你的模型投票，所以关键在于以最高效的方式把计算结果用实验验证，再把自然事实变成可被利用、可造出设备的技术。",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data…",
+      "person_name": "Arkady Volozh",
+      "person_role": "Nebius CEO",
+      "thinking_question": "在第三方数据中心延期、客户可能收紧合同的背景下，Nebius 能否按计划推进 2027 年 400 亿美元的资本开支？",
+      "core_judgment": "我认为：在当前行业里，如此大规模的建设本身就很难，延期是行业现状的一部分，Nebius 也无法幸免；但我们依靠客户预付款和以客户合同为担保的贷款来为建设融资，自建站点按时甚至提前上线，将支撑 2027 年的新增产能。",
       "reasoning": [
-        "我认为有效的科研系统需要 harness、工具、记忆系统和仿真基础设施，才能对问题做广度和深度的攻坚。",
-        "我六个月到九个月前就在跟投资人讲，理论物理很快会主要成为机器的领域，现在还没到，但正在路上。",
-        "我看到 AI 在数学和计算机科学这类可表达为可验证代码的领域已经拿下重要解，但在生命科学和物理这类不那么抽象的学科更难。",
-        "我认为物理不同于数学，因为它是真实世界，自然会对你的模型投票。",
-        "所以我们要搞清楚如何以最高效的方式把计算结果用实验验证，因为如果它是自然的真实事实，那就是一个可以利用的技巧，可以据此造出设备。",
-        "眼下我们的收入来自用工具优化数据中心，但长线是把理论物理突破转化为实际技术。"
+        "我认为如此大规模的建设本身就很困难，延期是行业当前的一部分，我们也不能幸免。",
+        "我们计划用客户预付款和以客户合同为担保的贷款来为 2027 年 400 亿至 450 亿美元资本开支融资，预计可覆盖至多 85%。",
+        "第三季度新签合同的预付款已超过其背后产能的建设成本，我们季末还有 74 亿美元现金。",
+        "延期来自我们无法控制的第三方站点，而自建数据中心按时或提前上线，将从 2027 年起提供大部分新增产能。",
+        "微软正在收紧对第三方项目的监督并讨论是否签署新协议，其资本开支也因第三方延期而低于预期。",
+        "因此我们把 2026 年营收预期下调 2 亿美元至 30 亿美元，但仍预计 2027 年营收 120 亿至 130 亿美元、第四季度税前盈亏平衡。"
       ],
-      "key_quote": "At the end of the day, physics is different than math because it’s the real world … nature gets a vote in your models of reality",
-      "background": "PSI（Physical Superintelligence）是一家以 AI 驱动科学发现的创业公司，其技术成员用 Anthropic 的模型解决了悬置 18 年的量子计算问题 Aaronson-Ambainis 猜想；公司目前靠优化数据中心的仿真工具创收，长期目标是把理论物理突破转化为技术。",
-      "watch_next": "看他如何把数据中心仿真业务的收入转化为对理论物理突破的实验验证能力，并推进“AI 提出想法—实验验证—造出设备”的循环。",
+      "key_quote": "Building at this scale is hard, and delays are part of our industry right now",
+      "background": "Nebius 在第三季度财报电话会上公布 2027 年 400 亿美元计划支出，远超华尔街预期；其最大客户之一微软位于新泽西的数据中心已延期数月，公司同时下调 2026 年营收预期，股价当日下跌 17%。",
+      "watch_next": "看 Nebius 自建数据中心能否按计划上线，以及微软是否接受新泽西站点的新交付日期或调整合同。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/"
+          "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-10.00.33-AM.png?w=683",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2300447831.jpg?w=1024",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我一直在想，一个真正有效的科研系统应该长什么样。我的答案是：它不能只是一个模型，它应该有大量与 harness 相关的东西，大量与工具相关的东西，还要有记忆系统、仿真基础设施。你要能真正对一个问题的广度和深度同时下手，能够考虑一大片潜在的替代方案，而不是沿着一条线走到底。这就是我们 PSI 在做的事——用专门的模型 harness 和 scaffolding 去解决科学问题。\n\n六到九个月前，我跟投资人谈的时候，我得使劲去撑起那个条件句。我得说，不不不，相信我，很快理论物理就会主要成为机器的领域。现在还没到那一步，但它正在路上。我说这话的时候知道自己在做什么：这不是一句空话，而是我们整个公司的长期赌注——把理论物理的突破转化成真正的技术。\n\n但我也很清楚难点在哪。AI 已经在数学和计算机科学里拿下了重要的解，因为那些东西可以被表达成可验证的代码。到了生命科学、物理这种不那么抽象的学科，就难得多。说到底，物理和数学不一样，因为它是真实世界……自然会对你的现实模型投票。这就是为什么我们专注于搞清楚一件事：如何以最高效的方式，把计算结果拿去做实验验证。\n\n而一旦你验证了，如果它是自然的真实事实，那就是一个你可以利用的技巧。你可以用它造出一个设备，对吧？AI 提出一个想法，它让你能在世界里做到以前做不到的事……每一个这样的环节都是一个循环，而 PSI 正在搭建的就是这些循环。眼下我们的收入来自用工具优化数据中心，模拟热、电、水、声音这些变量——一个站点的性能以及它对社区的影响，直接是它物理属性的函数。但长线不在这里，长线在把理论物理的突破变成实际技术。"
+      "first_person": "我们刚刚在财报电话会上公布了 2027 年 400 亿美元的计划支出，这个数字远高于华尔街的预期。我知道外界会问：你们凭什么敢花这么多钱？我的回答是，我们并不是凭空押注，而是用客户预付款和以客户合同为担保的贷款来为这些建设融资，本质上是用数据中心未来的价值来为它们的建设提供资金。第三季度新签的合同带来的预付款，已经足以覆盖其背后产能的建设成本；我们季末还有 74 亿美元现金，预付款加上投资级合同对应的资产支持融资，预计可以覆盖 2027 年 400 亿至 450 亿美元资本开支的至多 85%。\n\n但我也必须坦率地说，在这个规模上建设是困难的，延期是我们行业当前的一部分，我们也不能幸免。新泽西州 Vineland 那个为微软提供算力的站点已经落后计划数月，原因是第三方运营方 DataOne 比预期更快地关停了临时发电设施，转而使用 Bloom Energy 的燃料电池。这个站点原本要在 2025 和 2026 年交付，现在微软相关产能只有略多于一半计划在年底前交付，其余要到 2027 年第二季度。我们与微软的合同价值最高 194 亿美元，合同里包含延迟交付的财务处罚，微软在错过日期且没有替代产能的情况下，可以在宽限期后终止受影响的服务。我们说过微软一直参与规划过程，但没有说明微软是否同意新的日期。\n\n我想强调的是，我们面临的延期来自我们无法控制的站点，而由我们自己建设的数据中心正在按时或提前上线，从 2027 年起，它们将提供我们大部分的新增产能。我们的首席营收官 Marc Boroditsky 也说过，第三季度签署的新交易带来的预付款，超过了为其建设产能的成本；我们还可以动用预付款来补充任何额外的现金需求。\n\n我担心的不是我们自建的部分，而是外部环境正在变化。有报道称微软正在收紧对第三方运营项目的监督，包括我们、IREN 和 Nscale，并在讨论是否值得签署新协议；微软自己的季度报告也提到，由于第三方延期，其资本开支低于预期。这些都说明，合作伙伴不会无条件等待。\n\n所以我们的预期是：2027 年营收达到 120 亿至 130 亿美元，并在第四季度实现税前盈亏平衡。第三季度我们实现了 9.81 亿美元营收，同比增长 571%，其中约三分之一来自新合作模式的一次性付款。但我们也把 2026 年营收预期下调了 2 亿美元至 30 亿美元，原因正是新泽西这类第三方站点的延期。市场当天用股价下跌 17% 回应了我们。我知道，接下来要证明的是：我们自建的产能能否如期兑现，以及客户是否愿意继续为这些未来产能提前付钱。"
     }
   ],
   "format": "daily-thinker"
