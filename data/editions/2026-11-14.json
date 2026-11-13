@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T06:29:47+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 1,
+      "category": "AI科技",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "person_name": "Sam Bresnick",
+      "person_role": "乔治城大学安全与新兴技术中心（CSET）研究员",
+      "thinking_question": "美国出口管制只限制芯片的所有者和安装地点、却不限制实际使用者，这样的管制还有意义吗？",
+      "core_judgment": "我认为：如果我们真的在意美国的技术优势，那么一边禁止中国公司在中国大陆、香港和澳门获取芯片，一边又说只要转到马来西亚就可以随意使用，这在我看来毫无道理。",
+      "reasoning": [
+        "我认为出口管制的真正目标应该是阻止中国AI实验室用上最强的芯片，而不只是限制芯片归谁所有、装在哪里。",
+        "我看到现行规则允许中国公司在中国大陆、香港、澳门之外的地方，比如马来西亚，使用这些芯片。",
+        "我认为如果我们真的在意美国的技术优势，这种“换个地方就能随便用”的安排毫无道理。",
+        "因此我主张管制应当覆盖芯片的实际使用者，而不只是所有权和安装地点。"
+      ],
+      "key_quote": "“If we care about the U.S. tech edge, it doesn’t make any sense to me that you would not allow Chinese companies to access chips in mainland China or Hong Kong and Macau, but then say, actually, if you just go over to Malaysia, you can do whatever you want,”",
+      "background": "有研究称，DeepSeek、Moonshot AI 等中国公司发布的开源权重模型带有在 Blackwell 芯片上训练的痕迹，而这类芯片被美国禁止出口到中国；与此同时，大量先进芯片经由马来西亚等第三地流入中国。",
+      "watch_next": "看他及 CSET 是否会进一步呼吁并推动把出口管制从“管所有权和地点”扩展到“管实际使用者”。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg?resize=1200,795",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我关注的是出口管制到底在管什么。现在的规则主要盯着芯片归谁所有、装在哪里，却不太管最终是谁在用。可真正决定AI能力的，是谁能用这些芯片去训练模型，而不是芯片登记在谁名下。\n\n所以当我看到一种做法——中国公司不能在中国大陆、香港、澳门拿到芯片，但只要把算力放到马来西亚，就可以不受限制地使用——我觉得这说不通。如果我们真的在意美国的技术领先地位，这种安排在我看来没有任何意义。管制如果只约束所有权和地理位置，而不约束使用者和使用行为，那它想达到的目的就会从这条缝隙里漏出去。\n\n我并不是在说所有境外数据中心都违规，也不是说每一块芯片的去向都能查清。我的意思是，规则的设计本身存在一个明显的缺口：它假设把芯片挡在某个地理范围之外就够了，但算力是可以跨境调用的。只要这个缺口还在，管制就很难真正阻止中国的前沿实验室用上最强的芯片。\n\n因此我主张的是加强对“谁在使用芯片”的控制，而不只是控制“谁拥有芯片”或“芯片装在哪里”。这不是技术细节问题，而是管制能否成立的问题。如果规则继续维持现在这种只管所有权和安装地点的逻辑，那么类似经由第三国数据中心获取算力的路径就会一直存在，而出口禁令表面上要防止的事情，实际上仍然会发生。"
+    }
+  ],
+  "format": "daily-thinker"
+}
