@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T05:20:58+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 1,
+      "category": "AI科技",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expe…",
+      "person_name": "Bill Lennon",
+      "person_role": "Ollie 联合创始人兼 CEO",
+      "thinking_question": "一款主打隐私合规、面向家庭场景的 AI 助手，为什么在主流市场里活不下去？",
+      "core_judgment": "我认为：Ollie 失败的原因在于没能做出差异化、没能实现增长、也没能融到足够的钱，而不是产品方向本身有问题。",
+      "reasoning": [
+        "我认为家庭的信息本来就在，只是分散在学校消息、日历、任务清单和群聊里，所以需要一个把它们聚合同步的产品。",
+        "我认为 Ollie 的定位是通过短信把日历、邮件、提醒、任务等家庭信息主动送达用户。",
+        "我看到 Ollie 面对的是 Muse、Instinct 这样的重量级对手，这是一个非常常见的挑战。",
+        "我认为我们没能脱颖而出，也没能实现增长。",
+        "我认为没能增长导致我们没能融到足够的钱，最终只能选择关停。"
+      ],
+      "key_quote": "Co-founder and CEO Bill Lennon revealed the app would shut down on November 6, citing difficulties like being unable to stand out, failing to grow, and not raising enough capital.",
+      "background": "Ollie 于 2026 年 6 月上线，是一款面向家庭、主打隐私合规（SOC 2）的 AI 助手，通过短信整合日历、邮件、提醒和任务等信息。",
+      "watch_next": "看他关停 Ollie 后是否会转向新的项目，或加入其他公司。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+          "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我们做 Ollie，起点是一个很朴素的观察：家庭其实并不缺信息，缺的是把信息串起来的东西。学校通知、日历、任务清单、群聊，这些信息本来就在，只是散落在各处。Ollie 想做的就是把这些碎片聚到一起、保持同步，跟踪日历、邮件、提醒、任务和其他家庭事务，再通过短信把对用户有用的信息送到他们手上。2026 年 6 月上线时，我们还是最早一批拿到 SOC 2 这一隐私合规标准的主流应用之一，我一度认为这是我们区别于其他家庭类 agent 的地方。\n\n但市场没有给我们时间。我们面对的是 Muse、Instinct 这样的重量级对手，这是一个非常常见的挑战，而我没能解决它。问题不在于我们没看到竞争，而在于我们没能在竞争里站出来。用户为什么要选我们而不是那些更大的名字？这个问题我始终没能给出足够有说服力的答案。\n\n站不出来，紧接着就是长不起来。用户增长没有达到预期，而增长一旦停住，融资就变得极其困难。我们没有融到足够的钱。这三件事是连在一起的：无法脱颖而出，就无法增长；无法增长，就融不到资；融不到资，就撑不到翻盘的那一天。\n\n所以我在 11 月 6 日告诉大家，Ollie 要关停了。我不觉得这是产品理念的失败，家庭信息需要被聚合、被同步、被主动推送，这个需求是真实的。但在一个由巨头定义节奏的市场里，一款独立应用如果既不能差异化、又不能增长、还拿不到资本，它就很难继续存在下去。这就是我看到的现实。"
+    }
+  ],
+  "format": "daily-thinker"
+}
