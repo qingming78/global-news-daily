@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T05:39:48+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 2,
+      "category": "AI科技",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing in…",
+      "person_name": "Kung Ming-shin",
+      "person_role": "台湾经济部长",
+      "thinking_question": "黄仁勋离开英伟达，会不会改变全球AI产业的增长轨迹？",
+      "core_judgment": "我认为：黄仁勋的离开不太可能显著改变全球AI产业的增长。",
+      "reasoning": [
+        "我认为黄仁勋的离开不太可能显著改变全球AI产业的增长。",
+        "我判断的依据是产业增长有其自身节奏，不会因单一人事变动而转向。",
+        "我关注的是实际项目与合作的推进情况，而不是市场情绪。",
+        "我的态度是冷静观察，不把领导层变动当成产业拐点。"
+      ],
+      "key_quote": "Taiwan’s Economy Minister Kung Ming-shin said Huang’s departure was unlikely to significantly change the growth of the global AI industry",
+      "background": "英伟达CEO黄仁勋离职引发亚洲多国政府回应，台湾经济部长Kung Ming-shin就其对全球AI产业的影响作出表态。",
+      "watch_next": "看他后续是否就英伟达在台项目或AI产业政策作出进一步表态。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我被问到的问题很直接：黄仁勋离开英伟达，全球AI产业会不会因此变天。我的回答是，我不认为这会让全球AI产业的增长发生显著改变。\n\n我这么判断，是因为我看到的不是一个人的去留，而是一个已经成型的产业节奏。英伟达在全球AI产业链里的位置，是靠长期积累的算力、生态和合作伙伴关系撑起来的，不是靠某一位CEO的个人光环单独维持。产业的增长有它自己的惯性，不会因为一次人事变动就突然转向。\n\n当然，我也清楚外界会有担忧。黄仁勋这个名字和英伟达几乎是绑在一起的，他离开的消息传出来，市场情绪难免波动。但情绪归情绪，产业归产业。我在看的是实际的项目、实际的供应、实际的合作是否还在推进，而不是被新闻标题带着走。\n\n所以我的态度是冷静观察，不夸大冲击。全球AI产业该增长的还会增长，该推进的项目还会推进。真正需要盯的是后续的执行和供应链的稳定，而不是把一次领导层变动当成产业拐点。"
+    }
+  ],
+  "format": "daily-thinker"
+}
