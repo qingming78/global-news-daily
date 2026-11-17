@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T07:48:46+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 1,
+      "category": "AI科技",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "person_name": "Colette Kress",
+      "person_role": "英伟达临时 CEO",
+      "thinking_question": "在黄仁勋辞职、外界质疑公司开源 AI 路线是否动摇之际，如何向分析师和开发者证明英伟达对开源模型生态的承诺不变？",
+      "core_judgment": "我认为：英伟达对开源 AI 的承诺没有改变，我们要培育一个活跃的开放模型生态，让每个国家、公司和行业都能构建自己的智能；开源模型正在加速 AI 的普及，对 Hugging Face 的收购也仍按计划推进。",
+      "reasoning": [
+        "我认为英伟达必须明确重申对开源 AI 的承诺，因为黄仁勋的离开让外界对公司的未来路线产生了疑问。",
+        "我看到开放模型正在加速 AI 采用，OpenRouter 每周 token 量同比增长 35 倍、近三个月增长 3.5 倍，这支撑了开放生态的价值。",
+        "我们以 129 亿美元收购 Hugging Face 的计划仍在推进，该平台服务超过 1.18 亿开发者和 20 万家公司，说明我们对开放平台的投入没有动摇。",
+        "Nemotron 已成为 OpenRouter 上使用最广泛的美国开放模型，是开发者构建自己智能的起点，这证明我们的开放模型战略在产生实际影响。",
+        "因此我判断，扩展 Hugging Face 平台能让智能更开放、更有能力、更易获取，这与我们培育开放模型生态的目标一致。"
+      ],
+      "key_quote": "At Nvidia, we are committed to fostering a vibrant open model ecosystem, so every country, company, and industry can build its own intelligence",
+      "background": "英伟达创始人黄仁勋因婚外情丑闻辞职后，公司临时 CEO Colette Kress 在首次财报电话会上回应外界对开源 AI 战略走向的疑虑，并谈及对 Hugging Face 的收购和 Nemotron 模型。",
+      "watch_next": "看她能否在黄仁勋作证及 SEC 调查的背景下，按计划完成 Hugging Face 收购并继续扩大 Nemotron 的开放模型生态。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "在黄仁勋辞职后的第一次财报电话会上，我最想向分析师们讲清楚的一件事，就是英伟达对开源 AI 的承诺没有变。我在开场发言里说得很直接：在英伟达，我们致力于培育一个活跃的开放模型生态，让每个国家、公司和行业都能构建自己的智能。这不是一句客套话，而是我们看待这件事的方式——智能不应该只掌握在少数人手里，开放模型让更多参与者能够基于它去搭建属于自己的能力。\n\n我之所以相信这条路是对的，是因为我看到了开放模型正在加速 AI 的采用。我举了一个具体的数字：OpenRouter 上的每周 token 量同比增长了 35 倍，其中过去三个月就增长了 3.5 倍。这样的增速说明，开发者和企业正在真实地使用开放模型，而不是停留在观望。这种使用量的扩张，本身就是开放生态价值的证据。\n\n关于 Hugging Face，我也谈到了我们的计划。我们在 9 月同意以 129 亿美元收购这个开源 AI 模型平台，这将是英伟达历史上第二大收购。这个平台服务超过 1.18 亿开发者和 20 万家公司，尽管黄仁勋离开了，交易仍按原计划推进。我的说法是：我们将一起扩展它的平台，让智能更加开放、更有能力、也更易获取。在问答环节我们没有直接谈这笔收购，但方向没有变化。\n\n还有 Nemotron。黄仁勋在任内推动了这一系列开放权重 AI 模型的开发，面向长时间运行的智能体 AI 系统和推理工作负载。我在电话会上指出，Nemotron 现在是 OpenRouter 上使用最广泛的美国开放模型，也是开发者开始构建自己智能的地方。我说，这个基础正在赋能整个生态。对我来说，这些事实合在一起，就是我对开源路线保持信心的理由：使用量在增长，平台在并入，模型在被采用。"
+    }
+  ],
+  "format": "daily-thinker"
+}
