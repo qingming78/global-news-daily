@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-20",
+    "person_name": "Dario Amodei",
+    "person_role": "Anthropic CEO",
+    "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+    "category": "AI科技",
+    "core_judgment": "我认为：AI的风险是真实存在的，但并非不可避免，关键在于构建者做出什么选择；我们将以安全所需的时间为尺度来把控AI系统的训练与部署，不向商业或政治压力低头，并希望通过自身证明安全与成功可以兼得，带动整个行业向上竞争。"
+  },
+  {
     "date": "2026-11-19",
     "person_name": "Satya Nadella",
     "person_role": "微软 CEO",

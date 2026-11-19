@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T07:29:34+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 4,
+      "category": "AI科技",
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or politi…",
+      "person_name": "Dario Amodei",
+      "person_role": "Anthropic CEO",
+      "thinking_question": "在带领公司完成史上最大规模IPO、获得更强财务地位的同时，如何确保AI的发展节奏不被商业或政治压力带偏，始终处于人类控制之下？",
+      "core_judgment": "我认为：AI的风险是真实存在的，但并非不可避免，关键在于构建者做出什么选择；我们将以安全所需的时间为尺度来把控AI系统的训练与部署，不向商业或政治压力低头，并希望通过自身证明安全与成功可以兼得，带动整个行业向上竞争。",
+      "reasoning": [
+        "我创办Anthropic，是因为我相信这个时代最强大的技术应当为人类福祉而建。",
+        "我亲眼见过科学发现的缓慢，也相信足够强大的AI与人类协作能把一个世纪的医学进步压缩到十年。",
+        "我承认AI有真实风险，包括被个人或国家行为者滥用、经济颠覆和失去对AI系统的控制。",
+        "我认为这些风险可以避免，能否避免取决于构建AI的人做出的选择。",
+        "因此我们将以安全所需的时间为尺度把控训练和部署，不向商业或政治压力低头。",
+        "如果我们能证明安全与商业成功可以兼得，就能带动行业向上竞争。"
+      ],
+      "key_quote": "And to state it unequivocally, we will pace the training and deployment of AI systems, taking as long as is necessary to have confidence that they are safe and will remain under human control",
+      "background": "Anthropic于2026年11月19日以史上最大规模IPO登陆华尔街，CEO Dario Amodei在纳斯达克开盘钟前发表演讲，重申负责任开发AI的承诺。",
+      "watch_next": "观察Anthropic在上市后是否真的放慢训练与部署节奏、加大对对齐与安全测试的投入，以及是否推动行业形成他所说的“向上竞争”。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+          "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我和联合创始人创办Anthropic，是因为我们相信这个时代最强大的技术应当为人类福祉而建。我和Daniela失去了父亲，而那种病在他去世几年后就可以治愈了。我最初做生物学，就是希望未来的疗法能来得更早一些。在实验室里，我看到科学家面对疾病时的巨大复杂性，而基因编辑、基因合成、用光控制脑细胞这些能劈开荆棘的工具，最初都只是纯粹的想法——它们来自思考，来自智能。人类智能已经让鼠疫、天花、小儿麻痹在世界上大部分地区成为历史，但其他疾病的进展对太多患者和家庭来说仍然太慢，从一个好想法到疗法可能要几十年。现在我们可以构建这种智能了。\n\n在蛋白质折叠、药物设计、癌症遗传学、临床试验管理这些领域，科学家们发现Claude能帮他们把研究时间缩短到几年前的一小部分。我相信足够强大的AI与人类协作，可以把一个世纪的科学与医学进步压缩到十年。但我不想把话说得太满，目前我们只有早期结果，实验和临床试验仍需时间，尽管这些过程缓慢笨重，我相信AI能大幅加速它们。我们希望未来更少的家庭因为差几年而错过治愈的机会。医学只是一个特别鲜明的例子，我们的客户——世界上最有雄心的公司、非营利组织和个人——已经在用我们构建的智能促进经济增长、帮助人们脱贫、保护民主与自由社会，甚至让车管所这样的日常服务运转得更好。\n\n同时，我们一直坦诚这项技术有非常真实的风险：个人或国家行为者滥用技术、经济颠覆、失去对AI系统的控制。我们讨论这些风险，不是因为我们认定它们不可避免、反正要造，而是因为我们认为它们可以避免，而且我们可以避免它们。能否避免，取决于构建AI的人做出什么选择。对安全关注甚少与对安全极度执着，AI的走向会有天壤之别。而对安全和公共利益的执着从第一天起就写进了Anthropic的基因：从防范生物和网络风险的保障措施，到对齐训练与测试，再到像X光一样审视我们的模型内部，我们开创了理解和引导AI行为、让它处于人类控制之下的方法。\n\n还有很多工作要做，最困难的安全工作还在前面。公司里让我们构建出最有能力AI系统的杰出人才，需要比以往更多地投入到反复核查这些系统是否安全、是否处于人类控制之下。我要明确地说：我们将把控AI系统的训练和部署节奏，需要多久就花多久，直到我们有信心它们是安全的、并将处于人类控制之下；我们不会向商业压力或政治压力低头。今天让公司处于更强的财务地位，这只会坚定我们做正确之事的决心。如果我们能证明在安全上做出正确选择的同时仍能建立一家极其成功的公司，行业里的其他人就会受到鼓舞去做同样的事。我们把这称为向上竞争。"
+    }
+  ],
+  "format": "daily-thinker"
+}
