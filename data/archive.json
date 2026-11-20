@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-21",
+    "person_name": "Meta spokesperson",
+    "person_role": "Meta 发言人",
+    "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+    "category": "AI科技",
+    "core_judgment": "我认为：员工测试是产品开发流程的核心，目的就是获取反馈，以便我们落实安全和隐私保护并改进产品；而且员工使用的是与公众不同的 Muse 版本，他们常常在审视别处没有的功能、特性和行为。"
+  },
+  {
     "date": "2026-11-20",
     "person_name": "Dario Amodei",
     "person_role": "Anthropic CEO",
