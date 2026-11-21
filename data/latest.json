@@ -1,43 +1,48 @@
 {
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T07:01:55+08:00",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T06:08:11+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 4,
-      "category": "AI科技",
-      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-      "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked f…",
-      "person_name": "Meta spokesperson",
-      "person_role": "Meta 发言人",
-      "thinking_question": "员工在内部测试中报告 Muse 混淆不同账户的对话、暴露私人数据，公司该如何解释和回应？",
-      "core_judgment": "我认为：员工测试是产品开发流程的核心，目的就是获取反馈，以便我们落实安全和隐私保护并改进产品；而且员工使用的是与公众不同的 Muse 版本，他们常常在审视别处没有的功能、特性和行为。",
+      "rank": 7,
+      "category": "科学气候",
+      "title": "Can AI really help spot Black Friday deals? We put it to the test",
+      "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
+      "person_name": "Alex Hughes",
+      "person_role": "科技记者",
+      "thinking_question": "用AI找黑色星期五的优惠，到底值不值得继续用？",
+      "core_judgment": "我认为：AI确实能帮我省时间，但一碰到实时价格数据，它给出的结果就会前后不一致、而且经常是错的，所以我今年大概不会再靠它找黑五优惠了。",
       "reasoning": [
-        "我认为员工测试是产品开发流程的核心，整个目的就是获取反馈。",
-        "我认为获取反馈是为了落实安全和隐私保护并改进产品。",
-        "我认为员工使用的是与公众不同的 Muse 版本。",
-        "我认为员工常常在审视别处没有的功能、特性和行为。",
-        "我认为 Muse 增长很快，下载量已超过 1000 万，因此内部测试和反馈尤为重要。"
+        "我用ChatGPT的agentic AI模式找电视，大约20分钟就完成了，我自己几乎没怎么动手，所以它确实节省了我的时间。",
+        "我后来买了它列出的七款之一，但那是我在线下实体店找到的更低价格，说明AI没有帮我拿到最优价。",
+        "我的判断是，一旦涉及实时价格数据，AI给出的结果就会前后不一致，而且经常是错的。",
+        "正因为要花时间去核对价格和链接，省下的筛选时间被验证成本抵消，所以我今年大概不会再用AI找黑五优惠。",
+        "消费者组织Which?也指出，AI结果里的不准确价格反而给黑五比价增加了工作量，这印证了我的体验。"
       ],
-      "key_quote": "Employee testing is core to the product development process and the entire point is to get feedback, so we can implement safety and privacy protections and improve products",
-      "background": "据路透社查阅公司内部帖子报道，Meta 员工反映其 AI 代理 Muse 在不同账户间混淆对话并暴露私人数据；Muse 于九月推出，下载量已超过 1000 万。",
-      "watch_next": "看 Meta 是否会公布针对员工所报问题的具体修复措施和安全隐私改进。",
+      "key_quote": "when you're trying to deal with something like live price data... it will be inconsistent and quite often incorrect",
+      "background": "BBC在2026年黑五前一周用四款AI工具实测找55英寸电视优惠，结果参差不齐；科技记者Alex Hughes此前一年用ChatGPT的agentic模式找过电视。",
+      "watch_next": "看他今年黑五是否真的不用AI找优惠，以及他会不会改用其他方式比价。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+          "title": "Can AI really help spot Black Friday deals? We put it to the test",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dcbf/live/85d51550-e435-11f1-8346-933d3547e297.jpg",
           "caption": null,
+          "credit": "图片来源：BBC 科技"
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/dcbf/live/85d51550-e435-11f1-8346-933d3547e297.jpg",
+          "caption": "Four TV screens, all showing Black Friday promotional sale graphics",
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我们注意到有报道援引公司内部帖子，说员工担心 Muse 在不同账户之间混淆对话、暴露私人用户数据。对此我想说明我们的基本立场：员工测试是产品开发流程的核心，整个目的就是获取反馈，这样我们才能落实安全和隐私保护，并改进产品。\n\n我也要强调一个关键事实：员工使用的是与公众不同的 Muse 版本。正因为如此，他们常常在审视别处没有的功能、特性和行为。换句话说，员工在内部看到的一些现象，需要放在这个测试语境里理解。\n\nMuse 是九月推出的，是史上增长最快的应用之一，下载量已超过 1000 万。在这样快的增长节奏下，我们依靠内部测试来发现问题、收集反馈，再据此完善安全和隐私保护。\n\n员工提出的这些担忧，正是我们需要的反馈。我们会据此改进产品，落实安全和隐私保护。"
+      "first_person": "去年黑五，我用ChatGPT的agentic AI模式找电视，整个过程大概花了20分钟，我自己几乎没费什么力气。它给我列出了七款型号，从“省时间”这个角度看，它确实做到了。但问题在于，我最后并没有照着它给的链接下单。后来我确实买了它列出的七款之一，可那是我自己在线下实体店里找到的更低价格。也就是说，AI帮我缩小了范围，却没有帮我拿到最好的价格。\n\n这件事让我对AI找优惠这件事的判断变得很谨慎。我承认它有价值，尤其是当你面对海量选择、不知道从哪看起的时候，它能帮你快速整理出一个候选清单。但优惠这件事的核心是价格，而价格是实时变动的数据。当你试图处理像实时价格数据这样的东西时，它就会前后不一致，而且经常是错的。这不是某一次运气不好，而是这类工具目前处理动态信息时的固有短板。\n\n所以今年再问我还会不会用AI找黑五优惠，我的回答是“大概不会”。不是因为它一无是处，而是因为我得花时间去核对它给的每一个价格、每一个链接，最后算下来，省下的那点筛选时间又被验证的成本吃掉了。我更愿意把它当成一个起点，而不是一个可以信赖的导购。\n\n我也注意到，这不是我一个人的体验。消费者组织Which?就说过，AI结果里的不准确价格反而给黑五比价增加了工作量。如果让ChatGPT列10台400英镑以下的笔记本，结果有7台标价更高，那你很可能白花了不少时间去翻，最后发现它只给了你3个真正符合预算的选项；反过来也一样，如果它告诉你某款更贵，你可能会错过本来在预算内的好型号。这些说法和我自己的经历是吻合的。"
     }
   ],
   "format": "daily-thinker"
