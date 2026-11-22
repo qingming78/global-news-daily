@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T06:23:49+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 1,
+      "category": "AI科技",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "person_name": "Jakub Pachocki",
+      "person_role": "OpenAI 首席科学家",
+      "thinking_question": "如果要给 AI 发展设限，该用什么指标来衡量 AI 的进展速度？",
+      "core_judgment": "我认为：perplexity 可以作为衡量通用智能的共享基准，各公司可以据此设定共同的上限，在理解与监控 AI 行为的能力达到某个具体里程碑之前，承诺不越过某个阈值。",
+      "reasoning": [
+        "我认为要建立 AI 发展的速度限制，必须先就如何测量速度达成一致。",
+        "我看到聚焦下游能力的基准随着技术进步很快过时，而 perplexity 一直保持信息量。",
+        "我从 OpenAI 模型自 GPT-3.5 以来的 perplexity 下降曲线中看到，指标下降与能力涌现相对应。",
+        "我认为 perplexity 可以作为通用智能的共享基准，让各公司据此建立共同上限。",
+        "我主张在理解和监控 AI 行为的能力达到具体里程碑之前，公司承诺不越过某个阈值。"
+      ],
+      "key_quote": "So in his view, perplexity could provide the basis for “a shared benchmark for general intelligence,” which AI companies could then use to establish “common limits.”",
+      "background": "在前 OpenAI 和 Anthropic 研究员称这些公司在“拿我们的生命赌博”、Anthropic IPO 文件提示技术可能带来灾难性或生存性风险之后，放缓 AI 发展成了热点话题；Anthropic CEO Dario Amodei 随后发布了“pace the frontier”计划，呼吁企业就共同安全标准和对不受约束的 AI 进展速度设限达成一致。",
+      "watch_next": "看他提出的 perplexity 共享基准与共同上限，是否会得到其他 AI 公司的响应并转化为实际承诺。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+          "caption": null,
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我一直在想一个问题：大家都在说要给 AI 发展设一个速度上限，可是要设限，首先得对“速度”怎么测量达成一致。没有共同的尺子，所谓限制就无从谈起。\n\n在我看来，那些聚焦于 AI“下游能力”的基准，随着技术快速进步，很快就过时了。它们测的是模型在具体任务上的表现，而任务本身在变，模型也在变，基准追不上。但 perplexity 不一样——它衡量的是模型平均而言预测下一个 token 的能力，perplexity 越低，预测越好。这个指标一直保持着信息量，没有像其他基准那样迅速失效。\n\n我看到的证据就在我们自己模型的曲线里。自 GPT-3.5 以来，OpenAI 模型的 perplexity 一直在下降。GPT-4 大约在 0.91，那时它已经能有效地利用思维链推理，这也促使我们后来有针对性地激发这种能力、并创造出推理模型。现在，当损失降到 0.8 以下，我们已经在网络安全和数学等领域看到了变革性能力的涌现。这条曲线不是抽象的数字，它和能力的跃迁是对应的。\n\n所以我认为，perplexity 可以成为“通用智能的共享基准”的基础。有了这个共同的测量标准，各 AI 公司就可以据此建立“共同的上限”：承诺不越过某个阈值，直到我们理解和监控 AI 行为的能力达到某个具体的里程碑。我担心的不是发展本身，而是我们在还没能力理解和监控 AI 行为的时候就越过某些线。先把尺子统一，再把限度和能力里程碑挂钩，这是我认为可行的路径。"
+    }
+  ],
+  "format": "daily-thinker"
+}

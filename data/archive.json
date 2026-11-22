@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-23",
+    "person_name": "Jakub Pachocki",
+    "person_role": "OpenAI 首席科学家",
+    "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+    "category": "AI科技",
+    "core_judgment": "我认为：perplexity 可以作为衡量通用智能的共享基准，各公司可以据此设定共同的上限，在理解与监控 AI 行为的能力达到某个具体里程碑之前，承诺不越过某个阈值。"
+  },
+  {
     "date": "2026-11-22",
     "person_name": "Alex Hughes",
     "person_role": "科技记者",
