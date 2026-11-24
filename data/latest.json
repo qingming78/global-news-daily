@@ -1,43 +1,48 @@
 {
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T06:23:49+08:00",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T11:15:32+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 1,
-      "category": "AI科技",
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
-      "person_name": "Jakub Pachocki",
-      "person_role": "OpenAI 首席科学家",
-      "thinking_question": "如果要给 AI 发展设限，该用什么指标来衡量 AI 的进展速度？",
-      "core_judgment": "我认为：perplexity 可以作为衡量通用智能的共享基准，各公司可以据此设定共同的上限，在理解与监控 AI 行为的能力达到某个具体里程碑之前，承诺不越过某个阈值。",
+      "rank": 7,
+      "category": "科学气候",
+      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
+      "person_name": "Dan Coatsworth",
+      "person_role": "AJ Bell 市场主管",
+      "thinking_question": "黄仁勋在间谍丑闻和SEC调查传闻后不到两周就被重新任命为英伟达CEO，这对公司和投资者意味着什么？",
+      "core_judgment": "我认为：这是记忆中最重大的企业逆转，从卷入间谍丑闻到重新执掌全球最有价值公司之一，不到两周堪称非凡；今天的股市反弹代表投资者如释重负，但不能排除黄仁勋今后采取更保守的做法。",
       "reasoning": [
-        "我认为要建立 AI 发展的速度限制，必须先就如何测量速度达成一致。",
-        "我看到聚焦下游能力的基准随着技术进步很快过时，而 perplexity 一直保持信息量。",
-        "我从 OpenAI 模型自 GPT-3.5 以来的 perplexity 下降曲线中看到，指标下降与能力涌现相对应。",
-        "我认为 perplexity 可以作为通用智能的共享基准，让各公司据此建立共同上限。",
-        "我主张在理解和监控 AI 行为的能力达到具体里程碑之前，公司承诺不越过某个阈值。"
+        "我认为这是记忆中最重大的企业逆转，因为一个人从卷入间谍丑闻到重新执掌全球最有价值公司之一，前后不到两周。",
+        "我认为这一逆转尤其令人震惊，因为还有尚未得到证实的SEC调查报道。",
+        "我认为今天的股市反弹代表投资者如释重负，英伟达股价上涨超过31%就是证据。",
+        "我认为不能排除黄仁勋今后采取更保守的做法，因为他的一举一动都将受到市场审视。",
+        "我认为他可能希望更加谨慎行事，以保护自己的诚信并确保英伟达得到负责任的经营。"
       ],
-      "key_quote": "So in his view, perplexity could provide the basis for “a shared benchmark for general intelligence,” which AI companies could then use to establish “common limits.”",
-      "background": "在前 OpenAI 和 Anthropic 研究员称这些公司在“拿我们的生命赌博”、Anthropic IPO 文件提示技术可能带来灾难性或生存性风险之后，放缓 AI 发展成了热点话题；Anthropic CEO Dario Amodei 随后发布了“pace the frontier”计划，呼吁企业就共同安全标准和对不受约束的 AI 进展速度设限达成一致。",
-      "watch_next": "看他提出的 perplexity 共享基准与共同上限，是否会得到其他 AI 公司的响应并转化为实际承诺。",
+      "key_quote": "This is the biggest corporate U-turn in living memory. To go from being embroiled in a spy scandal to being reinstated as the head of one of the world's most valuable companies in less than a fortnight is nothing short of remarkable",
+      "background": "英伟达在黄仁勋因承认与一名被指为中国间谍的女性有婚外情而辞职不到两周后，重新任命他为CEO，公司市值随之回升近1万亿美元，并带动科技股反弹。",
+      "watch_next": "观察黄仁勋复职后是否如Dan Coatsworth所预期的那样采取更保守、更谨慎的经营姿态，以及SEC调查和政界审查如何发展。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+          "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+          "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg",
           "caption": null,
+          "credit": "图片来源：BBC 科技"
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg",
+          "caption": "Two traders on the floor of the New York Stock Exchange",
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我一直在想一个问题：大家都在说要给 AI 发展设一个速度上限，可是要设限，首先得对“速度”怎么测量达成一致。没有共同的尺子，所谓限制就无从谈起。\n\n在我看来，那些聚焦于 AI“下游能力”的基准，随着技术快速进步，很快就过时了。它们测的是模型在具体任务上的表现，而任务本身在变，模型也在变，基准追不上。但 perplexity 不一样——它衡量的是模型平均而言预测下一个 token 的能力，perplexity 越低，预测越好。这个指标一直保持着信息量，没有像其他基准那样迅速失效。\n\n我看到的证据就在我们自己模型的曲线里。自 GPT-3.5 以来，OpenAI 模型的 perplexity 一直在下降。GPT-4 大约在 0.91，那时它已经能有效地利用思维链推理，这也促使我们后来有针对性地激发这种能力、并创造出推理模型。现在，当损失降到 0.8 以下，我们已经在网络安全和数学等领域看到了变革性能力的涌现。这条曲线不是抽象的数字，它和能力的跃迁是对应的。\n\n所以我认为，perplexity 可以成为“通用智能的共享基准”的基础。有了这个共同的测量标准，各 AI 公司就可以据此建立“共同的上限”：承诺不越过某个阈值，直到我们理解和监控 AI 行为的能力达到某个具体的里程碑。我担心的不是发展本身，而是我们在还没能力理解和监控 AI 行为的时候就越过某些线。先把尺子统一，再把限度和能力里程碑挂钩，这是我认为可行的路径。"
+      "first_person": "我认为，这是记忆中最重大的企业逆转。一个人从卷入间谍丑闻，到重新成为全球最有价值公司之一的首脑，前后不到两周，这堪称非凡。尤其考虑到还有尚未得到证实的SEC调查报道，黄仁勋的复职对英伟达来说是一次令人震惊的逆转。\n\n我看到的直接证据是市场的反应。英伟达股价上涨超过31%，市值回升近1万亿美元，纳斯达克上涨6.5%，标普500上涨4.75%。美光科技跳涨19%，AMD上涨近7%，特斯拉上涨近11.5%，亚马逊、苹果和微软也都有涨幅。我认为，今天的股市反弹代表投资者如释重负。\n\n但我担心的是接下来会发生什么。我不能排除黄仁勋今后采取更保守做法的可能性。他的一举一动都将受到市场审视，他可能希望更加谨慎行事，以保护自己的诚信，并确保英伟达得到负责任的经营。\n\n我也注意到，这件事并没有平息所有质疑。政界人士要求更严格的审查，参议员Jeanne Shaheen说，黄仁勋的复职据称是在特朗普政府官员的鼓励下进行的，而且没有对国家安全风险作出任何明显的解释或回应，这需要给出交代。她还说，AI行业需要护栏和监督。这些声音说明，复职带来的市场狂欢之外，围绕治理和责任的疑问仍然存在。"
     }
   ],
   "format": "daily-thinker"
