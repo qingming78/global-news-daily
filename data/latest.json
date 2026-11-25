@@ -1,48 +1,49 @@
 {
-  "date": "2026-11-24",
-  "generated_at": "2026-11-24T11:15:32+08:00",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T09:20:54+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
       "rank": 7,
       "category": "科学气候",
-      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
-      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
-      "person_name": "Dan Coatsworth",
-      "person_role": "AJ Bell 市场主管",
-      "thinking_question": "黄仁勋在间谍丑闻和SEC调查传闻后不到两周就被重新任命为英伟达CEO，这对公司和投资者意味着什么？",
-      "core_judgment": "我认为：这是记忆中最重大的企业逆转，从卷入间谍丑闻到重新执掌全球最有价值公司之一，不到两周堪称非凡；今天的股市反弹代表投资者如释重负，但不能排除黄仁勋今后采取更保守的做法。",
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+      "summary": "The verdict follows a months-long trial in New York.",
+      "person_name": "Brian Heberlig",
+      "person_role": "华为辩护律师",
+      "thinking_question": "陪审团对华为的裁决意味着什么，以及华为接下来该如何应对？",
+      "core_judgment": "我认为：陪审团否决RICO指控，说明检方把华为定性为犯罪组织的说法是严重的越权；但对其他罪名的定罪让我们心情复杂，我们本认为华为应当全部无罪。",
       "reasoning": [
-        "我认为这是记忆中最重大的企业逆转，因为一个人从卷入间谍丑闻到重新执掌全球最有价值公司之一，前后不到两周。",
-        "我认为这一逆转尤其令人震惊，因为还有尚未得到证实的SEC调查报道。",
-        "我认为今天的股市反弹代表投资者如释重负，英伟达股价上涨超过31%就是证据。",
-        "我认为不能排除黄仁勋今后采取更保守的做法，因为他的一举一动都将受到市场审视。",
-        "我认为他可能希望更加谨慎行事，以保护自己的诚信并确保英伟达得到负责任的经营。"
+        "我认为检方是先认定华为是犯罪组织，再据此构建案件。",
+        "我认为RICO指控称华为是腐败组织、有犯罪的企业文化和政策，是严重的越权。",
+        "我认为陪审团果断否决RICO指控，说明这些指控缺乏事实基础。",
+        "我认为华为的业务扩展靠的是勤奋努力，而不是检方所说的撒谎和偷窃。",
+        "我认为华为应当在所有指控上都被判无罪，因此对部分定罪心情复杂。",
+        "我预期华为会继续上诉，直到追究完每一个论点、最终走向洗清罪名。"
       ],
-      "key_quote": "This is the biggest corporate U-turn in living memory. To go from being embroiled in a spy scandal to being reinstated as the head of one of the world's most valuable companies in less than a fortnight is nothing short of remarkable",
-      "background": "英伟达在黄仁勋因承认与一名被指为中国间谍的女性有婚外情而辞职不到两周后，重新任命他为CEO，公司市值随之回升近1万亿美元，并带动科技股反弹。",
-      "watch_next": "观察黄仁勋复职后是否如Dan Coatsworth所预期的那样采取更保守、更谨慎的经营姿态，以及SEC调查和政界审查如何发展。",
+      "key_quote": "The RICO [Racketeer Influenced and Corrupt Organizations Act] count that alleged that Huawei was a corrupt organisation, with a corporate culture and policy of committing crime. That was, in our view, a significant overreach, and the jury soundly rejected it,",
+      "background": "美国联邦陪审团裁定华为犯有窃取商业机密共谋、银行欺诈及违反美国制裁等10项罪名，但否决了RICO共谋指控；案件源于2019年公布的起诉，此前华为高管孟晚舟于2018年底在加拿大被捕。",
+      "watch_next": "看他如何在2027年9月量刑前为华为争取尽可能低的刑罚，并推动华为提起上诉。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
-          "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss"
+          "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
           "caption": null,
           "credit": "图片来源：BBC 科技"
         },
         {
-          "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg",
-          "caption": "Two traders on the floor of the New York Stock Exchange",
+          "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
+          "caption": "In a court sketch defense lawyer Brian Heberlig wearing a blue suit and gesturing speaks as a judge and court reporter look on",
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我认为，这是记忆中最重大的企业逆转。一个人从卷入间谍丑闻，到重新成为全球最有价值公司之一的首脑，前后不到两周，这堪称非凡。尤其考虑到还有尚未得到证实的SEC调查报道，黄仁勋的复职对英伟达来说是一次令人震惊的逆转。\n\n我看到的直接证据是市场的反应。英伟达股价上涨超过31%，市值回升近1万亿美元，纳斯达克上涨6.5%，标普500上涨4.75%。美光科技跳涨19%，AMD上涨近7%，特斯拉上涨近11.5%，亚马逊、苹果和微软也都有涨幅。我认为，今天的股市反弹代表投资者如释重负。\n\n但我担心的是接下来会发生什么。我不能排除黄仁勋今后采取更保守做法的可能性。他的一举一动都将受到市场审视，他可能希望更加谨慎行事，以保护自己的诚信，并确保英伟达得到负责任的经营。\n\n我也注意到，这件事并没有平息所有质疑。政界人士要求更严格的审查，参议员Jeanne Shaheen说，黄仁勋的复职据称是在特朗普政府官员的鼓励下进行的，而且没有对国家安全风险作出任何明显的解释或回应，这需要给出交代。她还说，AI行业需要护栏和监督。这些声音说明，复职带来的市场狂欢之外，围绕治理和责任的疑问仍然存在。"
+      "first_person": "我们一直认为，检方是先认定华为是一个犯罪组织，然后从这个结论出发去拼凑案子。那个RICO指控声称华为是一个腐败组织，有犯罪的企业文化和政策——在我们看来，这是严重的越权，而陪审团果断地否决了它。这一点让我们感到欣慰。\n\n华为的业务扩展到170个国家、拥有超过20万名员工，靠的是勤奋努力，而不是检方所说的撒谎、欺骗和偷窃。这是我们在庭审中坚持的立场，也是华为成功真正的来源。\n\n当然，我们对裁决的其余部分心情复杂。我们本认为华为应当在所有指控上都获得无罪判决。现在定罪已经作出，接下来我们要为争取尽可能低的量刑进行“大量的辩护工作”，量刑定在2027年9月。\n\n之后，我完全预期华为会提起上诉。如果我了解华为的话，这场斗争会继续下去，公司不会停歇，直到通过上诉把每一个可以主张的论点都追究到底，并最终希望走向洗清罪名。"
     }
   ],
   "format": "daily-thinker"

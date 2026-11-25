@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T09:20:54+08:00",
+  "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
+  "sample": false,
+  "stories": [
+    {
+      "rank": 7,
+      "category": "科学气候",
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+      "summary": "The verdict follows a months-long trial in New York.",
+      "person_name": "Brian Heberlig",
+      "person_role": "华为辩护律师",
+      "thinking_question": "陪审团对华为的裁决意味着什么，以及华为接下来该如何应对？",
+      "core_judgment": "我认为：陪审团否决RICO指控，说明检方把华为定性为犯罪组织的说法是严重的越权；但对其他罪名的定罪让我们心情复杂，我们本认为华为应当全部无罪。",
+      "reasoning": [
+        "我认为检方是先认定华为是犯罪组织，再据此构建案件。",
+        "我认为RICO指控称华为是腐败组织、有犯罪的企业文化和政策，是严重的越权。",
+        "我认为陪审团果断否决RICO指控，说明这些指控缺乏事实基础。",
+        "我认为华为的业务扩展靠的是勤奋努力，而不是检方所说的撒谎和偷窃。",
+        "我认为华为应当在所有指控上都被判无罪，因此对部分定罪心情复杂。",
+        "我预期华为会继续上诉，直到追究完每一个论点、最终走向洗清罪名。"
+      ],
+      "key_quote": "The RICO [Racketeer Influenced and Corrupt Organizations Act] count that alleged that Huawei was a corrupt organisation, with a corporate culture and policy of committing crime. That was, in our view, a significant overreach, and the jury soundly rejected it,",
+      "background": "美国联邦陪审团裁定华为犯有窃取商业机密共谋、银行欺诈及违反美国制裁等10项罪名，但否决了RICO共谋指控；案件源于2019年公布的起诉，此前华为高管孟晚舟于2018年底在加拿大被捕。",
+      "watch_next": "看他如何在2027年9月量刑前为华为争取尽可能低的刑罚，并推动华为提起上诉。",
+      "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
+      "sources": [
+        {
+          "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
+          "caption": null,
+          "credit": "图片来源：BBC 科技"
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
+          "caption": "In a court sketch defense lawyer Brian Heberlig wearing a blue suit and gesturing speaks as a judge and court reporter look on",
+          "credit": "图片来源：原文配图"
+        }
+      ],
+      "first_person": "我们一直认为，检方是先认定华为是一个犯罪组织，然后从这个结论出发去拼凑案子。那个RICO指控声称华为是一个腐败组织，有犯罪的企业文化和政策——在我们看来，这是严重的越权，而陪审团果断地否决了它。这一点让我们感到欣慰。\n\n华为的业务扩展到170个国家、拥有超过20万名员工，靠的是勤奋努力，而不是检方所说的撒谎、欺骗和偷窃。这是我们在庭审中坚持的立场，也是华为成功真正的来源。\n\n当然，我们对裁决的其余部分心情复杂。我们本认为华为应当在所有指控上都获得无罪判决。现在定罪已经作出，接下来我们要为争取尽可能低的量刑进行“大量的辩护工作”，量刑定在2027年9月。\n\n之后，我完全预期华为会提起上诉。如果我了解华为的话，这场斗争会继续下去，公司不会停歇，直到通过上诉把每一个可以主张的论点都追究到底，并最终希望走向洗清罪名。"
+    }
+  ],
+  "format": "daily-thinker"
+}
