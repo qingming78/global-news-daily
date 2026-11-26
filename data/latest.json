@@ -1,49 +1,44 @@
 {
-  "date": "2026-11-25",
-  "generated_at": "2026-11-25T09:20:54+08:00",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T08:55:48+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 7,
-      "category": "科学气候",
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "summary": "The verdict follows a months-long trial in New York.",
-      "person_name": "Brian Heberlig",
-      "person_role": "华为辩护律师",
-      "thinking_question": "陪审团对华为的裁决意味着什么，以及华为接下来该如何应对？",
-      "core_judgment": "我认为：陪审团否决RICO指控，说明检方把华为定性为犯罪组织的说法是严重的越权；但对其他罪名的定罪让我们心情复杂，我们本认为华为应当全部无罪。",
+      "rank": 1,
+      "category": "AI科技",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "person_name": "Thibault “Tibo” Sottiaux",
+      "person_role": "OpenAI 产品负责人",
+      "thinking_question": "把 ChatGPT 的 Chat 和 Work 合并成统一体验、共用一份用量额度，会不会让重度订阅用户更早触顶？",
+      "core_judgment": "我认为：合并 Chat 和 Work 是我们要推进的方向，我已经开始向一小部分 Pro 订阅用户推送这一统一体验；至于用量，多数用户不会更频繁地遇到重置，只有极少数最重度的用户可能更早触到上限。",
       "reasoning": [
-        "我认为检方是先认定华为是犯罪组织，再据此构建案件。",
-        "我认为RICO指控称华为是腐败组织、有犯罪的企业文化和政策，是严重的越权。",
-        "我认为陪审团果断否决RICO指控，说明这些指控缺乏事实基础。",
-        "我认为华为的业务扩展靠的是勤奋努力，而不是检方所说的撒谎和偷窃。",
-        "我认为华为应当在所有指控上都被判无罪，因此对部分定罪心情复杂。",
-        "我预期华为会继续上诉，直到追究完每一个论点、最终走向洗清罪名。"
+        "我认为合并 Chat 和 Work 能让用户在对话和更复杂的任务之间切换时不必换标签页，使用更简单。",
+        "我承认一些订阅用户担心合并用量限制会让他们用到的先进推理模型变少，而订阅费不变。",
+        "我判断大多数用户不会更频繁地遇到用量重置，只有极少数最重度用户可能更早触顶。",
+        "我说明 Instant 模型的对话仍然不限量、不计入共享额度，额度用完后仍可继续使用 Instant。",
+        "我表示 OpenAI 会继续改进效率，让订阅用户从套餐中得到更多。",
+        "我按计划先在少量 Pro 用户中推送，12 月再更广泛地推出共享用量限制。"
       ],
-      "key_quote": "The RICO [Racketeer Influenced and Corrupt Organizations Act] count that alleged that Huawei was a corrupt organisation, with a corporate culture and policy of committing crime. That was, in our view, a significant overreach, and the jury soundly rejected it,",
-      "background": "美国联邦陪审团裁定华为犯有窃取商业机密共谋、银行欺诈及违反美国制裁等10项罪名，但否决了RICO共谋指控；案件源于2019年公布的起诉，此前华为高管孟晚舟于2018年底在加拿大被捕。",
-      "watch_next": "看他如何在2027年9月量刑前为华为争取尽可能低的刑罚，并推动华为提起上诉。",
+      "key_quote": "OpenAI has started rolling out a unified Chat and Work experience in ChatGPT to a few of its users, amid criticism from some subscribers that the merger could restrict their usage.",
+      "background": "OpenAI 开始向少量 Pro 订阅用户推送 Chat 与 Work 的统一体验，此前已通过邮件宣布合并；部分用户担心合并用量限制会减少他们对先进推理模型的访问。",
+      "watch_next": "看他 12 月更广泛铺开共享用量限制后，重度用户的实际反馈以及 OpenAI 在效率改进上的动作。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+          "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
         }
       ],
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
           "caption": null,
-          "credit": "图片来源：BBC 科技"
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
-          "caption": "In a court sketch defense lawyer Brian Heberlig wearing a blue suit and gesturing speaks as a judge and court reporter look on",
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我们一直认为，检方是先认定华为是一个犯罪组织，然后从这个结论出发去拼凑案子。那个RICO指控声称华为是一个腐败组织，有犯罪的企业文化和政策——在我们看来，这是严重的越权，而陪审团果断地否决了它。这一点让我们感到欣慰。\n\n华为的业务扩展到170个国家、拥有超过20万名员工，靠的是勤奋努力，而不是检方所说的撒谎、欺骗和偷窃。这是我们在庭审中坚持的立场，也是华为成功真正的来源。\n\n当然，我们对裁决的其余部分心情复杂。我们本认为华为应当在所有指控上都获得无罪判决。现在定罪已经作出，接下来我们要为争取尽可能低的量刑进行“大量的辩护工作”，量刑定在2027年9月。\n\n之后，我完全预期华为会提起上诉。如果我了解华为的话，这场斗争会继续下去，公司不会停歇，直到通过上诉把每一个可以主张的论点都追究到底，并最终希望走向洗清罪名。"
+      "first_person": "我是 OpenAI 的产品负责人，这次把 ChatGPT 里的 Chat 和 Work 合并成一个统一体验，是我在推动的事。我已经开始向一小部分 Pro 订阅用户推送这个更新，并在 X 上发了帖说明这件事。对我来说，这不是一个突然的决定——OpenAI 此前已经通过邮件向用户宣布过这次合并，现在只是进入实际推送阶段。\n\n我知道外面有争议。一些订阅用户在社交媒体和 OpenAI 的社区论坛上表达了担心：他们怕 Chat 和 Work 的用量限制合并之后，自己能用到的先进推理模型反而变少，而订阅费并没有降。这些声音我听到了，但我对用量的判断是：大多数用户不会因此更频繁地遇到用量重置，只有一小部分最重度的用户可能会更早触到上限。\n\n具体到规则，新的体系下 Chat 和 Work 在 ChatGPT 里共用同一个用量计量。但用 Instant 模型的对话仍然是不限量的，也不计入这份共享额度；用户即便把额度用完了，也还可以继续用 Instant。我不想让合并变成单纯的收紧——OpenAI 会继续改进效率，让订阅用户能从自己的套餐里得到更多。\n\n节奏上，现在只是向一小部分用户推送，按我们的支持页面，12 月会把共享用量限制更广泛地铺开。我清楚这件事的敏感点在于重度用户的体验，所以我会盯着推送后的实际反馈，同时继续在效率上下功夫。"
     }
   ],
   "format": "daily-thinker"
