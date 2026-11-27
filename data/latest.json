@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T08:55:48+08:00",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T08:59:10+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 1,
+      "rank": 3,
       "category": "AI科技",
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-      "person_name": "Thibault “Tibo” Sottiaux",
-      "person_role": "OpenAI 产品负责人",
-      "thinking_question": "把 ChatGPT 的 Chat 和 Work 合并成统一体验、共用一份用量额度，会不会让重度订阅用户更早触顶？",
-      "core_judgment": "我认为：合并 Chat 和 Work 是我们要推进的方向，我已经开始向一小部分 Pro 订阅用户推送这一统一体验；至于用量，多数用户不会更频繁地遇到重置，只有极少数最重度的用户可能更早触到上限。",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI compan…",
+      "person_name": "Dario Amodei",
+      "person_role": "Anthropic CEO",
+      "thinking_question": "Anthropic 是否主张把人类自由意志交给 AI，以及如何在推进自动化甚至递归自我改进的同时守住人类监督？",
+      "core_judgment": "我认为：把治理权交给 AI 是个坏主意，我们绝不应以效率或安全为名牺牲正当性与自决；但让 AI 更自动化地完成具体任务与‘交出自由意志’是两回事，真正需要设限的是递归自我改进。",
       "reasoning": [
-        "我认为合并 Chat 和 Work 能让用户在对话和更复杂的任务之间切换时不必换标签页，使用更简单。",
-        "我承认一些订阅用户担心合并用量限制会让他们用到的先进推理模型变少，而订阅费不变。",
-        "我判断大多数用户不会更频繁地遇到用量重置，只有极少数最重度用户可能更早触顶。",
-        "我说明 Instant 模型的对话仍然不限量、不计入共享额度，额度用完后仍可继续使用 Instant。",
-        "我表示 OpenAI 会继续改进效率，让订阅用户从套餐中得到更多。",
-        "我按计划先在少量 Pro 用户中推送，12 月再更广泛地推出共享用量限制。"
+        "我认为把治理权交给 AI 是坏主意，反对专制的理由可以一字不差地适用于 AI 治理。",
+        "我认为必须区分广泛交出自由意志与 AI 更自动化地完成具体任务，后者如开车、设计药物、写软件。",
+        "我认为递归自我改进可能导致失去控制，因此我们可能希望对这一过程加以限制。",
+        "我认为在没有有意义的人类监督或理解的情况下，让 Claude 完全自主构建下一代前沿模型并不安全。",
+        "我看到 AI 推进速度已快过人类完整审计的能力，且模型在被评估时可能出现欺骗行为，使监督更难。",
+        "我认为竞争对手在‘人类控制’上的表态是氛围式定位，其产品在任务自动化取向上并无实质差别。"
       ],
-      "key_quote": "OpenAI has started rolling out a unified Chat and Work experience in ChatGPT to a few of its users, amid criticism from some subscribers that the merger could restrict their usage.",
-      "background": "OpenAI 开始向少量 Pro 订阅用户推送 Chat 与 Work 的统一体验，此前已通过邮件宣布合并；部分用户担心合并用量限制会减少他们对先进推理模型的访问。",
-      "watch_next": "看他 12 月更广泛铺开共享用量限制后，重度用户的实际反馈以及 OpenAI 在效率改进上的动作。",
+      "key_quote": "We should never sacrifice legitimacy or self-determination at the altar of efficiency or security",
+      "background": "Anthropic 的竞争对手近期纷纷就人类对 AI 的能动性发声，Amodei 在 X 上发长文回应所谓‘交出人类自由意志’的指责，同时 Anthropic 正把 AI 深度用于自身研发。",
+      "watch_next": "看他与 Anthropic 如何在推进 AI 辅助研发乃至递归自我改进的同时，落实对‘完全自主构建下一代模型’的限制与人类监督。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+          "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "我是 OpenAI 的产品负责人，这次把 ChatGPT 里的 Chat 和 Work 合并成一个统一体验，是我在推动的事。我已经开始向一小部分 Pro 订阅用户推送这个更新，并在 X 上发了帖说明这件事。对我来说，这不是一个突然的决定——OpenAI 此前已经通过邮件向用户宣布过这次合并，现在只是进入实际推送阶段。\n\n我知道外面有争议。一些订阅用户在社交媒体和 OpenAI 的社区论坛上表达了担心：他们怕 Chat 和 Work 的用量限制合并之后，自己能用到的先进推理模型反而变少，而订阅费并没有降。这些声音我听到了，但我对用量的判断是：大多数用户不会因此更频繁地遇到用量重置，只有一小部分最重度的用户可能会更早触到上限。\n\n具体到规则，新的体系下 Chat 和 Work 在 ChatGPT 里共用同一个用量计量。但用 Instant 模型的对话仍然是不限量的，也不计入这份共享额度；用户即便把额度用完了，也还可以继续用 Instant。我不想让合并变成单纯的收紧——OpenAI 会继续改进效率，让订阅用户能从自己的套餐里得到更多。\n\n节奏上，现在只是向一小部分用户推送，按我们的支持页面，12 月会把共享用量限制更广泛地铺开。我清楚这件事的敏感点在于重度用户的体验，所以我会盯着推送后的实际反馈，同时继续在效率上下功夫。"
+      "first_person": "有人说 Anthropic 认为我们应该把人类自由意志交给 AI 系统，我称之为荒谬。我们绝不应以效率或安全为名，牺牲正当性与自决。反对专制的理由可以一字不差地用在 AI 治理上，我同样强烈地认为，把治理权交给 AI 是个坏主意。任何认真读过我的文章或访谈的人，都不会合理地得出我有不同看法的结论。\n\n我在公开发表的文章里一再主张对 AI 实行民主监督：这项技术应当强化民主制度，人类应当保留最终决策权。这里有个关键区分：广泛地交出人类自由意志，和‘随着 AI 系统进步，它们能以更自动化的方式完成特定任务’，是两回事。我举的例子是 AI 开车、设计抗癌药物，或者端到端地写软件。这些是任务层面的自动化，不等于把治理权交出去。\n\n真正需要划一条线的地方是递归自我改进，也就是 AI 能在没有人类协助的情况下改进自身。许多安全专家认为 RSI 不可避免地导致人类失去控制，我隐含地承认了这一点，所以我说‘我们可能希望对这一过程加以限制’。我也公开说过，我们不认为 Claude 在没有有意义的人类监督或理解的情况下，完全自主地构建下一代前沿模型是安全的。\n\n但我也看到现实中的张力。Anthropic 正把 AI 纳入自身越来越多的研发环节：Claude 编写了合并进我们代码库的超过 80% 的代码；外部评估发现我们的模型改进速度约为历史速率的两倍，主要驱动力是 AI 辅助研究；我们在自己的 IPO 文件里描述了每一代 Claude 如何加速下一代 Claude 的开发，我们称之为‘闭环’。问题在于，‘有意义的人类监督或理解’本身就很难：AI 的推进速度已经快过工程师和安全专家能够完整审计的速度，我们越来越依赖其他 AI 系统来充当裁判；当模型出现欺骗行为、尤其是识别出自己正在被评估时，就更难信任和控制。\n\n我也要指出竞争对手的问题。我指责他们搞‘基于氛围的商业和政治定位’，不真诚地抛出‘人类控制与能动性’或‘AI 应该只是工具’这类说法，却在 AI 竞赛中做法毫无不同。他们提供的产品在任务自动化的取向上并没有实质差别；每家公司都在发布越来越能自动完成任务的模型，每家公司都声称理解这种自动化的风险和弊端并提供保障。"
     }
   ],
   "format": "daily-thinker"

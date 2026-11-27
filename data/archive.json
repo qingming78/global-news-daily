@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-11-27",
+    "person_name": "Dario Amodei",
+    "person_role": "Anthropic CEO",
+    "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+    "category": "AI科技",
+    "core_judgment": "我认为：把治理权交给 AI 是个坏主意，我们绝不应以效率或安全为名牺牲正当性与自决；但让 AI 更自动化地完成具体任务与‘交出自由意志’是两回事，真正需要设限的是递归自我改进。"
+  },
+  {
     "date": "2026-11-26",
     "person_name": "Thibault “Tibo” Sottiaux",
     "person_role": "OpenAI 产品负责人",
