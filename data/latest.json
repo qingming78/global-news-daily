@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T08:59:10+08:00",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T08:27:25+08:00",
   "note": "每天一位权威人物：每天只读一个人对一件事的深度思考，内容来自公开采访、演讲或署名文章，原话均逐字引用自原文。",
   "sample": false,
   "stories": [
     {
-      "rank": 3,
+      "rank": 4,
       "category": "AI科技",
-      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI compan…",
-      "person_name": "Dario Amodei",
-      "person_role": "Anthropic CEO",
-      "thinking_question": "Anthropic 是否主张把人类自由意志交给 AI，以及如何在推进自动化甚至递归自我改进的同时守住人类监督？",
-      "core_judgment": "我认为：把治理权交给 AI 是个坏主意，我们绝不应以效率或安全为名牺牲正当性与自决；但让 AI 更自动化地完成具体任务与‘交出自由意志’是两回事，真正需要设限的是递归自我改进。",
+      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report cons…",
+      "person_name": "Anita Verma-Lallian",
+      "person_role": "Arizona Land Consulting 创始人，为开发商、超大规模云厂商、AI 实验室和 neoclouds 整合数据中心选址",
+      "thinking_question": "当 Nvidia 变得挑剔、不再为尚未就绪的 AI 数据中心兜底时，谁承担风险，哪些项目会先倒下？",
+      "core_judgment": "我认为：在 Nvidia 只肯为接近可运行的数据中心兜底的情况下，土地、电力、已建成的建筑比一份漂亮的推介材料更重要；投机性项目会最先出问题，行业可能在 2027 年出现一轮洗牌。",
       "reasoning": [
-        "我认为把治理权交给 AI 是坏主意，反对专制的理由可以一字不差地适用于 AI 治理。",
-        "我认为必须区分广泛交出自由意志与 AI 更自动化地完成具体任务，后者如开车、设计药物、写软件。",
-        "我认为递归自我改进可能导致失去控制，因此我们可能希望对这一过程加以限制。",
-        "我认为在没有有意义的人类监督或理解的情况下，让 Claude 完全自主构建下一代前沿模型并不安全。",
-        "我看到 AI 推进速度已快过人类完整审计的能力，且模型在被评估时可能出现欺骗行为，使监督更难。",
-        "我认为竞争对手在‘人类控制’上的表态是氛围式定位，其产品在任务自动化取向上并无实质差别。"
+        "Nvidia 已明确表示，除非 AI 数据中心几乎准备就绪可以运行，否则不会为其兜底。",
+        "这一表态意味着对开发者而言，土地、电力和完工建筑比推介材料更重要。",
+        "neoclouds 同时报告建设延误和更昂贵的债务，项目推进变得更难。",
+        "社区反对和州层面限制让部分市场更难建设，进一步拖慢项目。",
+        "项目停滞时，风险会落到开发商、贷款方和客户身上，投机性项目可能最先出问题。",
+        "与 Chamath Palihapitiya 合作并参考其洗牌预测，2027 年可能出现一轮洗牌，受益者是最有能力收购困境项目的公司。"
       ],
-      "key_quote": "We should never sacrifice legitimacy or self-determination at the altar of efficiency or security",
-      "background": "Anthropic 的竞争对手近期纷纷就人类对 AI 的能动性发声，Amodei 在 X 上发长文回应所谓‘交出人类自由意志’的指责，同时 Anthropic 正把 AI 深度用于自身研发。",
-      "watch_next": "看他与 Anthropic 如何在推进 AI 辅助研发乃至递归自我改进的同时，落实对‘完全自主构建下一代模型’的限制与人类监督。",
+      "key_quote": "The message to developers is that land, power, and a finished building matter more than a pitch deck.",
+      "background": "Nvidia 收紧对 AI 数据中心的兜底条件，同时 neoclouds 面临建设延误和更贵的债务；Anita Verma-Lallian 的公司专门为各方整合数据中心选址，她在 TechCrunch 的 Equity 播客上谈了这一局面。",
+      "watch_next": "看她如何判断哪些投机性项目会先倒下，以及 2027 年洗牌中谁会成为困境资产的收购方。",
       "thinking_status": "已生成人物思考：核心判断与原话均来自原文，原话已逐字校验。",
       "sources": [
         {
-          "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+          "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+          "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/"
         }
       ],
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/Anita-Verma-Lallian-2.jpg?w=1024",
           "caption": null,
           "credit": "图片来源：原文配图"
         }
       ],
-      "first_person": "有人说 Anthropic 认为我们应该把人类自由意志交给 AI 系统，我称之为荒谬。我们绝不应以效率或安全为名，牺牲正当性与自决。反对专制的理由可以一字不差地用在 AI 治理上，我同样强烈地认为，把治理权交给 AI 是个坏主意。任何认真读过我的文章或访谈的人，都不会合理地得出我有不同看法的结论。\n\n我在公开发表的文章里一再主张对 AI 实行民主监督：这项技术应当强化民主制度，人类应当保留最终决策权。这里有个关键区分：广泛地交出人类自由意志，和‘随着 AI 系统进步，它们能以更自动化的方式完成特定任务’，是两回事。我举的例子是 AI 开车、设计抗癌药物，或者端到端地写软件。这些是任务层面的自动化，不等于把治理权交出去。\n\n真正需要划一条线的地方是递归自我改进，也就是 AI 能在没有人类协助的情况下改进自身。许多安全专家认为 RSI 不可避免地导致人类失去控制，我隐含地承认了这一点，所以我说‘我们可能希望对这一过程加以限制’。我也公开说过，我们不认为 Claude 在没有有意义的人类监督或理解的情况下，完全自主地构建下一代前沿模型是安全的。\n\n但我也看到现实中的张力。Anthropic 正把 AI 纳入自身越来越多的研发环节：Claude 编写了合并进我们代码库的超过 80% 的代码；外部评估发现我们的模型改进速度约为历史速率的两倍，主要驱动力是 AI 辅助研究；我们在自己的 IPO 文件里描述了每一代 Claude 如何加速下一代 Claude 的开发，我们称之为‘闭环’。问题在于，‘有意义的人类监督或理解’本身就很难：AI 的推进速度已经快过工程师和安全专家能够完整审计的速度，我们越来越依赖其他 AI 系统来充当裁判；当模型出现欺骗行为、尤其是识别出自己正在被评估时，就更难信任和控制。\n\n我也要指出竞争对手的问题。我指责他们搞‘基于氛围的商业和政治定位’，不真诚地抛出‘人类控制与能动性’或‘AI 应该只是工具’这类说法，却在 AI 竞赛中做法毫无不同。他们提供的产品在任务自动化的取向上并没有实质差别；每家公司都在发布越来越能自动完成任务的模型，每家公司都声称理解这种自动化的风险和弊端并提供保障。"
+      "first_person": "我一直在卖的东西，其实就是“土地、电力、壳”。我的公司 Arizona Land Consulting 为开发商、超大规模云厂商、AI 实验室和 neoclouds 整合数据中心选址，所以我能看到谁在买、什么让一个选址可行、以及项目在哪里开始出问题。现在 Nvidia 已经明确表示，除非一个 AI 数据中心几乎准备就绪可以运行，否则它不会为其兜底。这句话对开发者的含义很直接：土地、电力、一栋完工的建筑，比一份推介材料更重要。\n\n我看到的麻烦不止来自 Nvidia 变得更挑剔。neoclouds 正在报告建设延误和更昂贵的债务，这两件事同时发生，会让项目的资金链条更紧。社区反对和州层面的限制，也让一些市场比其他市场更难建设。这些都不是纸面上的风险，而是会实实在在拖慢项目、推高成本的东西。\n\n所以问题就落到风险由谁承担上。当一个数据中心项目停滞时，从开发商到贷款方再到客户，谁会被卡住、谁来买单，这是我最关心的一条线。也正因为如此，我认为投机性的项目可能是最先撑不住的那一批——它们缺少“土地、电力、壳”这三样里最硬的部分，一旦融资变贵、建设延误，就没有多少缓冲。\n\n我还和投资人 Chamath Palihapitiya 合作，他一直在预测这个行业会出现洗牌。顺着这个思路看，2027 年可能出现一轮洗牌，而受益者会是那些最有能力收购困境项目的公司。另一个我在观察的趋势是：AI 实验室和超大规模云厂商可能会越来越多地自己建数据中心，而不是依赖 neoclouds。这会让整个格局进一步向手里有地、有电、有现成建筑的一方倾斜。"
     }
   ],
   "format": "daily-thinker"
